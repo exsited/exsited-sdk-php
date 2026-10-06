@@ -1,0 +1,10 @@
+{
+    "name": "exsited/exsited",
+    "description": "PHP SDK for the Exsited REST API.",
+    "type": "library",
+    "keywords": ["exsited", "sdk", "api-client"],
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.1"
+    }
+}
