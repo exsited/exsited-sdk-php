@@ -1,0 +1,31 @@
+# Only the source layer ships to consumers. Everything below is internal, so it is
+# stripped from the dist archive Composer downloads.
+#
+# export-ignore reaches `git archive`, so it only filters tracked files. `composer
+# archive` packages the working directory, and the `archive.exclude` allowlist in
+# composer.json is what keeps untracked files out of it. A new internal tracked file
+# gets a line below; a new public top-level file gets a `!` entry in composer.json.
+#
+# A path repository symlinks the clone rather than exporting an archive, so neither
+# filter applies there and the consumer sees the whole working tree.
+
+/tests            export-ignore
+/docs             export-ignore
+/scratchpad       export-ignore
+/phpunit.xml.dist export-ignore
+/.env.example     export-ignore
+/.gitattributes   export-ignore
+/.gitignore       export-ignore
+/.idea            export-ignore
+/.remember        export-ignore
+/tools            export-ignore
+/composer.lock    export-ignore
+/DEVELOPMENT.md   export-ignore
+/CHANGELOG.md     export-ignore
+/ENDPOINTS.md     export-ignore
+/CLAUDE.md        export-ignore
+/.env             export-ignore
+/.editorconfig    export-ignore
+
+# Normalise line endings so the same bytes ship from any platform.
+* text=auto eol=lf

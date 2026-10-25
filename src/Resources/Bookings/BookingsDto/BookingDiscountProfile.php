@@ -1,0 +1,22 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Exsited\Sdk\Resources\Bookings\BookingsDto;
+
+use Exsited\Sdk\Client\Dto;
+
+/** The `discount_profile` object of Booking. */
+final class BookingDiscountProfile extends Dto
+{
+    public function __construct(
+        public readonly ?string $amount = null,
+        public readonly ?string $href = null,
+        public readonly ?string $id = null,
+        public readonly ?string $name = null,
+        public readonly ?string $object = null,
+        public readonly ?string $redemptionCode = null,
+        public readonly ?string $type = null,
+    ) {
+    }
+}

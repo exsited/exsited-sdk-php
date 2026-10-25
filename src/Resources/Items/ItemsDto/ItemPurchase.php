@@ -1,0 +1,62 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Exsited\Sdk\Resources\Items\ItemsDto;
+
+use Exsited\Sdk\Client\Dto;
+use Exsited\Sdk\Client\ListOf;
+
+/** The ItemPurchase body, as measured from the endpoints in MEASURED_FROM. */
+final class ItemPurchase extends Dto
+{
+    public const ENVELOPE_KEY = 'item';
+
+    /** The endpoints this view was measured from. */
+    public const MEASURED_FROM = [
+        'GET /api/{api_version}/items/{item_id}/purchase',
+        'POST /api/{api_version}/items/{item_id}/purchase',
+    ];
+
+    /** @param list<ItemPurchaseCode|null>|null $codes
+     *  @param list<ItemPurchaseCurrency|null>|null $currencies */
+    public function __construct(
+        public readonly ?array $activityLogs = null,
+        public readonly mixed $baseUom = null,
+        public readonly ?bool $child = null,
+        #[ListOf(ItemPurchaseCode::class)]
+        public readonly ?array $codes = null,
+        public readonly ?ItemPurchaseCreatedBy $createdBy = null,
+        public readonly ?string $createdOn = null,
+        #[ListOf(ItemPurchaseCurrency::class)]
+        public readonly ?array $currencies = null,
+        public readonly ?array $customAttributes = null,
+        public readonly ?ItemPurchaseCustomForm $customForm = null,
+        public readonly ?array $customObjects = null,
+        public readonly ?string $description = null,
+        public readonly ?string $displayName = null,
+        public readonly mixed $group = null,
+        public readonly ?string $href = null,
+        public readonly int|string|null $id = null,
+        public readonly mixed $imageUrl = null,
+        public readonly ?bool $inventoryEnabled = null,
+        public readonly mixed $invoiceNote = null,
+        public readonly ?ItemPurchaseLastUpdatedBy $lastUpdatedBy = null,
+        public readonly ?string $lastUpdatedOn = null,
+        public readonly mixed $manager = null,
+        public readonly ?string $name = null,
+        public readonly ?string $object = null,
+        public readonly mixed $origin = null,
+        public readonly ?bool $parent = null,
+        public readonly ?ItemPurchasePurchase $purchase = null,
+        public readonly ?bool $purchaseEnabled = null,
+        public readonly ?ItemPurchaseSale $sale = null,
+        public readonly ?bool $saleEnabled = null,
+        public readonly ?string $status = null,
+        public readonly ?string $type = null,
+        public readonly ?array $uoms = null,
+        public readonly ?bool $variationsEnabled = null,
+        public readonly ?int $version = null,
+    ) {
+    }
+}

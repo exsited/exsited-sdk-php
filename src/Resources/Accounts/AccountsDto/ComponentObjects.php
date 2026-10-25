@@ -1,0 +1,27 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Exsited\Sdk\Resources\Accounts\AccountsDto;
+
+use Exsited\Sdk\Client\Dto;
+use Exsited\Sdk\Client\ListOf;
+
+/** The component objects body. */
+final class ComponentObjects extends Dto
+{
+    /** The endpoints this view was measured from. */
+    public const MEASURED_FROM = [
+        'GET /api/{api_version}/components/{component_uuid}/objects',
+    ];
+
+    /** @param list<ComponentObjectsData|null>|null $data */
+    public function __construct(
+        #[ListOf(ComponentObjectsData::class)]
+        public readonly ?array $data = null,
+        public readonly ?string $object = null,
+        public readonly ?Pagination $pagination = null,
+        public readonly ?string $url = null,
+    ) {
+    }
+}

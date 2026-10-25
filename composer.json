@@ -1,10 +1,88 @@
 {
     "name": "exsited/exsited",
-    "description": "PHP SDK for the Exsited REST API.",
+    "description": "PHP SDK for the Exsited v4 REST API.",
     "type": "library",
-    "keywords": ["exsited", "sdk", "api-client"],
     "license": "proprietary",
+    "authors": [
+        {
+            "name": "Ashiq Rahman",
+            "email": "ashiq@webalive.com.au"
+        }
+    ],
     "require": {
-        "php": ">=8.1"
+        "php": ">=8.2",
+        "ext-curl": "*",
+        "ext-ctype": "*",
+        "ext-filter": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^1.1 || ^2.0",
+        "psr/log": "^2.0 || ^3.0",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Exsited\\Sdk\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Exsited\\Sdk\\Tests\\": "tests/"
+        }
+    },
+    "archive": {
+        "exclude": [
+            "*",
+            ".*",
+            "!/src/",
+            "!/composer.json",
+            "!/LICENSE",
+            "!/README.md",
+            "/.env",
+            "/.env.*",
+            "/vendor",
+            "/composer.lock",
+            "/tests",
+            "/docs",
+            "/CHANGELOG.md",
+            "/ENDPOINTS.md",
+            "/DEVELOPMENT.md",
+            "/CLAUDE.md",
+            "/phpunit.xml.dist",
+            "/.phpunit.cache",
+            "/.phpunit.result.cache",
+            "/.ai",
+            "/.remember",
+            "/notes",
+            "/scratchpad",
+            "/tools",
+            "/build",
+            "/dist",
+            "/.idea",
+            "/.vscode",
+            "/.gitattributes",
+            "/.gitignore",
+            "/.editorconfig",
+            "*.log",
+            "TEST*.xml",
+            ".DS_Store",
+            "Thumbs.db"
+        ]
+    },
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "stable",
+    "scripts-descriptions": {
+        "test": "Run the credentials and resources PHPUnit suites against the configured instance."
     }
 }
