@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Http;
+namespace Exsited\Http;
 
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Redaction;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Redaction;
 
 /** Query values normalised, never names: v4 names are snake_case throughout. The filter and sort
  *  helpers below spell the v4 grammar. */

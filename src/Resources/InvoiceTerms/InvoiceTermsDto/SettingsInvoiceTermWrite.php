@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\InvoiceTerms\InvoiceTermsDto;
+namespace Exsited\Resources\InvoiceTerms\InvoiceTermsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings invoice term body a create or an update answers, under `invoice_term`. */
 final class SettingsInvoiceTermWrite extends Dto

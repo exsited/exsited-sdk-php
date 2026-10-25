@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ReceiveTerms;
+namespace Exsited\Resources\ReceiveTerms;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\ReceiveTerms\ReceiveTermsDto\SettingsReceiveTerm;
-use Exsited\Sdk\Resources\ReceiveTerms\ReceiveTermsDto\SettingsReceiveTermList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\ReceiveTerms\ReceiveTermsDto\SettingsReceiveTerm;
+use Exsited\Resources\ReceiveTerms\ReceiveTermsDto\SettingsReceiveTermList;
 
 /** Receive term endpoints, under `/api/{api_version}/settings/receive_terms`. */
 final class ReceiveTerms

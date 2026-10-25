@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Countries\CountriesDto;
+namespace Exsited\Resources\Countries\CountriesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings country body, under `country`. */
 final class SettingsCountry extends Dto

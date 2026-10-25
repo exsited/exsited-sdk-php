@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ReturnMerchandiseAuthorisations\ReturnMerchandiseAuthorisationsDto;
+namespace Exsited\Resources\ReturnMerchandiseAuthorisations\ReturnMerchandiseAuthorisationsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `created_by` object of InvoiceReturnMerchandiseAuthorisationReceiveListData. */
 final class InvoiceReturnMerchandiseAuthorisationReceiveListDataCreatedBy extends Dto

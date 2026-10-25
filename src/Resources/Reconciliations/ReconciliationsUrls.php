@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Reconciliations;
+namespace Exsited\Resources\Reconciliations;
 
 final class ReconciliationsUrls
 {

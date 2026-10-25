@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomForms;
+namespace Exsited\Resources\CustomForms;
 
 final class CustomFormsUrls
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\DayOfMonth;
+namespace Exsited\Resources\DayOfMonth;
 
 final class DayOfMonthUrls
 {

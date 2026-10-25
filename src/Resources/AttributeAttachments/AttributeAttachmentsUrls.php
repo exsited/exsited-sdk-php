@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\AttributeAttachments;
+namespace Exsited\Resources\AttributeAttachments;
 
 final class AttributeAttachmentsUrls
 {

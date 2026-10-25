@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\RentalAssets\RentalAssetsDto;
+namespace Exsited\Resources\RentalAssets\RentalAssetsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One entry of the `rental_asset_profile_session_availability` list of RentalAssetProfileRentalAssetProfileSession. */
 final class RentalAssetProfileRentalAssetProfileSessionRentalAssetProfileSessionAvailability extends Dto

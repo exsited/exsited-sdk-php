@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\DayOfMonth\DayOfMonthDto;
+namespace Exsited\Resources\DayOfMonth\DayOfMonthDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings day of month body, under `day_of_month`. */
 final class SettingsDayOfMonth extends Dto

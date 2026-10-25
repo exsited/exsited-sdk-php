@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomFeatures\CustomFeaturesDto;
+namespace Exsited\Resources\CustomFeatures\CustomFeaturesDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** The `column_2` object of CustomFeatureDetailCustomFormConfiguration. */
 final class CustomFeatureDetailCustomFormConfigurationColumn2 extends Dto

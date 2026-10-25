@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Labours;
+namespace Exsited\Resources\Labours;
 
 final class LaboursUrls
 {

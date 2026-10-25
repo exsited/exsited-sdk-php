@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Client;
+namespace Exsited\Client;
 
 /** Classification of a failed call, derived from the HTTP status - not from the error body,
  *  which is not consistent enough to read. The one exception is a 2xx whose body names itself

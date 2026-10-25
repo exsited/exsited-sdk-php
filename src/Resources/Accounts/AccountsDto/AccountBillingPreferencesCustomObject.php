@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Accounts\AccountsDto;
+namespace Exsited\Resources\Accounts\AccountsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One entry of the `custom_objects` list of AccountBillingPreferences. */
 final class AccountBillingPreferencesCustomObject extends Dto

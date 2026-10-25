@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ExternalDatabases\ExternalDatabasesDto;
+namespace Exsited\Resources\ExternalDatabases\ExternalDatabasesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The ExternalDatabasesView body, as measured from the endpoints in MEASURED_FROM. */
 final class ExternalDatabasesView extends Dto

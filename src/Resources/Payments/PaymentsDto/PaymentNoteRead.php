@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Payments\PaymentsDto;
+namespace Exsited\Resources\Payments\PaymentsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The PaymentNoteRead body, as measured from the endpoints in MEASURED_FROM. */
 final class PaymentNoteRead extends Dto

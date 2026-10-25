@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Labours\LaboursDto;
+namespace Exsited\Resources\Labours\LaboursDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `labour_profile` object of LabourAvailability. */
 final class LabourAvailabilityLabourProfile extends Dto

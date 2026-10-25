@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseCreditNoteApplications\PurchaseCreditNoteApplicationsDto;
+namespace Exsited\Resources\PurchaseCreditNoteApplications\PurchaseCreditNoteApplicationsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The PurchaseCreditNoteApplication body, as measured from the endpoints in MEASURED_FROM. */
 final class PurchaseCreditNoteApplication extends Dto

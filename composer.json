@@ -2,7 +2,7 @@
     "name": "exsited/exsited",
     "description": "PHP SDK for the Exsited v4 REST API.",
     "type": "library",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ashiq Rahman",
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Exsited\\Sdk\\": "src/"
+            "Exsited\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Exsited\\Sdk\\Tests\\": "tests/"
+            "Exsited\\Tests\\": "tests/"
         }
     },
     "archive": {

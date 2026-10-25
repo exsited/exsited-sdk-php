@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Orders\OrdersDto;
+namespace Exsited\Resources\Orders\OrdersDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One custom object with the order's instances of it, under `custom_object`. */
 final class OrderCustomObject extends Dto

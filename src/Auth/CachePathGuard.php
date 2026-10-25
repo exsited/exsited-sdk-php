@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Auth;
+namespace Exsited\Auth;
 
 /**
  * The in-process half of the lock over one token cache path.

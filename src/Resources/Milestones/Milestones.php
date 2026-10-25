@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Milestones;
+namespace Exsited\Resources\Milestones;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Resources\Milestones\MilestonesDto\MilestonesView;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\ExsitedClient;
+use Exsited\Resources\Milestones\MilestonesDto\MilestonesView;
 
 /** Milestone endpoints, under `/api/{api_version}`. */
 final class Milestones

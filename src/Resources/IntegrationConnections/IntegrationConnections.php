@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\IntegrationConnections;
+namespace Exsited\Resources\IntegrationConnections;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Resources\IntegrationConnections\IntegrationConnectionsDto\IntegrationConnectionsView;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\ExsitedClient;
+use Exsited\Resources\IntegrationConnections\IntegrationConnectionsDto\IntegrationConnectionsView;
 
 /** Integration connection endpoints, under `/api/{api_version}/integration_connections`. */
 final class IntegrationConnections

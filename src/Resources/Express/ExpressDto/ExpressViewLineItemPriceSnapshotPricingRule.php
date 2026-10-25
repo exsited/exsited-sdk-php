@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Express\ExpressDto;
+namespace Exsited\Resources\Express\ExpressDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `pricing_rule` object of ExpressViewLineItemPriceSnapshot. */
 final class ExpressViewLineItemPriceSnapshotPricingRule extends Dto

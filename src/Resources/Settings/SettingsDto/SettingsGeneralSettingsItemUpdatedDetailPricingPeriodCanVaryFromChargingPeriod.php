@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Settings\SettingsDto;
+namespace Exsited\Resources\Settings\SettingsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `SettingsGeneralSettingsItemUpdatedDetail`'s `pricing_period_can_vary_from_charging_period`. */
 final class SettingsGeneralSettingsItemUpdatedDetailPricingPeriodCanVaryFromChargingPeriod extends Dto

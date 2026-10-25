@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\SalesReps\SalesRepsDto;
+namespace Exsited\Resources\SalesReps\SalesRepsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings sales rep body, under `sales_rep`. */
 final class SettingsSalesRep extends Dto

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Usages\UsagesDto;
+namespace Exsited\Resources\Usages\UsagesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One entry of the `success` list of UsagesViewDetail. */
 final class UsagesViewDetailSuccess extends Dto

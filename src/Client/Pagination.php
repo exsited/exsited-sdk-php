@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Client;
+namespace Exsited\Client;
 
-use Exsited\Sdk\Errors\SdkError;
-use Exsited\Sdk\Errors\SdkUsageError;
+use Exsited\Errors\SdkError;
+use Exsited\Errors\SdkUsageError;
 
 /** Lazy walks over a v4 listing. The paging shape (cursor or offset) is read off each page, the
  *  offset is computed rather than taken from `next_page` (which can name another path or the string

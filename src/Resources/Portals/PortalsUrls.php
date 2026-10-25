@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Portals;
+namespace Exsited\Resources\Portals;
 
 final class PortalsUrls
 {

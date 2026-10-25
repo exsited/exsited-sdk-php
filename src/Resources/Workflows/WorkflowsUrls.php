@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Workflows;
+namespace Exsited\Resources\Workflows;
 
 final class WorkflowsUrls
 {

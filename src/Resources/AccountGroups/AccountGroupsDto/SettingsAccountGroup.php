@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\AccountGroups\AccountGroupsDto;
+namespace Exsited\Resources\AccountGroups\AccountGroupsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** The settings account group body, under `account_group`. */
 final class SettingsAccountGroup extends Dto

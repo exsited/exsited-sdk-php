@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Uom;
+namespace Exsited\Resources\Uom;
 
 final class UomUrls
 {

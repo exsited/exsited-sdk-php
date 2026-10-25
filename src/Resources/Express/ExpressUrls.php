@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Express;
+namespace Exsited\Resources\Express;
 
 final class ExpressUrls
 {

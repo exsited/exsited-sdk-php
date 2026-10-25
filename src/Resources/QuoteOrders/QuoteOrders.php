@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\QuoteOrders;
+namespace Exsited\Resources\QuoteOrders;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Resources\QuoteOrders\QuoteOrdersDto\QuoteOrderInvoiceList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\ExsitedClient;
+use Exsited\Resources\QuoteOrders\QuoteOrdersDto\QuoteOrderInvoiceList;
 
 /** Quote order endpoints, under `/api/{api_version}/quote_orders`. */
 final class QuoteOrders

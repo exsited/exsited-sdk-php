@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Invoices\InvoicesDto;
+namespace Exsited\Resources\Invoices\InvoicesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** What `getInvoiceKpis` answers, under `invoice_kpis`: the block an invoice carries as `kpis`,
  *  with an `object` beside it. */

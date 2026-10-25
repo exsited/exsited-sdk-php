@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\DocumentTemplates;
+namespace Exsited\Resources\DocumentTemplates;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\DocumentTemplates\DocumentTemplatesDto\SettingsDocumentTemplate;
-use Exsited\Sdk\Resources\DocumentTemplates\DocumentTemplatesDto\SettingsDocumentTemplateList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\DocumentTemplates\DocumentTemplatesDto\SettingsDocumentTemplate;
+use Exsited\Resources\DocumentTemplates\DocumentTemplatesDto\SettingsDocumentTemplateList;
 
 /** Document template endpoints, under `/api/{api_version}/settings/document_templates`. */
 final class DocumentTemplates

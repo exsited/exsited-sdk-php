@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\AccountEmails;
+namespace Exsited\Resources\AccountEmails;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\ExsitedClient;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\ExsitedClient;
 
 /** Account email endpoints, under `/api/{api_version}/accounts`. */
 final class AccountEmails

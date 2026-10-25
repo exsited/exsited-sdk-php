@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseCreditNotes\PurchaseCreditNotesDto;
+namespace Exsited\Resources\PurchaseCreditNotes\PurchaseCreditNotesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `created_by` object of PurchaseCreditNote. */
 final class PurchaseCreditNoteCreatedBy extends Dto

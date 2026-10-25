@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\FulfillmentProfiles\FulfillmentProfilesDto;
+namespace Exsited\Resources\FulfillmentProfiles\FulfillmentProfilesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings fulfillment profile body, under `fulfillment_profile`. */
 final class SettingsFulfillmentProfile extends Dto

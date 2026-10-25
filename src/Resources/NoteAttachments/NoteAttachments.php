@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\NoteAttachments;
+namespace Exsited\Resources\NoteAttachments;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Resources\NoteAttachments\NoteAttachmentsDto\NoteAttachment;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\ExsitedClient;
+use Exsited\Resources\NoteAttachments\NoteAttachmentsDto\NoteAttachment;
 
 /** Note attachment endpoints, under `/api/{api_version}/note_attachment`. */
 final class NoteAttachments

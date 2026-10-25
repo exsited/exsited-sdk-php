@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Items\ItemsDto;
+namespace Exsited\Resources\Items\ItemsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `last_updated_by` object of ItemPurchase. */
 final class ItemPurchaseLastUpdatedBy extends Dto

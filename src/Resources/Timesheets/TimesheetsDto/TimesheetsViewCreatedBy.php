@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Timesheets\TimesheetsDto;
+namespace Exsited\Resources\Timesheets\TimesheetsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `created_by` object of TimesheetsView. */
 final class TimesheetsViewCreatedBy extends Dto

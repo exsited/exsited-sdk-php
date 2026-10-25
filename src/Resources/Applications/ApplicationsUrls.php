@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Applications;
+namespace Exsited\Resources\Applications;
 
 final class ApplicationsUrls
 {

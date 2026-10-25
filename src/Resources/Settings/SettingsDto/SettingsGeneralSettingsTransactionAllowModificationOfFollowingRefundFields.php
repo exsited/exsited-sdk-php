@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Settings\SettingsDto;
+namespace Exsited\Resources\Settings\SettingsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `SettingsGeneralSettingsTransaction`'s `allow_modification_of_following_refund_fields`. */
 final class SettingsGeneralSettingsTransactionAllowModificationOfFollowingRefundFields extends Dto

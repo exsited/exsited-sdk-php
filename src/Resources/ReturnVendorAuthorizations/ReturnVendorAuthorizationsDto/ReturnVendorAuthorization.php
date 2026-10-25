@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ReturnVendorAuthorizations\ReturnVendorAuthorizationsDto;
+namespace Exsited\Resources\ReturnVendorAuthorizations\ReturnVendorAuthorizationsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One return vendor authorization, as the listing returns it. */
 final class ReturnVendorAuthorization extends Dto

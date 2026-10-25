@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Refunds\RefundsDto;
+namespace Exsited\Resources\Refunds\RefundsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The Refund body, as measured from the endpoints in MEASURED_FROM. */
 final class Refund extends Dto

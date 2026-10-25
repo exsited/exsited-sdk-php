@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Employees\EmployeesDto;
+namespace Exsited\Resources\Employees\EmployeesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One entry of the `contacts` list of Employee. */
 final class EmployeeContact extends Dto

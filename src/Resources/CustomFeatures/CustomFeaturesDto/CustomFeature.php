@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomFeatures\CustomFeaturesDto;
+namespace Exsited\Resources\CustomFeatures\CustomFeaturesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The CustomFeature body, as measured from the endpoints in MEASURED_FROM. */
 final class CustomFeature extends Dto

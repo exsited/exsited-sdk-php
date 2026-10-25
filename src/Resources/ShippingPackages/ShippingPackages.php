@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ShippingPackages;
+namespace Exsited\Resources\ShippingPackages;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\ShippingPackages\ShippingPackagesDto\SettingsShippingPackage;
-use Exsited\Sdk\Resources\ShippingPackages\ShippingPackagesDto\SettingsShippingPackageList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\ShippingPackages\ShippingPackagesDto\SettingsShippingPackage;
+use Exsited\Resources\ShippingPackages\ShippingPackagesDto\SettingsShippingPackageList;
 
 /** Shipping package endpoints, under `/api/{api_version}/settings/shipping_packages`. */
 final class ShippingPackages

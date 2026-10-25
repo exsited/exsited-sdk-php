@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto;
+namespace Exsited\Resources\PurchaseOrders\PurchaseOrdersDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `custom_form` object of PurchaseOrderUpdated. */
 final class PurchaseOrderUpdatedCustomForm extends Dto

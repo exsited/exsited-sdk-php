@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Timesheets;
+namespace Exsited\Resources\Timesheets;
 
 final class TimesheetsUrls
 {

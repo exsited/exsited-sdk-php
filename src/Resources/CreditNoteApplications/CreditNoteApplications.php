@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CreditNoteApplications;
+namespace Exsited\Resources\CreditNoteApplications;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Resources\CreditNoteApplications\CreditNoteApplicationsDto\CreditNoteApplicationList;
-use Exsited\Sdk\Resources\CreditNoteApplications\CreditNoteApplicationsDto\CreditNoteApplicationRead;
-use Exsited\Sdk\Resources\CreditNoteApplications\CreditNoteApplicationsDto\InvoiceCreditNoteApplications;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\ExsitedClient;
+use Exsited\Resources\CreditNoteApplications\CreditNoteApplicationsDto\CreditNoteApplicationList;
+use Exsited\Resources\CreditNoteApplications\CreditNoteApplicationsDto\CreditNoteApplicationRead;
+use Exsited\Resources\CreditNoteApplications\CreditNoteApplicationsDto\InvoiceCreditNoteApplications;
 
 /** Credit note application endpoints, under `/api/{api_version}`. */
 final class CreditNoteApplications

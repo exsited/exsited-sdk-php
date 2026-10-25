@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomFeatures;
+namespace Exsited\Resources\CustomFeatures;
 
 final class CustomFeaturesUrls
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\RentalAssets\RentalAssetsDto;
+namespace Exsited\Resources\RentalAssets\RentalAssetsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `custom_form` object of RentalAsset. */
 final class RentalAssetCustomForm extends Dto

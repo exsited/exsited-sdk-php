@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Orders;
+namespace Exsited\Resources\Orders;
 
 final class OrdersUrls
 {

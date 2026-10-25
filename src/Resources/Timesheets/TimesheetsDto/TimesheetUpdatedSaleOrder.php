@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Timesheets\TimesheetsDto;
+namespace Exsited\Resources\Timesheets\TimesheetsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `sale_order` object of TimesheetUpdated. */
 final class TimesheetUpdatedSaleOrder extends Dto

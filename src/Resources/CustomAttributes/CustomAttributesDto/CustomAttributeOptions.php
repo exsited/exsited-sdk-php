@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomAttributes\CustomAttributesDto;
+namespace Exsited\Resources\CustomAttributes\CustomAttributesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `options` object of CustomAttribute. */
 final class CustomAttributeOptions extends Dto

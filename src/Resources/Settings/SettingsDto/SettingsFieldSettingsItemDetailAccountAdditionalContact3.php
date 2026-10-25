@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Settings\SettingsDto;
+namespace Exsited\Resources\Settings\SettingsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `additional_contact_3` object of SettingsFieldSettingsItemDetailAccount. */
 final class SettingsFieldSettingsItemDetailAccountAdditionalContact3 extends Dto

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ApprovalProfiles\ApprovalProfilesDto;
+namespace Exsited\Resources\ApprovalProfiles\ApprovalProfilesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings approval profile body, under `approval_profile`. */
 final class SettingsApprovalProfile extends Dto

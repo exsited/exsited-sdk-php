@@ -2,26 +2,26 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomComponents;
+namespace Exsited\Resources\CustomComponents;
 
 use Closure;
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\CustomComponents\CustomComponentsDto\Component;
-use Exsited\Sdk\Resources\CustomComponents\CustomComponentsDto\ComponentByUuid;
-use Exsited\Sdk\Resources\CustomComponents\CustomComponentsDto\ComponentList;
-use Exsited\Sdk\Resources\CustomComponents\CustomComponentsDto\ComponentObject;
-use Exsited\Sdk\Resources\CustomComponents\CustomComponentsDto\ComponentObjectActivity;
-use Exsited\Sdk\Resources\CustomComponents\CustomComponentsDto\ComponentObjectActivityEntry;
-use Exsited\Sdk\Resources\CustomComponents\CustomComponentsDto\ComponentObjectCustomObjects;
-use Exsited\Sdk\Resources\CustomComponents\CustomComponentsDto\ComponentObjectNote;
-use Exsited\Sdk\Resources\CustomComponents\CustomComponentsDto\ComponentObjectNoteFile;
-use Exsited\Sdk\Resources\CustomComponents\CustomComponentsDto\ComponentObjectNoteFiles;
-use Exsited\Sdk\Resources\CustomComponents\CustomComponentsDto\ComponentObjectNotes;
-use Exsited\Sdk\Resources\CustomComponents\CustomComponentsDto\ComponentObjectRecord;
-use Exsited\Sdk\Resources\CustomComponents\CustomComponentsDto\ComponentObjects;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\CustomComponents\CustomComponentsDto\Component;
+use Exsited\Resources\CustomComponents\CustomComponentsDto\ComponentByUuid;
+use Exsited\Resources\CustomComponents\CustomComponentsDto\ComponentList;
+use Exsited\Resources\CustomComponents\CustomComponentsDto\ComponentObject;
+use Exsited\Resources\CustomComponents\CustomComponentsDto\ComponentObjectActivity;
+use Exsited\Resources\CustomComponents\CustomComponentsDto\ComponentObjectActivityEntry;
+use Exsited\Resources\CustomComponents\CustomComponentsDto\ComponentObjectCustomObjects;
+use Exsited\Resources\CustomComponents\CustomComponentsDto\ComponentObjectNote;
+use Exsited\Resources\CustomComponents\CustomComponentsDto\ComponentObjectNoteFile;
+use Exsited\Resources\CustomComponents\CustomComponentsDto\ComponentObjectNoteFiles;
+use Exsited\Resources\CustomComponents\CustomComponentsDto\ComponentObjectNotes;
+use Exsited\Resources\CustomComponents\CustomComponentsDto\ComponentObjectRecord;
+use Exsited\Resources\CustomComponents\CustomComponentsDto\ComponentObjects;
 
 /** Custom component endpoints, under `/api/{api_version}`. */
 final class CustomComponents

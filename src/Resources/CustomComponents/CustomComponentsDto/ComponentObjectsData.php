@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomComponents\CustomComponentsDto;
+namespace Exsited\Resources\CustomComponents\CustomComponentsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One entry of the `data` list of ComponentObjects. */
 final class ComponentObjectsData extends Dto

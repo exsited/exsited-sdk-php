@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\SystemEvents\SystemEventsDto;
+namespace Exsited\Resources\SystemEvents\SystemEventsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings system event body, under `system_event`. */
 final class SettingsSystemEvent extends Dto

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomComponents\CustomComponentsDto;
+namespace Exsited\Resources\CustomComponents\CustomComponentsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `ComponentObjectNote`'s `custom_component_object`, the note's owner. */
 final class ComponentObjectNoteCustomComponentObject extends Dto

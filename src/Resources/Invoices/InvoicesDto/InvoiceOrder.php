@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Invoices\InvoicesDto;
+namespace Exsited\Resources\Invoices\InvoicesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `order` object of Invoice. */
 final class InvoiceOrder extends Dto

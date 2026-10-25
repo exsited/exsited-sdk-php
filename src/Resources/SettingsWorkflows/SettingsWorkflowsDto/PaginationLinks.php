@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\SettingsWorkflows\SettingsWorkflowsDto;
+namespace Exsited\Resources\SettingsWorkflows\SettingsWorkflowsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `Pagination`'s `links`. */
 final class PaginationLinks extends Dto

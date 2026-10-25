@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchasePayments\PurchasePaymentsDto;
+namespace Exsited\Resources\PurchasePayments\PurchasePaymentsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `created_by` object of PurchasePayment. */
 final class PurchasePaymentCreatedBy extends Dto

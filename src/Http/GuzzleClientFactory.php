@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Http;
+namespace Exsited\Http;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\CurlFactory;
@@ -14,8 +14,8 @@ use GuzzleHttp\RequestOptions;
 use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
-use Exsited\Sdk\Config\SdkConfig;
-use Exsited\Sdk\Redaction;
+use Exsited\Config\SdkConfig;
+use Exsited\Redaction;
 
 /** Builds the default Guzzle client: redirects never followed, verify from the config,
  *  connect/read timeouts, proxy, and 4xx/5xx returned as responses rather than thrown. */

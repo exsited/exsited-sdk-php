@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\TimePeriods\TimePeriodsDto;
+namespace Exsited\Resources\TimePeriods\TimePeriodsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings time period body, under `time_period`. */
 final class SettingsTimePeriod extends Dto

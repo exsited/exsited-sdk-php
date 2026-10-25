@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseRefunds;
+namespace Exsited\Resources\PurchaseRefunds;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\PurchaseRefunds\PurchaseRefundsDto\PurchaseRefund;
-use Exsited\Sdk\Resources\PurchaseRefunds\PurchaseRefundsDto\PurchaseRefundsView;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\PurchaseRefunds\PurchaseRefundsDto\PurchaseRefund;
+use Exsited\Resources\PurchaseRefunds\PurchaseRefundsDto\PurchaseRefundsView;
 
 /** Purchase refund endpoints, under `/api/{api_version}`. */
 final class PurchaseRefunds

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\NoteAttachments;
+namespace Exsited\Resources\NoteAttachments;
 
 final class NoteAttachmentsUrls
 {

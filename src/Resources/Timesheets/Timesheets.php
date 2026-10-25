@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Timesheets;
+namespace Exsited\Resources\Timesheets;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\Timesheets\TimesheetsDto\TimesheetList;
-use Exsited\Sdk\Resources\Timesheets\TimesheetsDto\TimesheetUpdated;
-use Exsited\Sdk\Resources\Timesheets\TimesheetsDto\TimesheetsView;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\Timesheets\TimesheetsDto\TimesheetList;
+use Exsited\Resources\Timesheets\TimesheetsDto\TimesheetUpdated;
+use Exsited\Resources\Timesheets\TimesheetsDto\TimesheetsView;
 
 /** Timesheet endpoints, under `/api/{api_version}/timesheets`. */
 final class Timesheets

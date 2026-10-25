@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\FulfillmentTerms;
+namespace Exsited\Resources\FulfillmentTerms;
 
 final class FulfillmentTermsUrls
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\AdditionalCodes\AdditionalCodesDto;
+namespace Exsited\Resources\AdditionalCodes\AdditionalCodesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings additional code body, under `additional_code`. */
 final class SettingsAdditionalCode extends Dto

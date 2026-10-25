@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Payments\PaymentsDto;
+namespace Exsited\Resources\Payments\PaymentsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `payment` object of PaymentNotes. */
 final class PaymentNotesPayment extends Dto

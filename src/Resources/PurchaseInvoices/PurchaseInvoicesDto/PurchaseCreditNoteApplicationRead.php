@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto;
+namespace Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The purchase credit note application read body, under `purchase_credit_note_application`. */
 final class PurchaseCreditNoteApplicationRead extends Dto

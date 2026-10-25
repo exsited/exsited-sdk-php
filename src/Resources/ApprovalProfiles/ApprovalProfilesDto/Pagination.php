@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ApprovalProfiles\ApprovalProfilesDto;
+namespace Exsited\Resources\ApprovalProfiles\ApprovalProfilesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A list envelope's `pagination` block. One response fills only one shape: cursor (`has_more`
  *  present), offset (`records` present) or the external database listings' (`has_next` present),

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Portals\PortalsDto;
+namespace Exsited\Resources\Portals\PortalsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One entry of the `portals` list of PortalLoginUser. */
 final class PortalLoginUserPortal extends Dto

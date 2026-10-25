@@ -2,28 +2,28 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseOrders;
+namespace Exsited\Resources\PurchaseOrders;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderInformation;
-use Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderKpis;
-use Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderLineList;
-use Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderLineRead;
-use Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderList;
-use Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderNote;
-use Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderNoteFile;
-use Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderNotes;
-use Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderNotesView;
-use Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderPurchaseInvoiceList;
-use Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderPurchaseInvoices;
-use Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderPurchasePaymentList;
-use Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderRead;
-use Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderUpdated;
-use Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrdersNoteList;
-use Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrdersView;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderInformation;
+use Exsited\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderKpis;
+use Exsited\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderLineList;
+use Exsited\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderLineRead;
+use Exsited\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderList;
+use Exsited\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderNote;
+use Exsited\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderNoteFile;
+use Exsited\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderNotes;
+use Exsited\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderNotesView;
+use Exsited\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderPurchaseInvoiceList;
+use Exsited\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderPurchaseInvoices;
+use Exsited\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderPurchasePaymentList;
+use Exsited\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderRead;
+use Exsited\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrderUpdated;
+use Exsited\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrdersNoteList;
+use Exsited\Resources\PurchaseOrders\PurchaseOrdersDto\PurchaseOrdersView;
 
 /** Purchase order endpoints, under `/api/{api_version}`. */
 final class PurchaseOrders

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Errors;
+namespace Exsited\Errors;
 
-use Exsited\Sdk\Client\ErrorType;
+use Exsited\Client\ErrorType;
 
 /** Base class for every error the SDK raises, and raised directly for any non-2xx response that is
  *  not an auth or usage problem. */

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Items\ItemsDto;
+namespace Exsited\Resources\Items\ItemsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One entry of the `bundle_details` list of Item. */
 final class ItemBundleDetail extends Dto

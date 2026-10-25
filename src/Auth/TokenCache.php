@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Auth;
+namespace Exsited\Auth;
 
 /**
  * Auth fingerprint (for keying a shared token file) and the platform per-user

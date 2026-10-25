@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\BillingPeriods;
+namespace Exsited\Resources\BillingPeriods;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\BillingPeriods\BillingPeriodsDto\SettingsBillingPeriod;
-use Exsited\Sdk\Resources\BillingPeriods\BillingPeriodsDto\SettingsBillingPeriodList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\BillingPeriods\BillingPeriodsDto\SettingsBillingPeriod;
+use Exsited\Resources\BillingPeriods\BillingPeriodsDto\SettingsBillingPeriodList;
 
 /** Billing period endpoints, under `/api/{api_version}/settings/billing_periods`. */
 final class BillingPeriods

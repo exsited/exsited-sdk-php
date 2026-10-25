@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Bookings;
+namespace Exsited\Resources\Bookings;
 
 final class BookingsUrls
 {

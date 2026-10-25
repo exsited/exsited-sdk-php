@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ShippingRules;
+namespace Exsited\Resources\ShippingRules;
 
 final class ShippingRulesUrls
 {

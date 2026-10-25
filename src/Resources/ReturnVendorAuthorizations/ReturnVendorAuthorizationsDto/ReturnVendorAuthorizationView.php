@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ReturnVendorAuthorizations\ReturnVendorAuthorizationsDto;
+namespace Exsited\Resources\ReturnVendorAuthorizations\ReturnVendorAuthorizationsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** What `getReturnVendorAuthorization` answers, under `return_vendor_authorization`: the listing's
  *  record with its `lines` and `receive_rvas`. */

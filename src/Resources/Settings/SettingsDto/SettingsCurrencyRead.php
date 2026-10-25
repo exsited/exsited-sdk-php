@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Settings\SettingsDto;
+namespace Exsited\Resources\Settings\SettingsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The SettingsCurrencyRead body, the listing's record under `currency`. The documented response
  *  is flat and names four keys the API does not send; this view follows what the API sends. */

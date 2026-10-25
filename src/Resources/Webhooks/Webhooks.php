@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Webhooks;
+namespace Exsited\Resources\Webhooks;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\ExsitedClient;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\ExsitedClient;
 
 /** Webhook endpoints, under `/api/{api_version}/webhooks`. */
 final class Webhooks

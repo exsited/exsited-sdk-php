@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto;
+namespace Exsited\Resources\PurchaseOrders\PurchaseOrdersDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One entry of the `payment_method_applications` list of PurchaseOrderPurchasePayment. */
 final class PurchaseOrderPurchasePaymentPaymentMethodApplication extends Dto

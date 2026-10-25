@@ -2,31 +2,31 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Invoices;
+namespace Exsited\Resources\Invoices;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\AccountInvoices;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\CreditNoteApplicationRead;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\InvoiceDeleted;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\InvoiceInformation;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\InvoiceInformationRead;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\InvoiceItemFulfillment;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\InvoiceItemFulfillmentList;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\InvoiceKpisRead;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\InvoiceLineRead;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\InvoiceLines;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\InvoiceList;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\InvoiceNote;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\InvoiceNoteList;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\InvoiceNoteRead;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\InvoicePdf;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\InvoiceReactivate;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\InvoiceRead;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\InvoiceReturnMerchandiseAuthorisation;
-use Exsited\Sdk\Resources\Invoices\InvoicesDto\InvoicesView;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\Invoices\InvoicesDto\AccountInvoices;
+use Exsited\Resources\Invoices\InvoicesDto\CreditNoteApplicationRead;
+use Exsited\Resources\Invoices\InvoicesDto\InvoiceDeleted;
+use Exsited\Resources\Invoices\InvoicesDto\InvoiceInformation;
+use Exsited\Resources\Invoices\InvoicesDto\InvoiceInformationRead;
+use Exsited\Resources\Invoices\InvoicesDto\InvoiceItemFulfillment;
+use Exsited\Resources\Invoices\InvoicesDto\InvoiceItemFulfillmentList;
+use Exsited\Resources\Invoices\InvoicesDto\InvoiceKpisRead;
+use Exsited\Resources\Invoices\InvoicesDto\InvoiceLineRead;
+use Exsited\Resources\Invoices\InvoicesDto\InvoiceLines;
+use Exsited\Resources\Invoices\InvoicesDto\InvoiceList;
+use Exsited\Resources\Invoices\InvoicesDto\InvoiceNote;
+use Exsited\Resources\Invoices\InvoicesDto\InvoiceNoteList;
+use Exsited\Resources\Invoices\InvoicesDto\InvoiceNoteRead;
+use Exsited\Resources\Invoices\InvoicesDto\InvoicePdf;
+use Exsited\Resources\Invoices\InvoicesDto\InvoiceReactivate;
+use Exsited\Resources\Invoices\InvoicesDto\InvoiceRead;
+use Exsited\Resources\Invoices\InvoicesDto\InvoiceReturnMerchandiseAuthorisation;
+use Exsited\Resources\Invoices\InvoicesDto\InvoicesView;
 
 /** Invoice endpoints, under `/api/{api_version}`. */
 final class Invoices

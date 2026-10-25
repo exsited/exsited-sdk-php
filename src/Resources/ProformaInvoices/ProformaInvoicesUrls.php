@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ProformaInvoices;
+namespace Exsited\Resources\ProformaInvoices;
 
 final class ProformaInvoicesUrls
 {

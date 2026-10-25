@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto;
+namespace Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The PurchaseInvoice body, as measured from the endpoints in MEASURED_FROM. */
 final class PurchaseInvoice extends Dto

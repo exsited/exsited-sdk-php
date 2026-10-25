@@ -2,32 +2,32 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Orders;
+namespace Exsited\Resources\Orders;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\Orders\OrdersDto\AccountOrders;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderBillingPreferences;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderCustomObject;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderDiscardDraft;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderExtendTrial;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderInformation;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderItemFulfillment;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderKpis;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderLine;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderList;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderNoteFile;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderNoteFileList;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderNoteList;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderNoteView;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderPayment;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderPaymentMethod;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderPaymentMethods;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderPdf;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderQuotePartialInvoices;
-use Exsited\Sdk\Resources\Orders\OrdersDto\OrderRead;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\Orders\OrdersDto\AccountOrders;
+use Exsited\Resources\Orders\OrdersDto\OrderBillingPreferences;
+use Exsited\Resources\Orders\OrdersDto\OrderCustomObject;
+use Exsited\Resources\Orders\OrdersDto\OrderDiscardDraft;
+use Exsited\Resources\Orders\OrdersDto\OrderExtendTrial;
+use Exsited\Resources\Orders\OrdersDto\OrderInformation;
+use Exsited\Resources\Orders\OrdersDto\OrderItemFulfillment;
+use Exsited\Resources\Orders\OrdersDto\OrderKpis;
+use Exsited\Resources\Orders\OrdersDto\OrderLine;
+use Exsited\Resources\Orders\OrdersDto\OrderList;
+use Exsited\Resources\Orders\OrdersDto\OrderNoteFile;
+use Exsited\Resources\Orders\OrdersDto\OrderNoteFileList;
+use Exsited\Resources\Orders\OrdersDto\OrderNoteList;
+use Exsited\Resources\Orders\OrdersDto\OrderNoteView;
+use Exsited\Resources\Orders\OrdersDto\OrderPayment;
+use Exsited\Resources\Orders\OrdersDto\OrderPaymentMethod;
+use Exsited\Resources\Orders\OrdersDto\OrderPaymentMethods;
+use Exsited\Resources\Orders\OrdersDto\OrderPdf;
+use Exsited\Resources\Orders\OrdersDto\OrderQuotePartialInvoices;
+use Exsited\Resources\Orders\OrdersDto\OrderRead;
 
 /** Order endpoints, under `/api/{api_version}`. */
 final class Orders

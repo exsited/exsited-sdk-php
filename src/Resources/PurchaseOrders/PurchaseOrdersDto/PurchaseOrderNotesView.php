@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseOrders\PurchaseOrdersDto;
+namespace Exsited\Resources\PurchaseOrders\PurchaseOrdersDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** The PurchaseOrderNotesView body, as measured from the endpoints in MEASURED_FROM. */
 final class PurchaseOrderNotesView extends Dto

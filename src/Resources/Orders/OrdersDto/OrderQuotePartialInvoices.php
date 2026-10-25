@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Orders\OrdersDto;
+namespace Exsited\Resources\Orders\OrdersDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** What `getOrderQuotePartialInvoices` answers, under `order`. */
 final class OrderQuotePartialInvoices extends Dto

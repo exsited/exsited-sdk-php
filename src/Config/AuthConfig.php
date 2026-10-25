@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Config;
+namespace Exsited\Config;
 
-use Exsited\Sdk\Auth\TokenCache;
-use Exsited\Sdk\Errors\SdkConfigError;
-use Exsited\Sdk\Redaction;
+use Exsited\Auth\TokenCache;
+use Exsited\Errors\SdkConfigError;
+use Exsited\Redaction;
 
 /**
  * Auth for one Exsited instance, plus where the token is cached. Frozen and

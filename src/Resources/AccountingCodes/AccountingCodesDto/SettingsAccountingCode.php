@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\AccountingCodes\AccountingCodesDto;
+namespace Exsited\Resources\AccountingCodes\AccountingCodesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The SettingsAccountingCode body, as measured from the endpoints in MEASURED_FROM. */
 final class SettingsAccountingCode extends Dto

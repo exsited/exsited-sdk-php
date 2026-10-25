@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Auth;
+namespace Exsited\Auth;
 
 /**
  * A held refresh lock, released by the provider in a try/finally. Reentrant: only the

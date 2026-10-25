@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\BillingPeriods\BillingPeriodsDto;
+namespace Exsited\Resources\BillingPeriods\BillingPeriodsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of `SettingsBillingPeriod` records, under `data`. */
 final class SettingsBillingPeriodList extends Dto

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomComponents\CustomComponentsDto;
+namespace Exsited\Resources\CustomComponents\CustomComponentsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `custom_form` object of ComponentObjectDetail. */
 final class ComponentObjectDetailCustomForm extends Dto

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Items\ItemsDto;
+namespace Exsited\Resources\Items\ItemsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One entry of the `suppliers` list of ItemReadPurchase. */
 final class ItemReadPurchaseSupplier extends Dto

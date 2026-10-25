@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Accounts\AccountsDto;
+namespace Exsited\Resources\Accounts\AccountsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `accounting_code` object of Account. */
 final class AccountAccountingCode extends Dto

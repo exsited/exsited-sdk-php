@@ -9,9 +9,9 @@ The API owns its shapes. A typed view sits **beside** that raw path for callers 
 never instead of it, and never dropping a field.
 
 ```php
-use Exsited\Sdk\Client\ClientRegistry;
-use Exsited\Sdk\Config\AuthConfig;
-use Exsited\Sdk\Resources\Accounts\AccountsUrls;
+use Exsited\Client\ClientRegistry;
+use Exsited\Config\AuthConfig;
+use Exsited\Resources\Accounts\AccountsUrls;
 
 ClientRegistry::registerInstances([
     new AuthConfig(
@@ -34,7 +34,7 @@ foreach ($accounts as $account) {
 | | |
 |---|---|
 | Package | [`exsited/exsited`](https://packagist.org/packages/exsited/exsited) on Packagist |
-| Namespace | `Exsited\Sdk` |
+| Namespace | `Exsited` |
 | PHP | 8.2 or newer |
 | Dependencies | `guzzlehttp/guzzle`, PSR-18/17/7/3 interfaces |
 | Endpoints | 865 in 91 resource families, documented at [exsited.mintlify.app](https://exsited.mintlify.app/introduction) |
@@ -75,7 +75,7 @@ Guzzle `CurlMultiHandler` directly, so `curl` stays a requirement even if you
 Confirm the install:
 
 ```bash
-php -r 'require "vendor/autoload.php"; exit(class_exists(Exsited\Sdk\Client\ExsitedClient::class) ? 0 : 1);' && echo wired
+php -r 'require "vendor/autoload.php"; exit(class_exists(Exsited\Client\ExsitedClient::class) ? 0 : 1);' && echo wired
 ```
 
 ## Credentials
@@ -86,7 +86,7 @@ choice. One non-secret setting is read from the environment when no code names i
 `responseFormat`, which decides how a body is presented and never what is sent.
 
 ```php
-use Exsited\Sdk\Config\AuthConfig;
+use Exsited\Config\AuthConfig;
 
 $auth = new AuthConfig(
     baseUrl: 'https://dev-api.exsited.com',
@@ -118,8 +118,8 @@ Three ways, all equivalent.
 **One instance, explicit:**
 
 ```php
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Config\SdkConfig;
+use Exsited\Client\ExsitedClient;
+use Exsited\Config\SdkConfig;
 
 $client = new ExsitedClient(new SdkConfig($auth, raiseOnError: true));
 $response = $client->accounts->getAccounts(['limit' => 50]);
@@ -283,8 +283,8 @@ A body may be written three ways on every resource method that takes one, and al
 the API as the same request:
 
 ```php
-use Exsited\Sdk\Resources\NoteGroups\NoteGroups;
-use Exsited\Sdk\Resources\NoteGroups\NoteGroupsDto\NoteGroup;
+use Exsited\Resources\NoteGroups\NoteGroups;
+use Exsited\Resources\NoteGroups\NoteGroupsDto\NoteGroup;
 
 // a map
 NoteGroups::createNoteGroup($client, ['note_group' => ['name' => 'Onboarding', 'description' => 'New accounts']]);
@@ -327,8 +327,8 @@ Values are normalised, names never:
 The v4 filter and sort grammar has helpers on `QueryParams`:
 
 ```php
-use Exsited\Sdk\Http\QueryParams;
-use Exsited\Sdk\Http\SortDirection;
+use Exsited\Http\QueryParams;
+use Exsited\Http\SortDirection;
 
 $client->accounts->getAccounts([
     QueryParams::filterParam('status') => 'ACTIVE',                                  // filter_status
@@ -413,7 +413,7 @@ if (!$response->succeeded()) {
 Opt into throwing where an unhandled failure should stop the program:
 
 ```php
-use Exsited\Sdk\Errors\SdkError;
+use Exsited\Errors\SdkError;
 
 try {
     $client->accounts->getAccount('no-such-account', raiseOnError: true);
@@ -451,8 +451,8 @@ token-endpoint credential rejection.
 ## Pagination
 
 ```php
-use Exsited\Sdk\Client\Pagination;
-use Exsited\Sdk\Resources\Accounts\AccountsUrls;
+use Exsited\Client\Pagination;
+use Exsited\Resources\Accounts\AccountsUrls;
 
 foreach (Pagination::iterPages($client, AccountsUrls::ACCOUNTS, queryParams: ['limit' => 100]) as $page) { }
 
@@ -606,7 +606,7 @@ call at roughly three times the timeout plus backoff. Building a body is bounded
 ### Injecting a PSR-18 client
 
 ```php
-use Exsited\Sdk\Http\Transport;
+use Exsited\Http\Transport;
 
 $transport = new Transport($config, httpClient: $myPsr18Client);
 $client = new ExsitedClient($config, transport: $transport);
@@ -660,7 +660,7 @@ get_class_methods(Accounts::class);        // every endpoint
 Both call styles are the same function:
 
 ```php
-use Exsited\Sdk\Resources\Accounts\Accounts;
+use Exsited\Resources\Accounts\Accounts;
 
 Accounts::getAccount($client, $id);        // explicit, fully IDE-completed
 $client->accounts->getAccount($id);        // bound, shorter
@@ -674,7 +674,7 @@ bound names.
 
 | Symptom | Fix |
 |---|---|
-| `Class "Exsited\Sdk\..." not found` | `composer install`, and require `vendor/autoload.php` |
+| `Class "Exsited\..." not found` | `composer install`, and require `vendor/autoload.php` |
 | `SdkConfigError: ... missing required values` | Values arrived empty; check where your credentials come from |
 | `SdkAuthError` on the first call | Run the credentials case alone; it isolates auth from everything else |
 | Every process gets `401` after another one starts | Each grant invalidates the previous token; the client refreshes once and replays, but many processes on one set of credentials spend grants against each other |

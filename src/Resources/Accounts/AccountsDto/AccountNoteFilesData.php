@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Accounts\AccountsDto;
+namespace Exsited\Resources\Accounts\AccountsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One entry of the `data` list of AccountNoteFiles. */
 final class AccountNoteFilesData extends Dto

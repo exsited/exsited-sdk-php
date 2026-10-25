@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Errors;
+namespace Exsited\Errors;
 
 /**
  * The cross-process lock over the token cache could not be taken.

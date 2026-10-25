@@ -2,26 +2,26 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Client;
+namespace Exsited\Client;
 
 use Closure;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;
 use Psr\Log\NullLogger;
-use Exsited\Sdk\Auth\FileTokenStore;
-use Exsited\Sdk\Auth\MemoryTokenStore;
-use Exsited\Sdk\Auth\TokenCache;
-use Exsited\Sdk\Auth\TokenProvider;
-use Exsited\Sdk\Auth\TokenStore;
-use Exsited\Sdk\Config\SdkConfig;
-use Exsited\Sdk\Errors\InsecureTransportWarning;
-use Exsited\Sdk\Errors\SdkError;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Http\QueryParams;
-use Exsited\Sdk\Http\RetryPolicy;
-use Exsited\Sdk\Http\Transport;
-use Exsited\Sdk\Http\UrlBuilder;
-use Exsited\Sdk\Redaction;
+use Exsited\Auth\FileTokenStore;
+use Exsited\Auth\MemoryTokenStore;
+use Exsited\Auth\TokenCache;
+use Exsited\Auth\TokenProvider;
+use Exsited\Auth\TokenStore;
+use Exsited\Config\SdkConfig;
+use Exsited\Errors\InsecureTransportWarning;
+use Exsited\Errors\SdkError;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Http\QueryParams;
+use Exsited\Http\RetryPolicy;
+use Exsited\Http\Transport;
+use Exsited\Http\UrlBuilder;
+use Exsited\Redaction;
 
 /** The client: config in, ApiResponse out.
  *  @property-read BoundResource $abaFiles see AbaFiles

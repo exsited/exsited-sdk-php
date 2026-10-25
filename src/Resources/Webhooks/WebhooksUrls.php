@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Webhooks;
+namespace Exsited\Resources\Webhooks;
 
 final class WebhooksUrls
 {

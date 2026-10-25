@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ChargingPeriods\ChargingPeriodsDto;
+namespace Exsited\Resources\ChargingPeriods\ChargingPeriodsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings charging period body, under `charging_period`. */
 final class SettingsChargingPeriod extends Dto

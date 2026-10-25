@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Bookings\BookingsDto;
+namespace Exsited\Resources\Bookings\BookingsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of a booking's payments, under `data`. */
 final class BookingPaymentList extends Dto

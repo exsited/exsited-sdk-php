@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseExpress\PurchaseExpressDto;
+namespace Exsited\Resources\PurchaseExpress\PurchaseExpressDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** What `createPurchaseExpress` answers, under `purchase_express`. */
 final class PurchaseExpressView extends Dto

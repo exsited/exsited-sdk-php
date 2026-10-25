@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Workflows\WorkflowsDto;
+namespace Exsited\Resources\Workflows\WorkflowsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of what `getWorkflows` lists, under `data`. */
 final class WorkflowList extends Dto

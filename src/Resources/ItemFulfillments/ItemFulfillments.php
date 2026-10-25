@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ItemFulfillments;
+namespace Exsited\Resources\ItemFulfillments;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\ItemFulfillments\ItemFulfillmentsDto\ItemFulfillmentList;
-use Exsited\Sdk\Resources\ItemFulfillments\ItemFulfillmentsDto\ItemFulfillmentNoteList;
-use Exsited\Sdk\Resources\ItemFulfillments\ItemFulfillmentsDto\ItemFulfillmentNoteRead;
-use Exsited\Sdk\Resources\ItemFulfillments\ItemFulfillmentsDto\ItemFulfillmentNotes;
-use Exsited\Sdk\Resources\ItemFulfillments\ItemFulfillmentsDto\ItemFulfillmentRead;
-use Exsited\Sdk\Resources\ItemFulfillments\ItemFulfillmentsDto\ItemFulfillmentUpdated;
-use Exsited\Sdk\Resources\ItemFulfillments\ItemFulfillmentsDto\ItemFulfillmentsView;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\ItemFulfillments\ItemFulfillmentsDto\ItemFulfillmentList;
+use Exsited\Resources\ItemFulfillments\ItemFulfillmentsDto\ItemFulfillmentNoteList;
+use Exsited\Resources\ItemFulfillments\ItemFulfillmentsDto\ItemFulfillmentNoteRead;
+use Exsited\Resources\ItemFulfillments\ItemFulfillmentsDto\ItemFulfillmentNotes;
+use Exsited\Resources\ItemFulfillments\ItemFulfillmentsDto\ItemFulfillmentRead;
+use Exsited\Resources\ItemFulfillments\ItemFulfillmentsDto\ItemFulfillmentUpdated;
+use Exsited\Resources\ItemFulfillments\ItemFulfillmentsDto\ItemFulfillmentsView;
 
 /** Item fulfillment endpoints, under `/api/{api_version}`. */
 final class ItemFulfillments

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\NoteGroups\NoteGroupsDto;
+namespace Exsited\Resources\NoteGroups\NoteGroupsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The NoteGroupNotes body, as measured from the endpoints in MEASURED_FROM. */
 final class NoteGroupNotes extends Dto

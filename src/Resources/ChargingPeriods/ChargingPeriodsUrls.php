@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ChargingPeriods;
+namespace Exsited\Resources\ChargingPeriods;
 
 final class ChargingPeriodsUrls
 {

@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\RentalAssets;
+namespace Exsited\Resources\RentalAssets;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\RentalAssets\RentalAssetsDto\RentalAsset;
-use Exsited\Sdk\Resources\RentalAssets\RentalAssetsDto\RentalAssetAvailabilityList;
-use Exsited\Sdk\Resources\RentalAssets\RentalAssetsDto\RentalAssetList;
-use Exsited\Sdk\Resources\RentalAssets\RentalAssetsDto\RentalAssetProfileList;
-use Exsited\Sdk\Resources\RentalAssets\RentalAssetsDto\RentalAssetProfileView;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\RentalAssets\RentalAssetsDto\RentalAsset;
+use Exsited\Resources\RentalAssets\RentalAssetsDto\RentalAssetAvailabilityList;
+use Exsited\Resources\RentalAssets\RentalAssetsDto\RentalAssetList;
+use Exsited\Resources\RentalAssets\RentalAssetsDto\RentalAssetProfileList;
+use Exsited\Resources\RentalAssets\RentalAssetsDto\RentalAssetProfileView;
 
 /** Rental asset endpoints, under `/api/{api_version}`. */
 final class RentalAssets

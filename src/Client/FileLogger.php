@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Client;
+namespace Exsited\Client;
 
 use Psr\Log\AbstractLogger;
 use Psr\Log\LogLevel;

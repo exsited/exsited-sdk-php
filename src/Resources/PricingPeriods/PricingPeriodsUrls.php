@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PricingPeriods;
+namespace Exsited\Resources\PricingPeriods;
 
 final class PricingPeriodsUrls
 {

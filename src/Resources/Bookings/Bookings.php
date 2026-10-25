@@ -2,28 +2,28 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Bookings;
+namespace Exsited\Resources\Bookings;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\Bookings\BookingsDto\BookingBillingPreferencesView;
-use Exsited\Sdk\Resources\Bookings\BookingsDto\BookingById;
-use Exsited\Sdk\Resources\Bookings\BookingsDto\BookingCustomObject;
-use Exsited\Sdk\Resources\Bookings\BookingsDto\BookingCustomObjectList;
-use Exsited\Sdk\Resources\Bookings\BookingsDto\BookingInvoiceList;
-use Exsited\Sdk\Resources\Bookings\BookingsDto\BookingItemFulfillment;
-use Exsited\Sdk\Resources\Bookings\BookingsDto\BookingKpis;
-use Exsited\Sdk\Resources\Bookings\BookingsDto\BookingLine;
-use Exsited\Sdk\Resources\Bookings\BookingsDto\BookingList;
-use Exsited\Sdk\Resources\Bookings\BookingsDto\BookingNoteList;
-use Exsited\Sdk\Resources\Bookings\BookingsDto\BookingPaymentList;
-use Exsited\Sdk\Resources\Bookings\BookingsDto\BookingPaymentMethod;
-use Exsited\Sdk\Resources\Bookings\BookingsDto\BookingPaymentMethods;
-use Exsited\Sdk\Resources\Bookings\BookingsDto\BookingPaymentView;
-use Exsited\Sdk\Resources\Bookings\BookingsDto\BookingPdf;
-use Exsited\Sdk\Resources\Bookings\BookingsDto\BookingQuotePartialInvoices;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\Bookings\BookingsDto\BookingBillingPreferencesView;
+use Exsited\Resources\Bookings\BookingsDto\BookingById;
+use Exsited\Resources\Bookings\BookingsDto\BookingCustomObject;
+use Exsited\Resources\Bookings\BookingsDto\BookingCustomObjectList;
+use Exsited\Resources\Bookings\BookingsDto\BookingInvoiceList;
+use Exsited\Resources\Bookings\BookingsDto\BookingItemFulfillment;
+use Exsited\Resources\Bookings\BookingsDto\BookingKpis;
+use Exsited\Resources\Bookings\BookingsDto\BookingLine;
+use Exsited\Resources\Bookings\BookingsDto\BookingList;
+use Exsited\Resources\Bookings\BookingsDto\BookingNoteList;
+use Exsited\Resources\Bookings\BookingsDto\BookingPaymentList;
+use Exsited\Resources\Bookings\BookingsDto\BookingPaymentMethod;
+use Exsited\Resources\Bookings\BookingsDto\BookingPaymentMethods;
+use Exsited\Resources\Bookings\BookingsDto\BookingPaymentView;
+use Exsited\Resources\Bookings\BookingsDto\BookingPdf;
+use Exsited\Resources\Bookings\BookingsDto\BookingQuotePartialInvoices;
 
 /** Booking endpoints, under `/api/{api_version}/booking`. */
 final class Bookings

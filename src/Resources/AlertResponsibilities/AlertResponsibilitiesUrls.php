@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\AlertResponsibilities;
+namespace Exsited\Resources\AlertResponsibilities;
 
 final class AlertResponsibilitiesUrls
 {

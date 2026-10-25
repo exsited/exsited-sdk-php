@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\AccountingCodes;
+namespace Exsited\Resources\AccountingCodes;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\AccountingCodes\AccountingCodesDto\SettingsAccountingCode;
-use Exsited\Sdk\Resources\AccountingCodes\AccountingCodesDto\SettingsAccountingCodeList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\AccountingCodes\AccountingCodesDto\SettingsAccountingCode;
+use Exsited\Resources\AccountingCodes\AccountingCodesDto\SettingsAccountingCodeList;
 
 /** Accounting code endpoints, under `/api/{api_version}/settings/accounting_codes`. */
 final class AccountingCodes

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Auth;
+namespace Exsited\Auth;
 
-use Exsited\Sdk\Errors\SdkConfigError;
-use Exsited\Sdk\Errors\SdkError;
-use Exsited\Sdk\Errors\SdkTokenCacheError;
-use Exsited\Sdk\Errors\SdkTokenLockError;
+use Exsited\Errors\SdkConfigError;
+use Exsited\Errors\SdkError;
+use Exsited\Errors\SdkTokenCacheError;
+use Exsited\Errors\SdkTokenLockError;
 
 /**
  * Token storage in a JSON file, safe to share across processes, keyed by namespace.

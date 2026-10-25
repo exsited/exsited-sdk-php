@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Portals;
+namespace Exsited\Resources\Portals;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\Portals\PortalsDto\PortalChangePassword;
-use Exsited\Sdk\Resources\Portals\PortalsDto\PortalLogin;
-use Exsited\Sdk\Resources\Portals\PortalsDto\PortalResetLink;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\Portals\PortalsDto\PortalChangePassword;
+use Exsited\Resources\Portals\PortalsDto\PortalLogin;
+use Exsited\Resources\Portals\PortalsDto\PortalResetLink;
 
 /** Portal endpoints, under `/api/{api_version}/portal`. */
 final class Portals

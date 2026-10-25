@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ReturnVendorAuthorizations;
+namespace Exsited\Resources\ReturnVendorAuthorizations;
 
 final class ReturnVendorAuthorizationsUrls
 {

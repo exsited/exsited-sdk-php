@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\AccountingCodes;
+namespace Exsited\Resources\AccountingCodes;
 
 final class AccountingCodesUrls
 {

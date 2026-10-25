@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\QuoteOrders;
+namespace Exsited\Resources\QuoteOrders;
 
 final class QuoteOrdersUrls
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseRefunds\PurchaseRefundsDto;
+namespace Exsited\Resources\PurchaseRefunds\PurchaseRefundsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `created_by` object of PurchaseRefund. */
 final class PurchaseRefundCreatedBy extends Dto

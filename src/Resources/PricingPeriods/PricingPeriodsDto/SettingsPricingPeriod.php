@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PricingPeriods\PricingPeriodsDto;
+namespace Exsited\Resources\PricingPeriods\PricingPeriodsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings pricing period body, under `pricing_period`. */
 final class SettingsPricingPeriod extends Dto

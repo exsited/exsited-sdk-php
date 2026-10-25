@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseCreditNotes\PurchaseCreditNotesDto;
+namespace Exsited\Resources\PurchaseCreditNotes\PurchaseCreditNotesDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** The PurchaseCreditNoteRead body, as measured from the endpoints in MEASURED_FROM. */
 final class PurchaseCreditNoteRead extends Dto

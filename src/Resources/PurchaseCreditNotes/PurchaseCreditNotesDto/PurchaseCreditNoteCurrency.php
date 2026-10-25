@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseCreditNotes\PurchaseCreditNotesDto;
+namespace Exsited\Resources\PurchaseCreditNotes\PurchaseCreditNotesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `currency` object of PurchaseCreditNote. */
 final class PurchaseCreditNoteCurrency extends Dto

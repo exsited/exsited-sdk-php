@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseExpress;
+namespace Exsited\Resources\PurchaseExpress;
 
 final class PurchaseExpressUrls
 {

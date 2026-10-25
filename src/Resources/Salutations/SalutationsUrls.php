@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Salutations;
+namespace Exsited\Resources\Salutations;
 
 final class SalutationsUrls
 {

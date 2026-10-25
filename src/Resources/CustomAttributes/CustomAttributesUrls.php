@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomAttributes;
+namespace Exsited\Resources\CustomAttributes;
 
 final class CustomAttributesUrls
 {

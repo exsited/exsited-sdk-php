@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\NoteGroups;
+namespace Exsited\Resources\NoteGroups;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\NoteGroups\NoteGroupsDto\NoteGroup;
-use Exsited\Sdk\Resources\NoteGroups\NoteGroupsDto\NoteGroupList;
-use Exsited\Sdk\Resources\NoteGroups\NoteGroupsDto\NoteGroupNotes;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\NoteGroups\NoteGroupsDto\NoteGroup;
+use Exsited\Resources\NoteGroups\NoteGroupsDto\NoteGroupList;
+use Exsited\Resources\NoteGroups\NoteGroupsDto\NoteGroupNotes;
 
 /** Note group endpoints, under `/api/{api_version}/note_groups`. */
 final class NoteGroups

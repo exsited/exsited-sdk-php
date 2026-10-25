@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ApprovalUserGroups;
+namespace Exsited\Resources\ApprovalUserGroups;
 
 final class ApprovalUserGroupsUrls
 {

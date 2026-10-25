@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchasePayments;
+namespace Exsited\Resources\PurchasePayments;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\PurchasePayments\PurchasePaymentsDto\PurchaseCreditNoteList;
-use Exsited\Sdk\Resources\PurchasePayments\PurchasePaymentsDto\PurchasePaymentList;
-use Exsited\Sdk\Resources\PurchasePayments\PurchasePaymentsDto\PurchasePaymentNoteFile;
-use Exsited\Sdk\Resources\PurchasePayments\PurchasePaymentsDto\PurchasePaymentNoteList;
-use Exsited\Sdk\Resources\PurchasePayments\PurchasePaymentsDto\PurchasePaymentNoteRead;
-use Exsited\Sdk\Resources\PurchasePayments\PurchasePaymentsDto\PurchasePaymentNoteUpdated;
-use Exsited\Sdk\Resources\PurchasePayments\PurchasePaymentsDto\PurchasePaymentNotes;
-use Exsited\Sdk\Resources\PurchasePayments\PurchasePaymentsDto\PurchasePaymentRead;
-use Exsited\Sdk\Resources\PurchasePayments\PurchasePaymentsDto\PurchasePaymentUpdated;
-use Exsited\Sdk\Resources\PurchasePayments\PurchasePaymentsDto\PurchasePaymentsView;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\PurchasePayments\PurchasePaymentsDto\PurchaseCreditNoteList;
+use Exsited\Resources\PurchasePayments\PurchasePaymentsDto\PurchasePaymentList;
+use Exsited\Resources\PurchasePayments\PurchasePaymentsDto\PurchasePaymentNoteFile;
+use Exsited\Resources\PurchasePayments\PurchasePaymentsDto\PurchasePaymentNoteList;
+use Exsited\Resources\PurchasePayments\PurchasePaymentsDto\PurchasePaymentNoteRead;
+use Exsited\Resources\PurchasePayments\PurchasePaymentsDto\PurchasePaymentNoteUpdated;
+use Exsited\Resources\PurchasePayments\PurchasePaymentsDto\PurchasePaymentNotes;
+use Exsited\Resources\PurchasePayments\PurchasePaymentsDto\PurchasePaymentRead;
+use Exsited\Resources\PurchasePayments\PurchasePaymentsDto\PurchasePaymentUpdated;
+use Exsited\Resources\PurchasePayments\PurchasePaymentsDto\PurchasePaymentsView;
 
 /** Purchase payment endpoints, under `/api/{api_version}`. */
 final class PurchasePayments

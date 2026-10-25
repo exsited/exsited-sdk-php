@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Express\ExpressDto;
+namespace Exsited\Resources\Express\ExpressDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `item_price_tax` object of ExpressViewLine. */
 final class ExpressViewLineItemPriceTax extends Dto

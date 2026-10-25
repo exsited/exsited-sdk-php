@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ProformaInvoices;
+namespace Exsited\Resources\ProformaInvoices;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
 
 /** Pro-forma invoice endpoints, under `/api/{api_version}/proforma_invoices`. The server
  *  lists only the pro-forma invoices whose invoice status is active. */

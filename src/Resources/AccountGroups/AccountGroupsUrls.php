@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\AccountGroups;
+namespace Exsited\Resources\AccountGroups;
 
 final class AccountGroupsUrls
 {

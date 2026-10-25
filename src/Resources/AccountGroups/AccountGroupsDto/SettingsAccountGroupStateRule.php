@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\AccountGroups\AccountGroupsDto;
+namespace Exsited\Resources\AccountGroups\AccountGroupsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `SettingsAccountGroup`'s `state_rule`. */
 final class SettingsAccountGroupStateRule extends Dto

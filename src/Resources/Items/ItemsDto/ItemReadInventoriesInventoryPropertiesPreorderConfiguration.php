@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Items\ItemsDto;
+namespace Exsited\Resources\Items\ItemsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One entry of the `preorder_configuration` list of ItemReadInventoriesInventoryProperties. */
 final class ItemReadInventoriesInventoryPropertiesPreorderConfiguration extends Dto

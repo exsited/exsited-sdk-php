@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\EmailTemplates\EmailTemplatesDto;
+namespace Exsited\Resources\EmailTemplates\EmailTemplatesDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of `SettingsEmailTemplate` records, under `data`. */
 final class SettingsEmailTemplateList extends Dto

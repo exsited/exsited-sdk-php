@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Organisation\OrganisationDto;
+namespace Exsited\Resources\Organisation\OrganisationDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\WireName;
+use Exsited\Client\Dto;
+use Exsited\Client\WireName;
 
 /** The root organisation body, under `organization`. */
 final class SettingsOrganisation extends Dto

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomComponents\CustomComponentsDto;
+namespace Exsited\Resources\CustomComponents\CustomComponentsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** A note's files, under `data`; its `pagination` carries `has_more` alone. */
 final class ComponentObjectNoteFiles extends Dto

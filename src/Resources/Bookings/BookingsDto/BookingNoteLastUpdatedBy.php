@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Bookings\BookingsDto;
+namespace Exsited\Resources\Bookings\BookingsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `BookingNote`'s `last_updated_by`. */
 final class BookingNoteLastUpdatedBy extends Dto

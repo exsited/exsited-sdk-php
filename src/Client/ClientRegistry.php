@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Client;
+namespace Exsited\Client;
 
-use Exsited\Sdk\Config\SdkConfig;
-use Exsited\Sdk\Errors\SdkError;
-use Exsited\Sdk\Errors\SdkUsageError;
+use Exsited\Config\SdkConfig;
+use Exsited\Errors\SdkError;
+use Exsited\Errors\SdkUsageError;
 
 /** A collection of clients, one per instance, built on first use; each gets its own config, token
  *  provider and store. */

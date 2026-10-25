@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomComponents\CustomComponentsDto;
+namespace Exsited\Resources\CustomComponents\CustomComponentsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A component instance record, which answers under the component's own name; the write
  *  methods unwrap that key, so `fromMap()` on its own reads a record already unwrapped. */

@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Reports;
+namespace Exsited\Resources\Reports;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Resources\Reports\ReportsDto\ReportsAccountsAccountOverview;
-use Exsited\Sdk\Resources\Reports\ReportsDto\ReportsInvoicesInvoiceOverview;
-use Exsited\Sdk\Resources\Reports\ReportsDto\ReportsOrdersOrderOverview;
-use Exsited\Sdk\Resources\Reports\ReportsDto\ReportsPurchaseInvoicesPurchaseInvoiceOverview;
-use Exsited\Sdk\Resources\Reports\ReportsDto\ReportsPurchaseOrdersPurchaseOrderOverview;
-use Exsited\Sdk\Resources\Reports\ReportsDto\ReportsPurchaseTransactionsPurchasePaymentAndRefundOverview;
-use Exsited\Sdk\Resources\Reports\ReportsDto\ReportsTransactionsPaymentAndRefundOverview;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\ExsitedClient;
+use Exsited\Resources\Reports\ReportsDto\ReportsAccountsAccountOverview;
+use Exsited\Resources\Reports\ReportsDto\ReportsInvoicesInvoiceOverview;
+use Exsited\Resources\Reports\ReportsDto\ReportsOrdersOrderOverview;
+use Exsited\Resources\Reports\ReportsDto\ReportsPurchaseInvoicesPurchaseInvoiceOverview;
+use Exsited\Resources\Reports\ReportsDto\ReportsPurchaseOrdersPurchaseOrderOverview;
+use Exsited\Resources\Reports\ReportsDto\ReportsPurchaseTransactionsPurchasePaymentAndRefundOverview;
+use Exsited\Resources\Reports\ReportsDto\ReportsTransactionsPaymentAndRefundOverview;
 
 /** Report endpoints, under `/api/{api_version}/reports`. */
 final class Reports

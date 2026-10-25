@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\TimePeriods;
+namespace Exsited\Resources\TimePeriods;
 
 final class TimePeriodsUrls
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ReturnVendorAuthorizations\ReturnVendorAuthorizationsDto;
+namespace Exsited\Resources\ReturnVendorAuthorizations\ReturnVendorAuthorizationsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `ReturnVendorAuthorization`'s `purchase_order`. */
 final class ReturnVendorAuthorizationPurchaseOrder extends Dto

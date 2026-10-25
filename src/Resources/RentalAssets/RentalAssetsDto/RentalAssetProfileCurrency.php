@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\RentalAssets\RentalAssetsDto;
+namespace Exsited\Resources\RentalAssets\RentalAssetsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `currency` object of RentalAssetProfile. */
 final class RentalAssetProfileCurrency extends Dto

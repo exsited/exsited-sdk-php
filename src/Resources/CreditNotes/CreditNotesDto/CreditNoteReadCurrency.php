@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CreditNotes\CreditNotesDto;
+namespace Exsited\Resources\CreditNotes\CreditNotesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `currency` object of CreditNoteRead. */
 final class CreditNoteReadCurrency extends Dto

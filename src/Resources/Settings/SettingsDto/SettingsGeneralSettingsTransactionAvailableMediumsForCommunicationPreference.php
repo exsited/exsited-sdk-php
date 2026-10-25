@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Settings\SettingsDto;
+namespace Exsited\Resources\Settings\SettingsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `SettingsGeneralSettingsTransaction`'s `available_mediums_for_communication_preference`. */
 final class SettingsGeneralSettingsTransactionAvailableMediumsForCommunicationPreference extends Dto

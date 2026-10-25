@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PricingPeriods;
+namespace Exsited\Resources\PricingPeriods;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\PricingPeriods\PricingPeriodsDto\SettingsPricingPeriod;
-use Exsited\Sdk\Resources\PricingPeriods\PricingPeriodsDto\SettingsPricingPeriodList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\PricingPeriods\PricingPeriodsDto\SettingsPricingPeriod;
+use Exsited\Resources\PricingPeriods\PricingPeriodsDto\SettingsPricingPeriodList;
 
 /** Pricing period endpoints, under `/api/{api_version}/settings/pricing_periods`. */
 final class PricingPeriods

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Payments\PaymentsDto;
+namespace Exsited\Resources\Payments\PaymentsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** A listing of one note's attachments - the same envelope, different records. */
 final class NoteFileList extends Dto

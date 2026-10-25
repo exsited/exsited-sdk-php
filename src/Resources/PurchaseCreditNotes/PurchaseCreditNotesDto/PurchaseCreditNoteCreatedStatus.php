@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseCreditNotes\PurchaseCreditNotesDto;
+namespace Exsited\Resources\PurchaseCreditNotes\PurchaseCreditNotesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `PurchaseCreditNoteCreated`'s `status`. */
 final class PurchaseCreditNoteCreatedStatus extends Dto

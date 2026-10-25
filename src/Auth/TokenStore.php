@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Auth;
+namespace Exsited\Auth;
 
 /**
  * Interface for token persistence and refresh coordination. A store moves plain arrays,

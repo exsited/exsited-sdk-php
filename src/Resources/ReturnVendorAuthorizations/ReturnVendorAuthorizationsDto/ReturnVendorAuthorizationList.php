@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ReturnVendorAuthorizations\ReturnVendorAuthorizationsDto;
+namespace Exsited\Resources\ReturnVendorAuthorizations\ReturnVendorAuthorizationsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of `ReturnVendorAuthorization` records, under `data`; paged by cursor. */
 final class ReturnVendorAuthorizationList extends Dto

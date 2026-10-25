@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Orders\OrdersDto;
+namespace Exsited\Resources\Orders\OrdersDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One entry of a `OrderPayment`'s `payment_applied`. */
 final class OrderPaymentPaymentApplied extends Dto

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Client;
+namespace Exsited\Client;
 
-use Exsited\Sdk\Errors\SdkAttributeError;
-use Exsited\Sdk\Errors\SdkUsageError;
+use Exsited\Errors\SdkAttributeError;
+use Exsited\Errors\SdkUsageError;
 
 /** Registry of resource name to class - an explicit map, not a directory scan, so a typo raises. */
 final class ResourceRegistry

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Reports\ReportsDto;
+namespace Exsited\Resources\Reports\ReportsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One entry of the `account_overview` list of ReportsAccountsAccountOverviewAccounts. */
 final class ReportsAccountsAccountOverviewAccountsAccountOverview extends Dto

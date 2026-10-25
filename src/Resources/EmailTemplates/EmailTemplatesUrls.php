@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\EmailTemplates;
+namespace Exsited\Resources\EmailTemplates;
 
 final class EmailTemplatesUrls
 {

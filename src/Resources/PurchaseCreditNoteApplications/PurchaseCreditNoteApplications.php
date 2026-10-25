@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseCreditNoteApplications;
+namespace Exsited\Resources\PurchaseCreditNoteApplications;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Resources\PurchaseCreditNoteApplications\PurchaseCreditNoteApplicationsDto\PurchaseCreditNoteApplicationList;
-use Exsited\Sdk\Resources\PurchaseCreditNoteApplications\PurchaseCreditNoteApplicationsDto\PurchaseCreditNoteApplicationRead;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\ExsitedClient;
+use Exsited\Resources\PurchaseCreditNoteApplications\PurchaseCreditNoteApplicationsDto\PurchaseCreditNoteApplicationList;
+use Exsited\Resources\PurchaseCreditNoteApplications\PurchaseCreditNoteApplicationsDto\PurchaseCreditNoteApplicationRead;
 
 /** Purchase credit note application endpoints, under `/api/{api_version}`. */
 final class PurchaseCreditNoteApplications

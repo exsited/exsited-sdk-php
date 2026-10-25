@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ExternalDatabases;
+namespace Exsited\Resources\ExternalDatabases;
 
 final class ExternalDatabasesUrls
 {

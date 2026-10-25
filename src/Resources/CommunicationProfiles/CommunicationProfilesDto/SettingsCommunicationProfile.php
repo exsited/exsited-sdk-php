@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CommunicationProfiles\CommunicationProfilesDto;
+namespace Exsited\Resources\CommunicationProfiles\CommunicationProfilesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings communication profile body, under `communication_profile`. */
 final class SettingsCommunicationProfile extends Dto

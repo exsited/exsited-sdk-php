@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Labours\LaboursDto;
+namespace Exsited\Resources\Labours\LaboursDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One entry of the `labour_custom_availability` list of Labour. */
 final class LabourLabourCustomAvailability extends Dto

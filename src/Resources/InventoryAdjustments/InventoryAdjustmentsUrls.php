@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\InventoryAdjustments;
+namespace Exsited\Resources\InventoryAdjustments;
 
 final class InventoryAdjustmentsUrls
 {

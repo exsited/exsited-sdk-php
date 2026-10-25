@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Employees\EmployeesDto;
+namespace Exsited\Resources\Employees\EmployeesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `pagination` block a listing answers with. */
 final class Pagination extends Dto

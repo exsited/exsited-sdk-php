@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\FulfillmentTerms\FulfillmentTermsDto;
+namespace Exsited\Resources\FulfillmentTerms\FulfillmentTermsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of `SettingsFulfillmentTerm` records, under `data`. */
 final class SettingsFulfillmentTermList extends Dto

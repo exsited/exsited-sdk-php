@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Items\ItemsDto;
+namespace Exsited\Resources\Items\ItemsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One entry of the `package_details` list of Item. */
 final class ItemPackageDetail extends Dto

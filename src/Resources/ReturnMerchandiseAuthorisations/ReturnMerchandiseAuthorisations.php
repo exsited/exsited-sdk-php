@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ReturnMerchandiseAuthorisations;
+namespace Exsited\Resources\ReturnMerchandiseAuthorisations;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\ReturnMerchandiseAuthorisations\ReturnMerchandiseAuthorisationsDto\InvoiceReturnMerchandiseAuthorisationReceive;
-use Exsited\Sdk\Resources\ReturnMerchandiseAuthorisations\ReturnMerchandiseAuthorisationsDto\InvoiceReturnMerchandiseAuthorisationReceiveList;
-use Exsited\Sdk\Resources\ReturnMerchandiseAuthorisations\ReturnMerchandiseAuthorisationsDto\ReturnMerchandiseAuthorisationList;
-use Exsited\Sdk\Resources\ReturnMerchandiseAuthorisations\ReturnMerchandiseAuthorisationsDto\ReturnMerchandiseAuthorisationRead;
-use Exsited\Sdk\Resources\ReturnMerchandiseAuthorisations\ReturnMerchandiseAuthorisationsDto\ReturnMerchandiseAuthorisationsView;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\ReturnMerchandiseAuthorisations\ReturnMerchandiseAuthorisationsDto\InvoiceReturnMerchandiseAuthorisationReceive;
+use Exsited\Resources\ReturnMerchandiseAuthorisations\ReturnMerchandiseAuthorisationsDto\InvoiceReturnMerchandiseAuthorisationReceiveList;
+use Exsited\Resources\ReturnMerchandiseAuthorisations\ReturnMerchandiseAuthorisationsDto\ReturnMerchandiseAuthorisationList;
+use Exsited\Resources\ReturnMerchandiseAuthorisations\ReturnMerchandiseAuthorisationsDto\ReturnMerchandiseAuthorisationRead;
+use Exsited\Resources\ReturnMerchandiseAuthorisations\ReturnMerchandiseAuthorisationsDto\ReturnMerchandiseAuthorisationsView;
 
 /** Return merchandise authorisation endpoints, under `/api/{api_version}`. */
 final class ReturnMerchandiseAuthorisations

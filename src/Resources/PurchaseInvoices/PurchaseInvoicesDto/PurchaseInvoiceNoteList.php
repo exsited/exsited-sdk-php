@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto;
+namespace Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** A page of PurchaseInvoiceNote records under `data`; an unreadable entry is null and keeps its
  *  place. */

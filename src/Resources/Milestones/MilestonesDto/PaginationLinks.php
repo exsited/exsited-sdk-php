@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Milestones\MilestonesDto;
+namespace Exsited\Resources\Milestones\MilestonesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `links` object of Pagination. */
 final class PaginationLinks extends Dto

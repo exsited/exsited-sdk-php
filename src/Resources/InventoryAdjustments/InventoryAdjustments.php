@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\InventoryAdjustments;
+namespace Exsited\Resources\InventoryAdjustments;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Resources\InventoryAdjustments\InventoryAdjustmentsDto\InventoryAdjustment;
-use Exsited\Sdk\Resources\InventoryAdjustments\InventoryAdjustmentsDto\InventoryAdjustmentList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\ExsitedClient;
+use Exsited\Resources\InventoryAdjustments\InventoryAdjustmentsDto\InventoryAdjustment;
+use Exsited\Resources\InventoryAdjustments\InventoryAdjustmentsDto\InventoryAdjustmentList;
 
 /** Inventory adjustment endpoints, under `/api/{api_version}`. */
 final class InventoryAdjustments

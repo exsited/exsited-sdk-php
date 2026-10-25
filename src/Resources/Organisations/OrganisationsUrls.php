@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Organisations;
+namespace Exsited\Resources\Organisations;
 
 final class OrganisationsUrls
 {

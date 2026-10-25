@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Bookings\BookingsDto;
+namespace Exsited\Resources\Bookings\BookingsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `BookingLine`'s `pre_order_stock_details`. */
 final class BookingLinePreOrderStockDetails extends Dto

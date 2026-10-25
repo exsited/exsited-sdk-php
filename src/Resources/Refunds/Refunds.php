@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Refunds;
+namespace Exsited\Resources\Refunds;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\Refunds\RefundsDto\NoteFileList;
-use Exsited\Sdk\Resources\Refunds\RefundsDto\Refund;
-use Exsited\Sdk\Resources\Refunds\RefundsDto\RefundList;
-use Exsited\Sdk\Resources\Refunds\RefundsDto\RefundNote;
-use Exsited\Sdk\Resources\Refunds\RefundsDto\RefundNoteFile;
-use Exsited\Sdk\Resources\Refunds\RefundsDto\RefundNoteList;
-use Exsited\Sdk\Resources\Refunds\RefundsDto\RefundUpdated;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\Refunds\RefundsDto\NoteFileList;
+use Exsited\Resources\Refunds\RefundsDto\Refund;
+use Exsited\Resources\Refunds\RefundsDto\RefundList;
+use Exsited\Resources\Refunds\RefundsDto\RefundNote;
+use Exsited\Resources\Refunds\RefundsDto\RefundNoteFile;
+use Exsited\Resources\Refunds\RefundsDto\RefundNoteList;
+use Exsited\Resources\Refunds\RefundsDto\RefundUpdated;
 
 /** Refund endpoints, under `/api/{api_version}`. */
 final class Refunds

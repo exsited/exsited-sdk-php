@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomAttributes;
+namespace Exsited\Resources\CustomAttributes;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\CustomAttributes\CustomAttributesDto\CustomAttribute;
-use Exsited\Sdk\Resources\CustomAttributes\CustomAttributesDto\CustomAttributeList;
-use Exsited\Sdk\Resources\CustomAttributes\CustomAttributesDto\CustomAttributesView;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\CustomAttributes\CustomAttributesDto\CustomAttribute;
+use Exsited\Resources\CustomAttributes\CustomAttributesDto\CustomAttributeList;
+use Exsited\Resources\CustomAttributes\CustomAttributesDto\CustomAttributesView;
 
 /** Custom attribute endpoints, under `/api/{api_version}/custom_attributes`. */
 final class CustomAttributes

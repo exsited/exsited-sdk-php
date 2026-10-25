@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomEvents;
+namespace Exsited\Resources\CustomEvents;
 
 final class CustomEventsUrls
 {

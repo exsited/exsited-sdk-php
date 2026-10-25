@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ActionScripts\ActionScriptsDto;
+namespace Exsited\Resources\ActionScripts\ActionScriptsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The action script body, under `action_script`; `activity_logs` comes on the create answer only. */
 final class ActionScript extends Dto

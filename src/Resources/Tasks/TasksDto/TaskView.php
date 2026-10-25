@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Tasks\TasksDto;
+namespace Exsited\Resources\Tasks\TasksDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** The TaskView body, as measured from the endpoints in MEASURED_FROM. */
 final class TaskView extends Dto

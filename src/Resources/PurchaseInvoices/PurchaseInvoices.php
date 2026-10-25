@@ -2,28 +2,28 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseInvoices;
+namespace Exsited\Resources\PurchaseInvoices;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto\AccountPurchaseInvoices;
-use Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseCreditNoteApplicationRead;
-use Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoice;
-use Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceCancel;
-use Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceInformation;
-use Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceLine;
-use Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceLines;
-use Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceList;
-use Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceNoteFile;
-use Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceNoteList;
-use Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceNoteRead;
-use Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceNoteUpdated;
-use Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceNotes;
-use Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoicePurchasePaymentList;
-use Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceRead;
-use Exsited\Sdk\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoicesNoteList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto\AccountPurchaseInvoices;
+use Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseCreditNoteApplicationRead;
+use Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoice;
+use Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceCancel;
+use Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceInformation;
+use Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceLine;
+use Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceLines;
+use Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceList;
+use Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceNoteFile;
+use Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceNoteList;
+use Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceNoteRead;
+use Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceNoteUpdated;
+use Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceNotes;
+use Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoicePurchasePaymentList;
+use Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoiceRead;
+use Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto\PurchaseInvoicesNoteList;
 
 /** Purchase invoice endpoints, under `/api/{api_version}`. */
 final class PurchaseInvoices

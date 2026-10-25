@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomFields;
+namespace Exsited\Resources\CustomFields;
 
 final class CustomFieldsUrls
 {

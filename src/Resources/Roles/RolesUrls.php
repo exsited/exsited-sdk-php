@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Roles;
+namespace Exsited\Resources\Roles;
 
 final class RolesUrls
 {

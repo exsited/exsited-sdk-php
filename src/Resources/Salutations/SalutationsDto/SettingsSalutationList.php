@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Salutations\SalutationsDto;
+namespace Exsited\Resources\Salutations\SalutationsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of `SettingsSalutation` records, under `data`. */
 final class SettingsSalutationList extends Dto

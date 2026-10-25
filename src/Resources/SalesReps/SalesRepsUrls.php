@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\SalesReps;
+namespace Exsited\Resources\SalesReps;
 
 final class SalesRepsUrls
 {

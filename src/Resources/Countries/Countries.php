@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Countries;
+namespace Exsited\Resources\Countries;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\Countries\CountriesDto\SettingsCountry;
-use Exsited\Sdk\Resources\Countries\CountriesDto\SettingsCountryList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\Countries\CountriesDto\SettingsCountry;
+use Exsited\Resources\Countries\CountriesDto\SettingsCountryList;
 
 /** Country endpoints, under `/api/{api_version}/settings/countries`. */
 final class Countries

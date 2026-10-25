@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ShippingRules\ShippingRulesDto;
+namespace Exsited\Resources\ShippingRules\ShippingRulesDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of `SettingsShippingRule` records, under `data`. */
 final class SettingsShippingRuleList extends Dto

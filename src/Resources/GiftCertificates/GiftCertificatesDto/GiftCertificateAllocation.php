@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\GiftCertificates\GiftCertificatesDto;
+namespace Exsited\Resources\GiftCertificates\GiftCertificatesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One entry of the `allocations` list of GiftCertificate. */
 final class GiftCertificateAllocation extends Dto

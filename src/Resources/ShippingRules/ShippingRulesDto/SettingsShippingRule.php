@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ShippingRules\ShippingRulesDto;
+namespace Exsited\Resources\ShippingRules\ShippingRulesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings shipping rule body, under `shipping_rule`. */
 final class SettingsShippingRule extends Dto

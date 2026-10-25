@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Milestones;
+namespace Exsited\Resources\Milestones;
 
 final class MilestonesUrls
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Reports;
+namespace Exsited\Resources\Reports;
 
 final class ReportsUrls
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CommunicationProfiles\CommunicationProfilesDto;
+namespace Exsited\Resources\CommunicationProfiles\CommunicationProfilesDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of `SettingsCommunicationProfile` records, under `data`. */
 final class SettingsCommunicationProfileList extends Dto

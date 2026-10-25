@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Payments\PaymentsDto;
+namespace Exsited\Resources\Payments\PaymentsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `last_updated_by` object of PaymentRead. */
 final class PaymentReadLastUpdatedBy extends Dto

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Designations\DesignationsDto;
+namespace Exsited\Resources\Designations\DesignationsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings designation body, under `designation`. */
 final class SettingsDesignation extends Dto

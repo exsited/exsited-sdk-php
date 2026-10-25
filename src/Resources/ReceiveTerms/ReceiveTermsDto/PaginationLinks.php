@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ReceiveTerms\ReceiveTermsDto;
+namespace Exsited\Resources\ReceiveTerms\ReceiveTermsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `Pagination`'s `links`. */
 final class PaginationLinks extends Dto

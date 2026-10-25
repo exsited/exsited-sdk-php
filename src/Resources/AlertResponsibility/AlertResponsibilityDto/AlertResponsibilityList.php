@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\AlertResponsibility\AlertResponsibilityDto;
+namespace Exsited\Resources\AlertResponsibility\AlertResponsibilityDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of `AlertResponsibility` records, under `data`. */
 final class AlertResponsibilityList extends Dto

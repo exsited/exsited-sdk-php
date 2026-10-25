@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\SystemEvents;
+namespace Exsited\Resources\SystemEvents;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Resources\SystemEvents\SystemEventsDto\SettingsSystemEvent;
-use Exsited\Sdk\Resources\SystemEvents\SystemEventsDto\SettingsSystemEventList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\ExsitedClient;
+use Exsited\Resources\SystemEvents\SystemEventsDto\SettingsSystemEvent;
+use Exsited\Resources\SystemEvents\SystemEventsDto\SettingsSystemEventList;
 
 /** System event endpoints, under `/api/{api_version}/settings/system_events`. */
 final class SystemEvents

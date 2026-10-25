@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Invoices;
+namespace Exsited\Resources\Invoices;
 
 final class InvoicesUrls
 {

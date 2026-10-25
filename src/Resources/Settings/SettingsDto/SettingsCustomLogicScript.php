@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Settings\SettingsDto;
+namespace Exsited\Resources\Settings\SettingsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The SettingsCustomLogicScript body, as measured from the endpoints in MEASURED_FROM. */
 final class SettingsCustomLogicScript extends Dto

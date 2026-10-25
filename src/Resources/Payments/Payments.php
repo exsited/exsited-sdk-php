@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Payments;
+namespace Exsited\Resources\Payments;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\Payments\PaymentsDto\NoteFileList;
-use Exsited\Sdk\Resources\Payments\PaymentsDto\PaymentList;
-use Exsited\Sdk\Resources\Payments\PaymentsDto\PaymentNoteFile;
-use Exsited\Sdk\Resources\Payments\PaymentsDto\PaymentNoteList;
-use Exsited\Sdk\Resources\Payments\PaymentsDto\PaymentNoteRead;
-use Exsited\Sdk\Resources\Payments\PaymentsDto\PaymentNotes;
-use Exsited\Sdk\Resources\Payments\PaymentsDto\PaymentRead;
-use Exsited\Sdk\Resources\Payments\PaymentsDto\PaymentsNoteList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\Payments\PaymentsDto\NoteFileList;
+use Exsited\Resources\Payments\PaymentsDto\PaymentList;
+use Exsited\Resources\Payments\PaymentsDto\PaymentNoteFile;
+use Exsited\Resources\Payments\PaymentsDto\PaymentNoteList;
+use Exsited\Resources\Payments\PaymentsDto\PaymentNoteRead;
+use Exsited\Resources\Payments\PaymentsDto\PaymentNotes;
+use Exsited\Resources\Payments\PaymentsDto\PaymentRead;
+use Exsited\Resources\Payments\PaymentsDto\PaymentsNoteList;
 
 /** Payment endpoints, under `/api/{api_version}`. */
 final class Payments

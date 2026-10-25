@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ItemReceipts\ItemReceiptsDto;
+namespace Exsited\Resources\ItemReceipts\ItemReceiptsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `created_by` object of ItemReceipt. */
 final class ItemReceiptCreatedBy extends Dto

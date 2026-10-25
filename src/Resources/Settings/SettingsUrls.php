@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Settings;
+namespace Exsited\Resources\Settings;
 
 final class SettingsUrls
 {

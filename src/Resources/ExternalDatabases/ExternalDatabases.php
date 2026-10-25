@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ExternalDatabases;
+namespace Exsited\Resources\ExternalDatabases;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\ExternalDatabases\ExternalDatabasesDto\ExternalDatabaseInsertRecord;
-use Exsited\Sdk\Resources\ExternalDatabases\ExternalDatabasesDto\ExternalDatabaseSearch;
-use Exsited\Sdk\Resources\ExternalDatabases\ExternalDatabasesDto\ExternalDatabaseUpdateRecordsUpdated;
-use Exsited\Sdk\Resources\ExternalDatabases\ExternalDatabasesDto\ExternalDatabasesView;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\ExternalDatabases\ExternalDatabasesDto\ExternalDatabaseInsertRecord;
+use Exsited\Resources\ExternalDatabases\ExternalDatabasesDto\ExternalDatabaseSearch;
+use Exsited\Resources\ExternalDatabases\ExternalDatabasesDto\ExternalDatabaseUpdateRecordsUpdated;
+use Exsited\Resources\ExternalDatabases\ExternalDatabasesDto\ExternalDatabasesView;
 
 /** External database endpoints, under `/api/{api_version}/external_databases`. */
 final class ExternalDatabases

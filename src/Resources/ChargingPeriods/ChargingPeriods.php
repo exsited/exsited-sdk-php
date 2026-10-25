@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ChargingPeriods;
+namespace Exsited\Resources\ChargingPeriods;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\ChargingPeriods\ChargingPeriodsDto\SettingsChargingPeriod;
-use Exsited\Sdk\Resources\ChargingPeriods\ChargingPeriodsDto\SettingsChargingPeriodList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\ChargingPeriods\ChargingPeriodsDto\SettingsChargingPeriod;
+use Exsited\Resources\ChargingPeriods\ChargingPeriodsDto\SettingsChargingPeriodList;
 
 /** Charging period endpoints, under `/api/{api_version}/settings/charging_periods`. */
 final class ChargingPeriods

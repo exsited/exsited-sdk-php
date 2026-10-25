@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\FulfillmentTerms\FulfillmentTermsDto;
+namespace Exsited\Resources\FulfillmentTerms\FulfillmentTermsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings fulfillment term body, under `fulfillment_term`. */
 final class SettingsFulfillmentTerm extends Dto

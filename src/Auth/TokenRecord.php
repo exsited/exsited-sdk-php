@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Auth;
+namespace Exsited\Auth;
 
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Redaction;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Redaction;
 
 /**
  * An access token and when it stops being usable. Skew is carried per record: one

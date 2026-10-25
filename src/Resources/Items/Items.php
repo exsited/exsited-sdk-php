@@ -2,25 +2,25 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Items;
+namespace Exsited\Resources\Items;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\Items\ItemsDto\ItemInformation;
-use Exsited\Sdk\Resources\Items\ItemsDto\ItemInventories;
-use Exsited\Sdk\Resources\Items\ItemsDto\ItemInventoryAdjustmentList;
-use Exsited\Sdk\Resources\Items\ItemsDto\ItemList;
-use Exsited\Sdk\Resources\Items\ItemsDto\ItemNote;
-use Exsited\Sdk\Resources\Items\ItemsDto\ItemNoteFile;
-use Exsited\Sdk\Resources\Items\ItemsDto\ItemNoteFiles;
-use Exsited\Sdk\Resources\Items\ItemsDto\ItemNoteList;
-use Exsited\Sdk\Resources\Items\ItemsDto\ItemPurchase;
-use Exsited\Sdk\Resources\Items\ItemsDto\ItemRead;
-use Exsited\Sdk\Resources\Items\ItemsDto\ItemSale;
-use Exsited\Sdk\Resources\Items\ItemsDto\ItemSaleRead;
-use Exsited\Sdk\Resources\Items\ItemsDto\ItemsView;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\Items\ItemsDto\ItemInformation;
+use Exsited\Resources\Items\ItemsDto\ItemInventories;
+use Exsited\Resources\Items\ItemsDto\ItemInventoryAdjustmentList;
+use Exsited\Resources\Items\ItemsDto\ItemList;
+use Exsited\Resources\Items\ItemsDto\ItemNote;
+use Exsited\Resources\Items\ItemsDto\ItemNoteFile;
+use Exsited\Resources\Items\ItemsDto\ItemNoteFiles;
+use Exsited\Resources\Items\ItemsDto\ItemNoteList;
+use Exsited\Resources\Items\ItemsDto\ItemPurchase;
+use Exsited\Resources\Items\ItemsDto\ItemRead;
+use Exsited\Resources\Items\ItemsDto\ItemSale;
+use Exsited\Resources\Items\ItemsDto\ItemSaleRead;
+use Exsited\Resources\Items\ItemsDto\ItemsView;
 
 /** Item endpoints, under `/api/{api_version}/items`. */
 final class Items

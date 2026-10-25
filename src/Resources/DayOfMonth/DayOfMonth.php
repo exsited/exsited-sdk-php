@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\DayOfMonth;
+namespace Exsited\Resources\DayOfMonth;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Resources\DayOfMonth\DayOfMonthDto\SettingsDayOfMonth;
-use Exsited\Sdk\Resources\DayOfMonth\DayOfMonthDto\SettingsDayOfMonthList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\ExsitedClient;
+use Exsited\Resources\DayOfMonth\DayOfMonthDto\SettingsDayOfMonth;
+use Exsited\Resources\DayOfMonth\DayOfMonthDto\SettingsDayOfMonthList;
 
 /** Day of month endpoints, under `/api/{api_version}/settings/day_of_month`. */
 final class DayOfMonth

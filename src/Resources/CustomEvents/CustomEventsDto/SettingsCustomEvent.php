@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomEvents\CustomEventsDto;
+namespace Exsited\Resources\CustomEvents\CustomEventsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings custom event body, under `custom_event`. */
 final class SettingsCustomEvent extends Dto

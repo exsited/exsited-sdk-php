@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\FulfillmentProfiles\FulfillmentProfilesDto;
+namespace Exsited\Resources\FulfillmentProfiles\FulfillmentProfilesDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of `SettingsFulfillmentProfile` records, under `data`. */
 final class SettingsFulfillmentProfileList extends Dto

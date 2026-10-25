@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Items;
+namespace Exsited\Resources\Items;
 
 final class ItemsUrls
 {

@@ -2,40 +2,40 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Accounts;
+namespace Exsited\Resources\Accounts;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountAddress;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountAddresses;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountBillingPreferences;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountCommunicationsEmail;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountCommunicationsEmailList;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountComponentObject;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountContact;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountContacts;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountCustomObjectList;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountCustomObjectRead;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountFinancialSummary;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountImage;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountImageRead;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountInformation;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountInventories;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountKpis;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountList;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountNote;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountNoteFile;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountNoteFiles;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountNoteList;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountOrders;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountPaymentMethod;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountPaymentMethods;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountQuotePartialInvoices;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountRead;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\AccountSetPassword;
-use Exsited\Sdk\Resources\Accounts\AccountsDto\ComponentObjects;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\Accounts\AccountsDto\AccountAddress;
+use Exsited\Resources\Accounts\AccountsDto\AccountAddresses;
+use Exsited\Resources\Accounts\AccountsDto\AccountBillingPreferences;
+use Exsited\Resources\Accounts\AccountsDto\AccountCommunicationsEmail;
+use Exsited\Resources\Accounts\AccountsDto\AccountCommunicationsEmailList;
+use Exsited\Resources\Accounts\AccountsDto\AccountComponentObject;
+use Exsited\Resources\Accounts\AccountsDto\AccountContact;
+use Exsited\Resources\Accounts\AccountsDto\AccountContacts;
+use Exsited\Resources\Accounts\AccountsDto\AccountCustomObjectList;
+use Exsited\Resources\Accounts\AccountsDto\AccountCustomObjectRead;
+use Exsited\Resources\Accounts\AccountsDto\AccountFinancialSummary;
+use Exsited\Resources\Accounts\AccountsDto\AccountImage;
+use Exsited\Resources\Accounts\AccountsDto\AccountImageRead;
+use Exsited\Resources\Accounts\AccountsDto\AccountInformation;
+use Exsited\Resources\Accounts\AccountsDto\AccountInventories;
+use Exsited\Resources\Accounts\AccountsDto\AccountKpis;
+use Exsited\Resources\Accounts\AccountsDto\AccountList;
+use Exsited\Resources\Accounts\AccountsDto\AccountNote;
+use Exsited\Resources\Accounts\AccountsDto\AccountNoteFile;
+use Exsited\Resources\Accounts\AccountsDto\AccountNoteFiles;
+use Exsited\Resources\Accounts\AccountsDto\AccountNoteList;
+use Exsited\Resources\Accounts\AccountsDto\AccountOrders;
+use Exsited\Resources\Accounts\AccountsDto\AccountPaymentMethod;
+use Exsited\Resources\Accounts\AccountsDto\AccountPaymentMethods;
+use Exsited\Resources\Accounts\AccountsDto\AccountQuotePartialInvoices;
+use Exsited\Resources\Accounts\AccountsDto\AccountRead;
+use Exsited\Resources\Accounts\AccountsDto\AccountSetPassword;
+use Exsited\Resources\Accounts\AccountsDto\ComponentObjects;
 
 /** Account endpoints, under `/api/{api_version}/accounts`. */
 final class Accounts

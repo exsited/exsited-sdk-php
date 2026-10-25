@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Client;
+namespace Exsited\Client;
 
-use Exsited\Sdk\Redaction;
+use Exsited\Redaction;
 
 /** Everything about the request that produced a response; queryParams and the URL are redacted here. */
 final class RequestInfo

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\GiftCertificates\GiftCertificatesDto;
+namespace Exsited\Resources\GiftCertificates\GiftCertificatesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `accounting_code` object of GiftCertificate. */
 final class GiftCertificateAccountingCode extends Dto

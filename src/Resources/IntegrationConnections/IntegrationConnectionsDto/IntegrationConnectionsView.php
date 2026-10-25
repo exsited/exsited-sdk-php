@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\IntegrationConnections\IntegrationConnectionsDto;
+namespace Exsited\Resources\IntegrationConnections\IntegrationConnectionsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The IntegrationConnectionsView body, as measured from the endpoints in MEASURED_FROM. */
 final class IntegrationConnectionsView extends Dto

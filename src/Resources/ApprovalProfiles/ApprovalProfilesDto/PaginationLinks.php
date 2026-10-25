@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ApprovalProfiles\ApprovalProfilesDto;
+namespace Exsited\Resources\ApprovalProfiles\ApprovalProfilesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `Pagination`'s `links`. */
 final class PaginationLinks extends Dto

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Teams\TeamsDto;
+namespace Exsited\Resources\Teams\TeamsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings team body, under `team`. */
 final class SettingsTeam extends Dto

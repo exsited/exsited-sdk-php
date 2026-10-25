@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Accounts;
+namespace Exsited\Resources\Accounts;
 
 final class AccountsUrls
 {

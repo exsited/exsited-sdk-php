@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Auth;
+namespace Exsited\Auth;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Config\SdkConfig;
-use Exsited\Sdk\Errors\SdkAuthError;
-use Exsited\Sdk\Errors\SdkError;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Http\Transport;
-use Exsited\Sdk\Redaction;
+use Exsited\Client\ApiResponse;
+use Exsited\Config\SdkConfig;
+use Exsited\Errors\SdkAuthError;
+use Exsited\Errors\SdkError;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Http\Transport;
+use Exsited\Redaction;
 
 /**
  * Obtaining and refreshing the OAuth2 access token. The token endpoint answers 201, not

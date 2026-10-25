@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Tasks\TasksDto;
+namespace Exsited\Resources\Tasks\TasksDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `completed_by` object of Task. */
 final class TaskCompletedBy extends Dto

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\QuoteOrders\QuoteOrdersDto;
+namespace Exsited\Resources\QuoteOrders\QuoteOrdersDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `QuoteOrderInvoice`'s `account`. */
 final class QuoteOrderInvoiceAccount extends Dto

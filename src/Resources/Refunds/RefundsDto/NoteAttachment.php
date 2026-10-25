@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Refunds\RefundsDto;
+namespace Exsited\Resources\Refunds\RefundsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A file attached to a note. */
 final class NoteAttachment extends Dto

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CreditNoteApplications\CreditNoteApplicationsDto;
+namespace Exsited\Resources\CreditNoteApplications\CreditNoteApplicationsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `created_by` object of InvoiceCreditNoteApplicationsData. */
 final class InvoiceCreditNoteApplicationsDataCreatedBy extends Dto

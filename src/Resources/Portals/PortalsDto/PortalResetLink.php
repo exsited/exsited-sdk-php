@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Portals\PortalsDto;
+namespace Exsited\Resources\Portals\PortalsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The PortalResetLink body, as measured from the endpoints in MEASURED_FROM. */
 final class PortalResetLink extends Dto

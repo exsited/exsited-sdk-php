@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\InventoryAdjustments\InventoryAdjustmentsDto;
+namespace Exsited\Resources\InventoryAdjustments\InventoryAdjustmentsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The InventoryAdjustment body, as measured from the endpoints in MEASURED_FROM. */
 final class InventoryAdjustment extends Dto

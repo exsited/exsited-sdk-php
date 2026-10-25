@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\DocumentTemplates\DocumentTemplatesDto;
+namespace Exsited\Resources\DocumentTemplates\DocumentTemplatesDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of `SettingsDocumentTemplate` records, under `data`. */
 final class SettingsDocumentTemplateList extends Dto

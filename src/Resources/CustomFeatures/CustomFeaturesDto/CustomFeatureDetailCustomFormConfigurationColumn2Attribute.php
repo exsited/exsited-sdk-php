@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomFeatures\CustomFeaturesDto;
+namespace Exsited\Resources\CustomFeatures\CustomFeaturesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One entry of the `attributes` list of CustomFeatureDetailCustomFormConfigurationColumn2. */
 final class CustomFeatureDetailCustomFormConfigurationColumn2Attribute extends Dto

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\BillingPeriods\BillingPeriodsDto;
+namespace Exsited\Resources\BillingPeriods\BillingPeriodsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings billing period body, under `billing_period`. */
 final class SettingsBillingPeriod extends Dto

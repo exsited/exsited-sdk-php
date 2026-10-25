@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Settings\SettingsDto;
+namespace Exsited\Resources\Settings\SettingsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `available_charge_types` object of SettingsGeneralSettingsItemUpdatedItem. */
 final class SettingsGeneralSettingsItemUpdatedItemAvailableChargeTypes extends Dto

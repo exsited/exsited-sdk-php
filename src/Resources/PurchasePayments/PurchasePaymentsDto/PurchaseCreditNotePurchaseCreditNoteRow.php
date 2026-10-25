@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchasePayments\PurchasePaymentsDto;
+namespace Exsited\Resources\PurchasePayments\PurchasePaymentsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One entry of a `PurchaseCreditNote`'s `purchase_credit_note_rows`. */
 final class PurchaseCreditNotePurchaseCreditNoteRow extends Dto

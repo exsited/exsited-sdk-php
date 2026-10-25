@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Teams;
+namespace Exsited\Resources\Teams;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\Teams\TeamsDto\SettingsTeam;
-use Exsited\Sdk\Resources\Teams\TeamsDto\SettingsTeamList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\Teams\TeamsDto\SettingsTeam;
+use Exsited\Resources\Teams\TeamsDto\SettingsTeamList;
 
 /** Team endpoints, under `/api/{api_version}/settings/teams`. */
 final class Teams

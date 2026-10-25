@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\GiftCertificates\GiftCertificatesDto;
+namespace Exsited\Resources\GiftCertificates\GiftCertificatesDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** A page of GiftCertificateTransaction records under `data`; an unreadable entry is null and keeps
  *  its place. */

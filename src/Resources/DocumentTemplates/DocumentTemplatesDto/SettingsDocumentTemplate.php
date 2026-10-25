@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\DocumentTemplates\DocumentTemplatesDto;
+namespace Exsited\Resources\DocumentTemplates\DocumentTemplatesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings document template body, under `document_template`. */
 final class SettingsDocumentTemplate extends Dto

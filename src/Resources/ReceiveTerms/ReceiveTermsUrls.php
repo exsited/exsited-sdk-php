@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ReceiveTerms;
+namespace Exsited\Resources\ReceiveTerms;
 
 final class ReceiveTermsUrls
 {

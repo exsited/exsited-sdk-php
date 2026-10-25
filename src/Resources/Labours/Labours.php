@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Labours;
+namespace Exsited\Resources\Labours;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\Labours\LaboursDto\Labour;
-use Exsited\Sdk\Resources\Labours\LaboursDto\LabourAvailabilityList;
-use Exsited\Sdk\Resources\Labours\LaboursDto\LabourCalendar;
-use Exsited\Sdk\Resources\Labours\LaboursDto\LabourList;
-use Exsited\Sdk\Resources\Labours\LaboursDto\LabourOrderList;
-use Exsited\Sdk\Resources\Labours\LaboursDto\LabourProfileList;
-use Exsited\Sdk\Resources\Labours\LaboursDto\LabourProfileSessionList;
-use Exsited\Sdk\Resources\Labours\LaboursDto\LabourProfileSessionView;
-use Exsited\Sdk\Resources\Labours\LaboursDto\LabourProfileView;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\Labours\LaboursDto\Labour;
+use Exsited\Resources\Labours\LaboursDto\LabourAvailabilityList;
+use Exsited\Resources\Labours\LaboursDto\LabourCalendar;
+use Exsited\Resources\Labours\LaboursDto\LabourList;
+use Exsited\Resources\Labours\LaboursDto\LabourOrderList;
+use Exsited\Resources\Labours\LaboursDto\LabourProfileList;
+use Exsited\Resources\Labours\LaboursDto\LabourProfileSessionList;
+use Exsited\Resources\Labours\LaboursDto\LabourProfileSessionView;
+use Exsited\Resources\Labours\LaboursDto\LabourProfileView;
 
 /** Labour endpoints, under `/api/{api_version}`. */
 final class Labours

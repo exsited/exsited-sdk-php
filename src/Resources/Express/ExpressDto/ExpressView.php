@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Express\ExpressDto;
+namespace Exsited\Resources\Express\ExpressDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** The ExpressView body, as measured from the endpoints in MEASURED_FROM. */
 final class ExpressView extends Dto

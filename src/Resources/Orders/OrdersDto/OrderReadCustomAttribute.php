@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Orders\OrdersDto;
+namespace Exsited\Resources\Orders\OrdersDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One entry of the `custom_attributes` list of OrderRead. */
 final class OrderReadCustomAttribute extends Dto

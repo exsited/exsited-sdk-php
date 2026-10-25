@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Designations;
+namespace Exsited\Resources\Designations;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\Designations\DesignationsDto\SettingsDesignation;
-use Exsited\Sdk\Resources\Designations\DesignationsDto\SettingsDesignationList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\Designations\DesignationsDto\SettingsDesignation;
+use Exsited\Resources\Designations\DesignationsDto\SettingsDesignationList;
 
 /** Designation endpoints, under `/api/{api_version}/settings/designations`. */
 final class Designations

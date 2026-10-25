@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\TimePeriods;
+namespace Exsited\Resources\TimePeriods;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\TimePeriods\TimePeriodsDto\SettingsTimePeriod;
-use Exsited\Sdk\Resources\TimePeriods\TimePeriodsDto\SettingsTimePeriodList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\TimePeriods\TimePeriodsDto\SettingsTimePeriod;
+use Exsited\Resources\TimePeriods\TimePeriodsDto\SettingsTimePeriodList;
 
 /** Time period endpoints, under `/api/{api_version}/settings/time_periods`. */
 final class TimePeriods

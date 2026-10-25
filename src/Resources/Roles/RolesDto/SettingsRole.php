@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Roles\RolesDto;
+namespace Exsited\Resources\Roles\RolesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings role body, under `role`. */
 final class SettingsRole extends Dto

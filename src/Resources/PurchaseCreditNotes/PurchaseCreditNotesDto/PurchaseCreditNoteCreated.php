@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseCreditNotes\PurchaseCreditNotesDto;
+namespace Exsited\Resources\PurchaseCreditNotes\PurchaseCreditNotesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** What `createPurchaseCreditNote` answers, under `purchase_credit_note`: a shorter body than the
  *  reads, and `status` an object where they send a string. */

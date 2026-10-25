@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Http;
+namespace Exsited\Http;
 
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Exception\RequestException;
 use Psr\Http\Client\NetworkExceptionInterface;
-use Exsited\Sdk\Config\SdkConfig;
-use Exsited\Sdk\Errors\SdkConfigError;
+use Exsited\Config\SdkConfig;
+use Exsited\Errors\SdkConfigError;
 
 final readonly class RetryPolicy
 {

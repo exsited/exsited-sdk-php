@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomFields;
+namespace Exsited\Resources\CustomFields;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Resources\CustomFields\CustomFieldsDto\SettingsCustomField;
-use Exsited\Sdk\Resources\CustomFields\CustomFieldsDto\SettingsCustomFieldList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\ExsitedClient;
+use Exsited\Resources\CustomFields\CustomFieldsDto\SettingsCustomField;
+use Exsited\Resources\CustomFields\CustomFieldsDto\SettingsCustomFieldList;
 
 /** Custom field endpoints, under `/api/{api_version}/settings/custom_fields`. */
 final class CustomFields

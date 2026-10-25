@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Http;
+namespace Exsited\Http;
 
 /** A header refusal that names the offending byte, for a caller who wants more than
  *  {@see Transport::headerProblem()} says. The grammar is Transport's: this class only words it,

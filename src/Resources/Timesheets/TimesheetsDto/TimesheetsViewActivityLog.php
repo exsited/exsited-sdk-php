@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Timesheets\TimesheetsDto;
+namespace Exsited\Resources\Timesheets\TimesheetsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One entry of the `activity_logs` list of TimesheetsView. */
 final class TimesheetsViewActivityLog extends Dto

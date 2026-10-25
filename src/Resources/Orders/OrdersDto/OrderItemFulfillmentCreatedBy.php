@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Orders\OrdersDto;
+namespace Exsited\Resources\Orders\OrdersDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `OrderItemFulfillment`'s `created_by`. */
 final class OrderItemFulfillmentCreatedBy extends Dto

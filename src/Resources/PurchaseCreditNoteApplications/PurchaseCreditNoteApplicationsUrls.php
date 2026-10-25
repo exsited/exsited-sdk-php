@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseCreditNoteApplications;
+namespace Exsited\Resources\PurchaseCreditNoteApplications;
 
 final class PurchaseCreditNoteApplicationsUrls
 {

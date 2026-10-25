@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Organisation;
+namespace Exsited\Resources\Organisation;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Resources\Organisation\OrganisationDto\SettingsOrganisation;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\ExsitedClient;
+use Exsited\Resources\Organisation\OrganisationDto\SettingsOrganisation;
 
 /** Root organisation endpoints, under `/api/{api_version}/settings/organisation`. */
 final class Organisation

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Reconciliations;
+namespace Exsited\Resources\Reconciliations;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\ExsitedClient;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\ExsitedClient;
 
 /** Reconciliation endpoints, under `/api/{api_version}/reconciliations`. */
 final class Reconciliations

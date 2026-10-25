@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Designations\DesignationsDto;
+namespace Exsited\Resources\Designations\DesignationsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of `SettingsDesignation` records, under `data`. */
 final class SettingsDesignationList extends Dto

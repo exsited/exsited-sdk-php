@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Usages;
+namespace Exsited\Resources\Usages;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\Usages\UsagesDto\Usage;
-use Exsited\Sdk\Resources\Usages\UsagesDto\UsageList;
-use Exsited\Sdk\Resources\Usages\UsagesDto\UsageUpdated;
-use Exsited\Sdk\Resources\Usages\UsagesDto\UsagesView;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\Usages\UsagesDto\Usage;
+use Exsited\Resources\Usages\UsagesDto\UsageList;
+use Exsited\Resources\Usages\UsagesDto\UsageUpdated;
+use Exsited\Resources\Usages\UsagesDto\UsagesView;
 
 /** Usage endpoints, under `/api/{api_version}/usages`. */
 final class Usages

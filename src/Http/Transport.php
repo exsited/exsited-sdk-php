@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Http;
+namespace Exsited\Http;
 
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Utils;
@@ -13,14 +13,14 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamFactoryInterface;
 use Psr\Http\Message\StreamInterface;
 use Closure;
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ErrorType;
-use Exsited\Sdk\Client\RequestInfo;
-use Exsited\Sdk\Config\SdkConfig;
-use Exsited\Sdk\Errors\SdkError;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Redaction;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ErrorType;
+use Exsited\Client\RequestInfo;
+use Exsited\Config\SdkConfig;
+use Exsited\Errors\SdkError;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Redaction;
 
 /** HTTP execution: one client per instance, timeouts, TLS, retries, decoding. */
 final class Transport

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Client;
+namespace Exsited\Client;
 
 /** A request that never produced a response, in the shape the console reads. */
 final class FailedExchange

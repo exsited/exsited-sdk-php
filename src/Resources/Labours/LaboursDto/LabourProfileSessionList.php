@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Labours\LaboursDto;
+namespace Exsited\Resources\Labours\LaboursDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of a labour profile's sessions, under `data`, each a `LabourProfileViewSession`. */
 final class LabourProfileSessionList extends Dto

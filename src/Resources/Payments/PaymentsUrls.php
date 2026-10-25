@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Payments;
+namespace Exsited\Resources\Payments;
 
 final class PaymentsUrls
 {

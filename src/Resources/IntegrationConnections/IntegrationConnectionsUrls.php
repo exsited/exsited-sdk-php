@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\IntegrationConnections;
+namespace Exsited\Resources\IntegrationConnections;
 
 final class IntegrationConnectionsUrls
 {

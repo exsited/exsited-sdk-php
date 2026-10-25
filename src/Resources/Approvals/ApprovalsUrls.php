@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Approvals;
+namespace Exsited\Resources\Approvals;
 
 final class ApprovalsUrls
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\NoteAttachments\NoteAttachmentsDto;
+namespace Exsited\Resources\NoteAttachments\NoteAttachmentsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\WireName;
+use Exsited\Client\Dto;
+use Exsited\Client\WireName;
 
 /** The note attachment body, under `note_attachment`; `base64` is the file itself. */
 final class NoteAttachment extends Dto

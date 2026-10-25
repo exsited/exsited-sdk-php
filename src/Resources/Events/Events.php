@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Events;
+namespace Exsited\Resources\Events;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\Events\EventsDto\Event;
-use Exsited\Sdk\Resources\Events\EventsDto\EventList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\Events\EventsDto\Event;
+use Exsited\Resources\Events\EventsDto\EventList;
 
 /** Event endpoints, under `/api/{api_version}/events`. */
 final class Events

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ExternalDatabases\ExternalDatabasesDto;
+namespace Exsited\Resources\ExternalDatabases\ExternalDatabasesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `pagination` block a listing answers with. */
 final class Pagination extends Dto

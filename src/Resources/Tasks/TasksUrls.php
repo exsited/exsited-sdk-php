@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Tasks;
+namespace Exsited\Resources\Tasks;
 
 final class TasksUrls
 {

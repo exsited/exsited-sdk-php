@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ChargingPeriods\ChargingPeriodsDto;
+namespace Exsited\Resources\ChargingPeriods\ChargingPeriodsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of `SettingsChargingPeriod` records, under `data`. */
 final class SettingsChargingPeriodList extends Dto

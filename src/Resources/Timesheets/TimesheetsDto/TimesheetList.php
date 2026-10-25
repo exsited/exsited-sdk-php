@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Timesheets\TimesheetsDto;
+namespace Exsited\Resources\Timesheets\TimesheetsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** A page of Timesheet records under `data`; an unreadable entry is null and keeps its place. */
 final class TimesheetList extends Dto

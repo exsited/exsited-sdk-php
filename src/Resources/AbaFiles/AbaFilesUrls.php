@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\AbaFiles;
+namespace Exsited\Resources\AbaFiles;
 
 final class AbaFilesUrls
 {

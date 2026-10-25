@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\SystemEvents;
+namespace Exsited\Resources\SystemEvents;
 
 final class SystemEventsUrls
 {

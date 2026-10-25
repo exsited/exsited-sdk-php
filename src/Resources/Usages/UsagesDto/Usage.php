@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Usages\UsagesDto;
+namespace Exsited\Resources\Usages\UsagesDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** The Usage body, as measured from the endpoints in MEASURED_FROM. */
 final class Usage extends Dto

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ActionScripts\ActionScriptsDto;
+namespace Exsited\Resources\ActionScripts\ActionScriptsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** An `ActionScript`'s `created_by`. */
 final class ActionScriptCreatedBy extends Dto

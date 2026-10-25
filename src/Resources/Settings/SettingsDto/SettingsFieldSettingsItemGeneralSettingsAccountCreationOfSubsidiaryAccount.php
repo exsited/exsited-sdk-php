@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Settings\SettingsDto;
+namespace Exsited\Resources\Settings\SettingsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `SettingsFieldSettingsItemGeneralSettingsAccount`'s `creation_of_subsidiary_account`. */
 final class SettingsFieldSettingsItemGeneralSettingsAccountCreationOfSubsidiaryAccount extends Dto

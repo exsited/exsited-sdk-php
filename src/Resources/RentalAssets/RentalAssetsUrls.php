@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\RentalAssets;
+namespace Exsited\Resources\RentalAssets;
 
 final class RentalAssetsUrls
 {

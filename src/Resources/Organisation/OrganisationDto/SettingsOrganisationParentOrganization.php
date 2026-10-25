@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Organisation\OrganisationDto;
+namespace Exsited\Resources\Organisation\OrganisationDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `SettingsOrganisation`'s `parent_organization`. */
 final class SettingsOrganisationParentOrganization extends Dto

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Config;
+namespace Exsited\Config;
 
-use Exsited\Sdk\Auth\FileTokenStore;
-use Exsited\Sdk\Errors\SdkConfigError;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Http\RetryPolicy;
-use Exsited\Sdk\Http\Transport;
-use Exsited\Sdk\Redaction;
+use Exsited\Auth\FileTokenStore;
+use Exsited\Errors\SdkConfigError;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Http\RetryPolicy;
+use Exsited\Http\Transport;
+use Exsited\Redaction;
 
 /** Frozen SDK configuration - every setting the SDK reads. */
 final class SdkConfig

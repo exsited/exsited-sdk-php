@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ItemFulfillments\ItemFulfillmentsDto;
+namespace Exsited\Resources\ItemFulfillments\ItemFulfillmentsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** The ItemFulfillmentRead body, as measured from the endpoints in MEASURED_FROM. */
 final class ItemFulfillmentRead extends Dto

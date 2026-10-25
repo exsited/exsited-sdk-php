@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Client;
+namespace Exsited\Client;
 
 use Closure;
-use Exsited\Sdk\Config\SdkConfig;
-use Exsited\Sdk\Errors\SdkAttributeError;
-use Exsited\Sdk\Errors\SdkAuthError;
-use Exsited\Sdk\Errors\SdkError;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Redaction;
+use Exsited\Config\SdkConfig;
+use Exsited\Errors\SdkAttributeError;
+use Exsited\Errors\SdkAuthError;
+use Exsited\Errors\SdkError;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Redaction;
 
 /** One HTTP exchange, not a model of the resource.
  *  @property-read mixed $data the body in the resolved responseFormat, null where that form has none

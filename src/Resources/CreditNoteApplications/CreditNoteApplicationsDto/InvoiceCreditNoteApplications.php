@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CreditNoteApplications\CreditNoteApplicationsDto;
+namespace Exsited\Resources\CreditNoteApplications\CreditNoteApplicationsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** The InvoiceCreditNoteApplications body, as measured from the endpoints in MEASURED_FROM. */
 final class InvoiceCreditNoteApplications extends Dto

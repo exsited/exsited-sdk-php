@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk;
+namespace Exsited;
 
 /** The one place that decides what counts as a secret, so a new marker covers every output. Walks
  *  copies, never its input. */

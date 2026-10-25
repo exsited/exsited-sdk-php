@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Events\EventsDto;
+namespace Exsited\Resources\Events\EventsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The Event body, as measured from the endpoints in MEASURED_FROM. */
 final class Event extends Dto

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Invoices\InvoicesDto;
+namespace Exsited\Resources\Invoices\InvoicesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The accounting code on a line. Present on all lines measured. */
 final class AccountingCode extends Dto

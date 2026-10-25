@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Auth;
+namespace Exsited\Auth;
 
 /**
  * In-process token storage, isolated per instance. Two clients with their own stores

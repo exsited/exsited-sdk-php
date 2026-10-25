@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Events\EventsDto;
+namespace Exsited\Resources\Events\EventsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** A page of Event records under `data`; an unreadable entry is null and keeps its place. */
 final class EventList extends Dto

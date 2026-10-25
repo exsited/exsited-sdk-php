@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\QuoteOrders\QuoteOrdersDto;
+namespace Exsited\Resources\QuoteOrders\QuoteOrdersDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of a quote's invoices, under `data`. */
 final class QuoteOrderInvoiceList extends Dto

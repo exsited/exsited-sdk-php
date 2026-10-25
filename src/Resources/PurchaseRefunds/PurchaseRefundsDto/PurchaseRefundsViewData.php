@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchaseRefunds\PurchaseRefundsDto;
+namespace Exsited\Resources\PurchaseRefunds\PurchaseRefundsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One entry of the `data` list of PurchaseRefundsView. */
 final class PurchaseRefundsViewData extends Dto

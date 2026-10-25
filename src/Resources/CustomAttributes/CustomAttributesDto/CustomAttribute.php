@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomAttributes\CustomAttributesDto;
+namespace Exsited\Resources\CustomAttributes\CustomAttributesDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** The CustomAttribute body, as measured from the endpoints in MEASURED_FROM. */
 final class CustomAttribute extends Dto

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ItemFulfillments\ItemFulfillmentsDto;
+namespace Exsited\Resources\ItemFulfillments\ItemFulfillmentsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `ItemFulfillmentNotes`'s `item_fulfillment`. */
 final class ItemFulfillmentNotesDetail extends Dto

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Workflows\WorkflowsDto;
+namespace Exsited\Resources\Workflows\WorkflowsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `WorkflowMilestone`'s `workflow_version`. */
 final class WorkflowMilestoneWorkflowVersion extends Dto

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Alerts;
+namespace Exsited\Resources\Alerts;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Resources\Alerts\AlertsDto\AlertsView;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\ExsitedClient;
+use Exsited\Resources\Alerts\AlertsDto\AlertsView;
 
 /** Alert endpoints, under `/api/{api_version}/alerts`. */
 final class Alerts

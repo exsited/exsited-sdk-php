@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Workflows\WorkflowsDto;
+namespace Exsited\Resources\Workflows\WorkflowsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** One workflow, under `workflow`: what `getWorkflow` answers, and the create and the update,
  *  which the handler answers through the same read. */

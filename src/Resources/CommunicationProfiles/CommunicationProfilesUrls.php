@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CommunicationProfiles;
+namespace Exsited\Resources\CommunicationProfiles;
 
 final class CommunicationProfilesUrls
 {

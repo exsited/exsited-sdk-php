@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ReceiveTerms\ReceiveTermsDto;
+namespace Exsited\Resources\ReceiveTerms\ReceiveTermsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of `SettingsReceiveTerm` records, under `data`. */
 final class SettingsReceiveTermList extends Dto

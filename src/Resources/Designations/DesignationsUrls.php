@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Designations;
+namespace Exsited\Resources\Designations;
 
 final class DesignationsUrls
 {

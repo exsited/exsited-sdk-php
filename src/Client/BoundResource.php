@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Client;
+namespace Exsited\Client;
 
-use Exsited\Sdk\Errors\SdkAttributeError;
+use Exsited\Errors\SdkAttributeError;
 
 /** A resource class with a client pre-applied to every endpoint:
  *  `$client-><resource>-><fn>(args)` resolves to `ResourceClass::<fn>($client, args)`. */

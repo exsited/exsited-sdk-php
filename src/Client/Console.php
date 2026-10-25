@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Client;
+namespace Exsited\Client;
 
-use Exsited\Sdk\Config\SdkConfig;
-use Exsited\Sdk\Redaction;
+use Exsited\Config\SdkConfig;
+use Exsited\Redaction;
 
 /** One exchange rendered for a human at a terminal; everything shown passes through Redaction first.
  *  The curl reproduction is POSIX shell, not cmd.exe. */

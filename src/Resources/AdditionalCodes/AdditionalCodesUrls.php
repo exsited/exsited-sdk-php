@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\AdditionalCodes;
+namespace Exsited\Resources\AdditionalCodes;
 
 final class AdditionalCodesUrls
 {

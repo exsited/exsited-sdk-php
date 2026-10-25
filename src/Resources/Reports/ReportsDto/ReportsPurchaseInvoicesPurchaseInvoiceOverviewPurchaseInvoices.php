@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Reports\ReportsDto;
+namespace Exsited\Resources\Reports\ReportsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** The `purchase_invoices` object of ReportsPurchaseInvoicesPurchaseInvoiceOverview. */
 final class ReportsPurchaseInvoicesPurchaseInvoiceOverviewPurchaseInvoices extends Dto

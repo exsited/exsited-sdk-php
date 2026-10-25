@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Approvals;
+namespace Exsited\Resources\Approvals;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\Approvals\ApprovalsDto\ApprovalsAccountList;
-use Exsited\Sdk\Resources\Approvals\ApprovalsDto\ApprovalsSaleorder;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\Approvals\ApprovalsDto\ApprovalsAccountList;
+use Exsited\Resources\Approvals\ApprovalsDto\ApprovalsSaleorder;
 
 /** Approval endpoints, under `/api/{api_version}/approvals`. */
 final class Approvals

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CreditNotes\CreditNotesDto;
+namespace Exsited\Resources\CreditNotes\CreditNotesDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** A credit note's balance rows, under `credit_note`. */
 final class CreditNoteItems extends Dto

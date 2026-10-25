@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Reports\ReportsDto;
+namespace Exsited\Resources\Reports\ReportsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The ReportsOrdersOrderOverview body, as measured from the endpoints in MEASURED_FROM. */
 final class ReportsOrdersOrderOverview extends Dto

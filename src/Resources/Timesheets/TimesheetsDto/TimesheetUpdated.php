@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Timesheets\TimesheetsDto;
+namespace Exsited\Resources\Timesheets\TimesheetsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The TimesheetUpdated body, as measured from the endpoints in MEASURED_FROM. */
 final class TimesheetUpdated extends Dto

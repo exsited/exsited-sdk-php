@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Refunds;
+namespace Exsited\Resources\Refunds;
 
 final class RefundsUrls
 {

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Uom;
+namespace Exsited\Resources\Uom;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\Uom\UomDto\SettingsUom;
-use Exsited\Sdk\Resources\Uom\UomDto\SettingsUomList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\Uom\UomDto\SettingsUom;
+use Exsited\Resources\Uom\UomDto\SettingsUomList;
 
 /** Unit of measurement endpoints, under `/api/{api_version}/settings/uom`. */
 final class Uom

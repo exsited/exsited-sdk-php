@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PurchasePayments\PurchasePaymentsDto;
+namespace Exsited\Resources\PurchasePayments\PurchasePaymentsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** The PurchasePaymentsView body, as measured from the endpoints in MEASURED_FROM. */
 final class PurchasePaymentsView extends Dto

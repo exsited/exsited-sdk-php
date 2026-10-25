@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Salutations\SalutationsDto;
+namespace Exsited\Resources\Salutations\SalutationsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings salutation body, under `salutation`. */
 final class SettingsSalutation extends Dto

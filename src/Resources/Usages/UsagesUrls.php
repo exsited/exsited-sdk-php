@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Usages;
+namespace Exsited\Resources\Usages;
 
 final class UsagesUrls
 {

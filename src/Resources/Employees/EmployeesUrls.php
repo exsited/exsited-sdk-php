@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Employees;
+namespace Exsited\Resources\Employees;
 
 final class EmployeesUrls
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomFields\CustomFieldsDto;
+namespace Exsited\Resources\CustomFields\CustomFieldsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings custom field body, under `custom_field`. */
 final class SettingsCustomField extends Dto

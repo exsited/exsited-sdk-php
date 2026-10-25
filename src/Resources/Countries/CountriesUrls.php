@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Countries;
+namespace Exsited\Resources\Countries;
 
 final class CountriesUrls
 {

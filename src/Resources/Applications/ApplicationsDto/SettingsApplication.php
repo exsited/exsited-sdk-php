@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Applications\ApplicationsDto;
+namespace Exsited\Resources\Applications\ApplicationsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings application body, under `application`. */
 final class SettingsApplication extends Dto

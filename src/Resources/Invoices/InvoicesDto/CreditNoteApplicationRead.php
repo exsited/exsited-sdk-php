@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Invoices\InvoicesDto;
+namespace Exsited\Resources\Invoices\InvoicesDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\WireName;
+use Exsited\Client\Dto;
+use Exsited\Client\WireName;
 
 /** The credit note application read body, under `credit_note_application`. */
 final class CreditNoteApplicationRead extends Dto

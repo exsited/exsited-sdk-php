@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Tasks;
+namespace Exsited\Resources\Tasks;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\Tasks\TasksDto\TaskList;
-use Exsited\Sdk\Resources\Tasks\TasksDto\TaskNoteList;
-use Exsited\Sdk\Resources\Tasks\TasksDto\TaskView;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\Tasks\TasksDto\TaskList;
+use Exsited\Resources\Tasks\TasksDto\TaskNoteList;
+use Exsited\Resources\Tasks\TasksDto\TaskView;
 
 /** Task endpoints, under `/api/{api_version}`. */
 final class Tasks

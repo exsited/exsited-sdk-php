@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\AlertResponsibility\AlertResponsibilityDto;
+namespace Exsited\Resources\AlertResponsibility\AlertResponsibilityDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The alert responsibility body, under `alert_responsibility`; `activity_logs` comes on the
  *  create answer only. */

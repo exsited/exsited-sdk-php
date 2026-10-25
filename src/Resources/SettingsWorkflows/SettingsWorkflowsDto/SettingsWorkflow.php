@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\SettingsWorkflows\SettingsWorkflowsDto;
+namespace Exsited\Resources\SettingsWorkflows\SettingsWorkflowsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings workflow body, under `workflow`. */
 final class SettingsWorkflow extends Dto

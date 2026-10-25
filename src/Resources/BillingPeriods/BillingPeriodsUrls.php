@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\BillingPeriods;
+namespace Exsited\Resources\BillingPeriods;
 
 final class BillingPeriodsUrls
 {

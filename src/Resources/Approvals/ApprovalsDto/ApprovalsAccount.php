@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Approvals\ApprovalsDto;
+namespace Exsited\Resources\Approvals\ApprovalsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The ApprovalsAccount body, as measured from the endpoints in MEASURED_FROM. */
 final class ApprovalsAccount extends Dto

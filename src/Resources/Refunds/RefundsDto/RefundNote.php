@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Refunds\RefundsDto;
+namespace Exsited\Resources\Refunds\RefundsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One note on a refund, under `note`. */
 final class RefundNote extends Dto

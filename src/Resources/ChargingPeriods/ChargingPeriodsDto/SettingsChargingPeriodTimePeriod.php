@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ChargingPeriods\ChargingPeriodsDto;
+namespace Exsited\Resources\ChargingPeriods\ChargingPeriodsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `SettingsChargingPeriod`'s `time_period`. */
 final class SettingsChargingPeriodTimePeriod extends Dto

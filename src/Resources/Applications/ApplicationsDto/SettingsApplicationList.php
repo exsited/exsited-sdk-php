@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Applications\ApplicationsDto;
+namespace Exsited\Resources\Applications\ApplicationsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of `SettingsApplication` records, under `data`. */
 final class SettingsApplicationList extends Dto

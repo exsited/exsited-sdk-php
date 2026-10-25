@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Employees\EmployeesDto;
+namespace Exsited\Resources\Employees\EmployeesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `created_by` object of Employee. */
 final class EmployeeCreatedBy extends Dto

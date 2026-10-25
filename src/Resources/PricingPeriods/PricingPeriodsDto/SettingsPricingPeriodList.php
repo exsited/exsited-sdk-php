@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\PricingPeriods\PricingPeriodsDto;
+namespace Exsited\Resources\PricingPeriods\PricingPeriodsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of `SettingsPricingPeriod` records, under `data`. */
 final class SettingsPricingPeriodList extends Dto

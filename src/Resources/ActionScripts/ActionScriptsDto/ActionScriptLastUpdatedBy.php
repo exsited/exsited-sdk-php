@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ActionScripts\ActionScriptsDto;
+namespace Exsited\Resources\ActionScripts\ActionScriptsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** An `ActionScript`'s `last_updated_by`, set once the script has been updated. */
 final class ActionScriptLastUpdatedBy extends Dto

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ItemFulfillments\ItemFulfillmentsDto;
+namespace Exsited\Resources\ItemFulfillments\ItemFulfillmentsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `links` object of Pagination. */
 final class PaginationLinks extends Dto

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ReturnMerchandiseAuthorisations;
+namespace Exsited\Resources\ReturnMerchandiseAuthorisations;
 
 final class ReturnMerchandiseAuthorisationsUrls
 {

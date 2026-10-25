@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Departments;
+namespace Exsited\Resources\Departments;
 
 final class DepartmentsUrls
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Events;
+namespace Exsited\Resources\Events;
 
 final class EventsUrls
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CreditNoteApplications\CreditNoteApplicationsDto;
+namespace Exsited\Resources\CreditNoteApplications\CreditNoteApplicationsDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\WireName;
+use Exsited\Client\Dto;
+use Exsited\Client\WireName;
 
 /** One entry of the `data` list of InvoiceCreditNoteApplications. */
 final class InvoiceCreditNoteApplicationsData extends Dto

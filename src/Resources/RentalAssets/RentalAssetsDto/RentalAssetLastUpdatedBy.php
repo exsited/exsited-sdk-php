@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\RentalAssets\RentalAssetsDto;
+namespace Exsited\Resources\RentalAssets\RentalAssetsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `last_updated_by` object of RentalAsset. */
 final class RentalAssetLastUpdatedBy extends Dto

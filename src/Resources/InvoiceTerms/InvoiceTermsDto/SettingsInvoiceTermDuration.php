@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\InvoiceTerms\InvoiceTermsDto;
+namespace Exsited\Resources\InvoiceTerms\InvoiceTermsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** A `SettingsInvoiceTerm`'s `duration`. */
 final class SettingsInvoiceTermDuration extends Dto

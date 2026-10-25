@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Usages\UsagesDto;
+namespace Exsited\Resources\Usages\UsagesDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `last_updated_by` object of Usage. */
 final class UsageLastUpdatedBy extends Dto

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\NoteGroups;
+namespace Exsited\Resources\NoteGroups;
 
 final class NoteGroupsUrls
 {

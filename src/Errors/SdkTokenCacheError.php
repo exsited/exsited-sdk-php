@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Errors;
+namespace Exsited\Errors;
 
 /**
  * The token cache file is present and cannot be used.

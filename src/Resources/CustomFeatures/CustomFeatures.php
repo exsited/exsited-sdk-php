@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomFeatures;
+namespace Exsited\Resources\CustomFeatures;
 
-use Exsited\Sdk\Client\ApiResponse;
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ExsitedClient;
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Resources\CustomFeatures\CustomFeaturesDto\CustomFeature;
-use Exsited\Sdk\Resources\CustomFeatures\CustomFeaturesDto\CustomFeatureList;
+use Exsited\Client\ApiResponse;
+use Exsited\Client\Dto;
+use Exsited\Client\ExsitedClient;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Resources\CustomFeatures\CustomFeaturesDto\CustomFeature;
+use Exsited\Resources\CustomFeatures\CustomFeaturesDto\CustomFeatureList;
 
 /** Custom feature endpoints, under `/api/{api_version}`. */
 final class CustomFeatures

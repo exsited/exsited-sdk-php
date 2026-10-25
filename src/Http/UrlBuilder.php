@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Http;
+namespace Exsited\Http;
 
-use Exsited\Sdk\Errors\SdkUsageError;
-use Exsited\Sdk\Redaction;
+use Exsited\Errors\SdkUsageError;
+use Exsited\Redaction;
 
 final class UrlBuilder
 {

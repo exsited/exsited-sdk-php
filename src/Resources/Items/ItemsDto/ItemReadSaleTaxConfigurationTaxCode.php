@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Items\ItemsDto;
+namespace Exsited\Resources\Items\ItemsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The `tax_code` object of ItemReadSaleTaxConfiguration. */
 final class ItemReadSaleTaxConfigurationTaxCode extends Dto

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\ApprovalUserGroups\ApprovalUserGroupsDto;
+namespace Exsited\Resources\ApprovalUserGroups\ApprovalUserGroupsDto;
 
-use Exsited\Sdk\Client\Dto;
+use Exsited\Client\Dto;
 
 /** The settings approval user group body, under `approval_user_group`. */
 final class SettingsApprovalUserGroup extends Dto

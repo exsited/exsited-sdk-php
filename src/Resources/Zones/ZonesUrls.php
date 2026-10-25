@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\Zones;
+namespace Exsited\Resources\Zones;
 
 final class ZonesUrls
 {

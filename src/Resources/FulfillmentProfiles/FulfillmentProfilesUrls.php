@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\FulfillmentProfiles;
+namespace Exsited\Resources\FulfillmentProfiles;
 
 final class FulfillmentProfilesUrls
 {

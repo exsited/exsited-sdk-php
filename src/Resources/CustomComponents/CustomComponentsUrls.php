@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomComponents;
+namespace Exsited\Resources\CustomComponents;
 
 final class CustomComponentsUrls
 {

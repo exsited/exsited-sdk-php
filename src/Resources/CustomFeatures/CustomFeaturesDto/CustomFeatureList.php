@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Exsited\Sdk\Resources\CustomFeatures\CustomFeaturesDto;
+namespace Exsited\Resources\CustomFeatures\CustomFeaturesDto;
 
-use Exsited\Sdk\Client\Dto;
-use Exsited\Sdk\Client\ListOf;
+use Exsited\Client\Dto;
+use Exsited\Client\ListOf;
 
 /** One page of what `getCustomFeatures` lists, under `data`. */
 final class CustomFeatureList extends Dto
