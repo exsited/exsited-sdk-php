@@ -21,24 +21,24 @@ final class BookingInvoice extends Dto
         public readonly ?string $createdOn = null,
         public readonly ?BookingInvoiceCurrency $currency = null,
         public readonly ?BookingInvoiceCustomForm $customForm = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $customerPurchaseOrderId = null,
         public readonly ?float $discountAmount = null,
         public readonly ?string $due = null,
         public readonly ?string $dueDate = null,
         public readonly ?string $id = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $invoiceNote = null,
         public readonly ?string $issueDate = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastPayment = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedOn = null,
         public readonly ?string $object = null,
         public readonly ?BookingInvoiceOrder $order = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $origin = null,
         public readonly ?string $paid = null,
         public readonly ?string $paymentStatus = null,

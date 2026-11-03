@@ -92,15 +92,15 @@ final class ReturnMerchandiseAuthorisations
         return $client->sendPatchRequest(ReturnMerchandiseAuthorisationsUrls::RETURN_MERCHANDISE_AUTHORISATION, pathParams: ['rma_id' => $rmaId], jsonBody: $payload, raiseOnError: $raiseOnError, responseFormat: $responseFormat, dtoType: ReturnMerchandiseAuthorisationRead::class);
     }
 
-    /** Approve RMA - `POST /return_merchandise_authorisations/{rma_id}/approve`, no body; `422`
-     *  when the RMA holds no pending approval. */
+    /** Approve RMA - `POST /return_merchandise_authorisations/{rma_id}/approve`, no body; the RMA must
+     *  hold a pending approval. */
     public static function approveReturnMerchandiseAuthorisation(ExsitedClient $client, int|string $rmaId, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
         return $client->sendPostRequest(ReturnMerchandiseAuthorisationsUrls::RETURN_MERCHANDISE_AUTHORISATION_APPROVE, pathParams: ['rma_id' => $rmaId], raiseOnError: $raiseOnError, responseFormat: $responseFormat, dtoType: ReturnMerchandiseAuthorisationRead::class);
     }
 
     /** Delete RMA note - `DELETE /return_merchandise_authorisations/{rma_id}/notes/{note_id}`, the
-     *  `rma_` id; a code answers `404`. */
+     *  `rma_` id, not a code. */
     public static function deleteReturnMerchandiseAuthorisationNote(ExsitedClient $client, int|string $rmaId, int|string $noteId, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
         return $client->sendDeleteRequest(ReturnMerchandiseAuthorisationsUrls::RETURN_MERCHANDISE_AUTHORISATION_NOTE, pathParams: ['rma_id' => $rmaId, 'note_id' => $noteId], raiseOnError: $raiseOnError, responseFormat: $responseFormat);
@@ -113,15 +113,15 @@ final class ReturnMerchandiseAuthorisations
         return $client->sendDeleteRequest(ReturnMerchandiseAuthorisationsUrls::RETURN_MERCHANDISE_AUTHORISATION_NOTE_FILE, pathParams: ['rma_id' => $rmaId, 'note_id' => $noteId, 'file_id' => $fileId], raiseOnError: $raiseOnError, responseFormat: $responseFormat);
     }
 
-    /** Reject RMA - `POST /return_merchandise_authorisations/{rma_id}/reject`, no body; `422` when
-     *  the RMA holds no pending approval. */
+    /** Reject RMA - `POST /return_merchandise_authorisations/{rma_id}/reject`, no body; the RMA must
+     *  hold a pending approval. */
     public static function rejectReturnMerchandiseAuthorisation(ExsitedClient $client, int|string $rmaId, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
         return $client->sendPostRequest(ReturnMerchandiseAuthorisationsUrls::RETURN_MERCHANDISE_AUTHORISATION_REJECT, pathParams: ['rma_id' => $rmaId], raiseOnError: $raiseOnError, responseFormat: $responseFormat, dtoType: ReturnMerchandiseAuthorisationRead::class);
     }
 
     /** List RMA notes - `GET /return_merchandise_authorisations/{rma_code}/notes`, by the RMA's
-     *  code; an `rma_` id answers `404`.
+     *  code, not an `rma_` id.
      *  @param array<string,mixed>|null $queryParams */
     public static function getReturnMerchandiseAuthorisationNotes(ExsitedClient $client, int|string $rmaCode, ?array $queryParams = null, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
@@ -153,7 +153,7 @@ final class ReturnMerchandiseAuthorisations
     }
 
     /** List an RMA's receipts - `GET /return_merchandise_authorisations/{rma_code}/receive`, by
-     *  the RMA's code; an `rma_` id answers `404`.
+     *  the RMA's code, not an `rma_` id.
      *  @param array<string,mixed>|null $queryParams */
     public static function getReturnMerchandiseAuthorisationReceive(ExsitedClient $client, int|string $rmaCode, ?array $queryParams = null, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {

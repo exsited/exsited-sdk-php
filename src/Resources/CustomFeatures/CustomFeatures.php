@@ -56,7 +56,7 @@ final class CustomFeatures
     }
 
     /** Retrieve custom feature - `GET /custom_feature/{custom_feature_id}`, the `cmp_` id, under
-     *  `custom_feature`; a deleted one is `404`.
+     *  `custom_feature`.
      *  @param array<string,mixed>|null $queryParams */
     public static function getCustomFeatureById(ExsitedClient $client, int|string $customFeatureId, ?array $queryParams = null, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {

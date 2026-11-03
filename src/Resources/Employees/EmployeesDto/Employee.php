@@ -7,12 +7,12 @@ namespace Exsited\Resources\Employees\EmployeesDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The Employee body, as measured from the endpoints in MEASURED_FROM. */
+/** The Employee body for the endpoints in MEASURED_FROM. */
 final class Employee extends Dto
 {
     public const ENVELOPE_KEY = 'employee';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/employees',
         'POST /api/{api_version}/employees',

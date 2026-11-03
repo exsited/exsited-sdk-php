@@ -11,7 +11,7 @@ final class SettingsGeneralSettingsItemUpdatedDetailSalePriceEnteredIsInclusiveO
 {
     public function __construct(
         public readonly ?string $enabled = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $tax = null,
         public readonly ?string $taxIncludedInSalesPriceIsBasedOn = null,
     ) {

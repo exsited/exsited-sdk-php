@@ -10,7 +10,7 @@ use Exsited\Client\ListOf;
 /** A page of OrderNoteFileListData records under `data`; an unreadable entry is null and keeps its place. */
 final class OrderNoteFileList extends Dto
 {
-    /** The endpoints this page view was measured from. */
+    /** The endpoints this page view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/orders/{order_id}/notes/{order_note_id}/files',
     ];

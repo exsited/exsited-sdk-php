@@ -12,7 +12,7 @@ final class LabourProfileSessionView extends Dto
 {
     public const ENVELOPE_KEY = 'labour_profile_session';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/labour_profiles/{labour_profile_id}/sessions/{session_id}',
     ];

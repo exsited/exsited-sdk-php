@@ -12,7 +12,7 @@ final class AlertResponsibilityView extends Dto
 {
     public const ENVELOPE_KEY = 'alert_responsibility';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/alert_responsibility',
         'GET /api/{api_version}/alert_responsibility/{alert_responsibility_id}',

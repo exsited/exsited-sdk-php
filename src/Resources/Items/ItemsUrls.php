@@ -53,8 +53,7 @@ final class ItemsUrls
     public const ITEM_KPIS_KEY = 'item_kpis';
 
     /** The names that shape the listing, which pages by cursor; every other name is a
-     *  `filter_<field>`. `order_by` and `direction` are accepted and ignored, and a bare `filter`
-     *  expression is `400`.
+     *  `filter_<field>`. `order_by` and `direction` are accepted and ignored.
      *  @var list<string> */
     public const ITEMS_QUERY_PARAMS = ['limit', 'cursor', 'sort'];
 }

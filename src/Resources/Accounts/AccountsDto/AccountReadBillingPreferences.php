@@ -30,7 +30,7 @@ final class AccountReadBillingPreferences extends Dto
         public readonly ?string $communicationGroup = null,
         public readonly ?string $billingMode = null,
         public readonly ?string $chargingPeriod = null,
-        /** On the 14 records that carried it this read as a string, not a bool - unlike
+        /** Read as a string, not a bool - unlike
          *  `charges_aligned_to_billing`, which the account body carries. */
         public readonly ?string $chargingAndBillingAlignment = null,
         public readonly ?string $chargingStartDate = null,

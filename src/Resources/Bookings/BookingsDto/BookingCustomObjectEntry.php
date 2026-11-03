@@ -10,17 +10,17 @@ use Exsited\Client\Dto;
 final class BookingCustomObjectEntry extends Dto
 {
     public function __construct(
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $createdBy = null,
         public readonly ?string $createdOn = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $customComponent = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $description = null,
         public readonly ?string $displayName = null,
         public readonly ?string $href = null,
         public readonly ?string $id = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $name = null,

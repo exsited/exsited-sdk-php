@@ -6,10 +6,10 @@ namespace Exsited\Resources\Timesheets\TimesheetsDto;
 
 use Exsited\Client\Dto;
 
-/** The Timesheet body, as measured from the endpoints in MEASURED_FROM. */
+/** The Timesheet body for the endpoints in MEASURED_FROM. */
 final class Timesheet extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/timesheets',
     ];

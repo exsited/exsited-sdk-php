@@ -7,10 +7,10 @@ namespace Exsited\Resources\Invoices\InvoicesDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The InvoiceNote body, as measured from the endpoints in MEASURED_FROM. */
+/** The InvoiceNote body for the endpoints in MEASURED_FROM. */
 final class InvoiceNote extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/invoices/{invoice_id}/notes',
         'POST /api/{api_version}/invoices/{invoice_id}/notes',

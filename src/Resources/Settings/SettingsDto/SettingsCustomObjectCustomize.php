@@ -6,12 +6,12 @@ namespace Exsited\Resources\Settings\SettingsDto;
 
 use Exsited\Client\Dto;
 
-/** The SettingsCustomObjectCustomize body, as measured from the endpoints in MEASURED_FROM. */
+/** The SettingsCustomObjectCustomize body for the endpoints in MEASURED_FROM. */
 final class SettingsCustomObjectCustomize extends Dto
 {
     public const ENVELOPE_KEY = 'custom_object';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/settings/custom_objects/{custom_object_id}/customize',
     ];

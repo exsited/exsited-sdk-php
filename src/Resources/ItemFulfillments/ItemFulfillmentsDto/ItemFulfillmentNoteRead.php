@@ -11,7 +11,7 @@ final class ItemFulfillmentNoteRead extends Dto
 {
     public const ENVELOPE_KEY = 'item_fulfillment';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/item_fulfillments/{fulfillment_id}/notes/{note_id}',
     ];

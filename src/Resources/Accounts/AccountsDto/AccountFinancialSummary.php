@@ -12,7 +12,7 @@ final class AccountFinancialSummary extends Dto
 {
     public const ENVELOPE_KEY = 'account';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/accounts/{account_id}/financial_summary',
     ];

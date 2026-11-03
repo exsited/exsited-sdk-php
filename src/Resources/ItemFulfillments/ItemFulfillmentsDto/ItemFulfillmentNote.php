@@ -19,17 +19,17 @@ final class ItemFulfillmentNote extends Dto
         public readonly ?string $content = null,
         public readonly ?ItemFulfillmentCreatedBy $createdBy = null,
         public readonly ?string $createdOn = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $group = null,
         public readonly ?string $href = null,
         public readonly ?string $id = null,
         public readonly ?ItemFulfillmentNotesDetail $itemFulfillment = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedOn = null,
         public readonly ?string $object = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $user = null,
         public readonly ?int $version = null,
         #[ListOf(ItemFulfillmentNoteWatcher::class)]

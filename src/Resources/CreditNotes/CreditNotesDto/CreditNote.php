@@ -7,10 +7,10 @@ namespace Exsited\Resources\CreditNotes\CreditNotesDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The CreditNote body, as measured from the endpoints in MEASURED_FROM. */
+/** The CreditNote body for the endpoints in MEASURED_FROM. */
 final class CreditNote extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/credit_notes',
     ];

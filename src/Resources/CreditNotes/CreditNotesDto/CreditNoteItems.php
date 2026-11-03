@@ -12,7 +12,7 @@ final class CreditNoteItems extends Dto
 {
     public const ENVELOPE_KEY = 'credit_note';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/credit_notes/{credit_note_id}/items',
     ];

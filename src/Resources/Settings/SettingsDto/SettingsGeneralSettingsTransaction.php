@@ -10,7 +10,7 @@ use Exsited\Client\Dto;
 final class SettingsGeneralSettingsTransaction extends Dto
 {
     public function __construct(
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $accountingMethod = null,
         public readonly ?SettingsGeneralSettingsTransactionAllowModificationOfFollowingCreditNoteFields $allowModificationOfFollowingCreditNoteFields = null,
         public readonly ?SettingsGeneralSettingsTransactionAllowModificationOfFollowingInvoiceFields $allowModificationOfFollowingInvoiceFields = null,
@@ -19,7 +19,7 @@ final class SettingsGeneralSettingsTransaction extends Dto
         public readonly ?SettingsGeneralSettingsTransactionAvailableMediumsForCommunicationPreference $availableMediumsForCommunicationPreference = null,
         public readonly ?string $createNegativeChargeToAccommodateAdjustmentRequiredForOrderCancelOrChange = null,
         public readonly ?SettingsGeneralSettingsTransactionDefaultAccountingCodes $defaultAccountingCodes = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $defaultShippingProfile = null,
         public readonly ?string $disableNotificationForInvoiceWithChargesOfZeroAmount = null,
         public readonly ?string $displayedPriceIsInclusiveOfTax = null,

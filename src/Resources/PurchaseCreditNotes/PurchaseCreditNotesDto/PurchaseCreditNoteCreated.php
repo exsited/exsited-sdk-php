@@ -12,13 +12,13 @@ final class PurchaseCreditNoteCreated extends Dto
 {
     public const ENVELOPE_KEY = 'purchase_credit_note';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/purchase_credit_notes',
     ];
 
     public function __construct(
-        /** Empty in every record measured, so its entries are untyped. */
+        /** Its entries are untyped. */
         public readonly ?array $activityLogs = null,
         public readonly ?string $code = null,
         public readonly ?string $href = null,

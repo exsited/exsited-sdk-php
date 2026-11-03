@@ -11,7 +11,7 @@ final class SettingsShippingProfileRead extends Dto
 {
     public const ENVELOPE_KEY = 'shipping_profile';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/shipping_profiles/{shipping_profile_id}',
         'POST /api/{api_version}/settings/shipping_profiles',
@@ -19,7 +19,7 @@ final class SettingsShippingProfileRead extends Dto
 
     public function __construct(
         public readonly ?SettingsShippingProfileAccountingCode $accountingCode = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $createdBy = null,
         public readonly ?string $createdOn = null,
         public readonly ?string $description = null,
@@ -27,10 +27,10 @@ final class SettingsShippingProfileRead extends Dto
         public readonly ?float $fixedAmount = null,
         public readonly ?string $href = null,
         public readonly ?string $id = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $integrationConnection = null,
         public readonly ?string $invoiceNote = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $name = null,

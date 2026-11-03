@@ -7,10 +7,10 @@ namespace Exsited\Resources\Settings\SettingsDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The SettingsTax body, as measured from the endpoints in MEASURED_FROM. */
+/** The SettingsTax body for the endpoints in MEASURED_FROM. */
 final class SettingsTax extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/taxes',
     ];

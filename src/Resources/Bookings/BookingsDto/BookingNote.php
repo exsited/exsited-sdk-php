@@ -18,14 +18,14 @@ final class BookingNote extends Dto
         public readonly ?string $content = null,
         public readonly ?BookingNoteCreatedBy $createdBy = null,
         public readonly ?string $createdOn = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $group = null,
         public readonly ?string $href = null,
         public readonly ?string $id = null,
         public readonly ?BookingNoteLastUpdatedBy $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $object = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $user = null,
         public readonly ?int $version = null,
         #[ListOf(BookingNoteWatcher::class)]

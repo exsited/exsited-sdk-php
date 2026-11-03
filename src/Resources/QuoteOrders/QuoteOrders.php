@@ -14,8 +14,8 @@ final class QuoteOrders
     /** The key a listing puts its records under. */
     public const RECORD_KEY = 'data';
 
-    /** List the invoices raised from a quote - `GET /quote_orders/{quote_order_id}/invoices`; an
-     *  order that is not a quote answers `404`.
+    /** List the invoices raised from a quote - `GET /quote_orders/{quote_order_id}/invoices`, for a quote
+     *  order.
      *  @param array<string,mixed>|null $queryParams */
     public static function getQuoteOrderInvoices(ExsitedClient $client, int|string $quoteOrderId, ?array $queryParams = null, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {

@@ -12,7 +12,7 @@ final class OrderItemFulfillment extends Dto
 {
     public const ENVELOPE_KEY = 'item_fulfillment';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/orders/{order_id}/item_fulfillments/{fulfillment_id}',
     ];
@@ -24,11 +24,11 @@ final class OrderItemFulfillment extends Dto
         public readonly ?OrderItemFulfillmentCreatedBy $createdBy = null,
         public readonly ?string $createdOn = null,
         public readonly mixed $customAttributes = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $deliveryStatus = null,
         public readonly ?bool $fulfillmentCompleted = null,
         public readonly ?string $fulfillmentDate = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $fulfillmentNote = null,
         public readonly ?string $fulfillmentStatus = null,
         #[ListOf(OrderItemFulfillmentFulfillment::class)]
@@ -39,7 +39,7 @@ final class OrderItemFulfillment extends Dto
         public readonly ?OrderItemFulfillmentLastUpdatedBy $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $object = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $order = null,
         public readonly ?string $status = null,
         public readonly ?string $trackingNumber = null,

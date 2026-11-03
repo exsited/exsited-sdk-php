@@ -6,12 +6,12 @@ namespace Exsited\Resources\PurchaseCreditNoteApplications\PurchaseCreditNoteApp
 
 use Exsited\Client\Dto;
 
-/** The PurchaseCreditNoteApplicationRead body, as measured from the endpoints in MEASURED_FROM. */
+/** The PurchaseCreditNoteApplicationRead body for the endpoints in MEASURED_FROM. */
 final class PurchaseCreditNoteApplicationRead extends Dto
 {
     public const ENVELOPE_KEY = 'purchase_credit_note_application';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/purchase_credit_note_applications/{purchase_credit_note_application_id}',
     ];

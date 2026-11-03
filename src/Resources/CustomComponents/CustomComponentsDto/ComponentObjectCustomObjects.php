@@ -6,10 +6,10 @@ namespace Exsited\Resources\CustomComponents\CustomComponentsDto;
 
 use Exsited\Client\Dto;
 
-/** The ComponentObjectCustomObjects body, as measured from the endpoints in MEASURED_FROM. */
+/** The ComponentObjectCustomObjects body for the endpoints in MEASURED_FROM. */
 final class ComponentObjectCustomObjects extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/components/{component_uuid}/objects/{component_object_id}/custom_objects',
     ];

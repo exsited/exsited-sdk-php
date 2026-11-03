@@ -12,7 +12,7 @@ final class SettingsTimeZoneRead extends Dto
 {
     public const ENVELOPE_KEY = 'time_zone';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/time_zones/{time_zone_id}',
     ];

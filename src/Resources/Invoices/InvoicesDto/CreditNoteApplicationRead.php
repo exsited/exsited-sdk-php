@@ -12,7 +12,7 @@ final class CreditNoteApplicationRead extends Dto
 {
     public const ENVELOPE_KEY = 'credit_note_application';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/credit_note_applications/{credit_note_application_id}',
     ];
@@ -25,7 +25,7 @@ final class CreditNoteApplicationRead extends Dto
         public readonly ?string $href = null,
         public readonly ?string $id = null,
         public readonly ?string $issueDate = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $object = null,

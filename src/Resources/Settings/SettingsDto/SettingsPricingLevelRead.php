@@ -11,26 +11,26 @@ final class SettingsPricingLevelRead extends Dto
 {
     public const ENVELOPE_KEY = 'pricing_level';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/pricing_levels/{pricing_level_id}',
         'PATCH /api/{api_version}/settings/pricing_levels/{pricing_level_id}',
     ];
 
     public function __construct(
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $builtInItem = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $createdBy = null,
         public readonly ?string $createdOn = null,
         public readonly ?string $description = null,
         public readonly ?string $displayName = null,
         public readonly ?string $href = null,
         public readonly ?string $id = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $isDefault = null,
         public readonly ?bool $isTaxInclusive = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $name = null,

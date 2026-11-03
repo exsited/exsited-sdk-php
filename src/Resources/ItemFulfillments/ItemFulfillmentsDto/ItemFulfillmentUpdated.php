@@ -6,10 +6,10 @@ namespace Exsited\Resources\ItemFulfillments\ItemFulfillmentsDto;
 
 use Exsited\Client\Dto;
 
-/** The ItemFulfillmentUpdated body, as measured from the endpoints in MEASURED_FROM. */
+/** The ItemFulfillmentUpdated body for the endpoints in MEASURED_FROM. */
 final class ItemFulfillmentUpdated extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'PATCH /api/{api_version}/item_fulfillments/{fulfillment_id}',
     ];

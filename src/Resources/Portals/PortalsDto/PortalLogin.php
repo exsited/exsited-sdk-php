@@ -6,12 +6,12 @@ namespace Exsited\Resources\Portals\PortalsDto;
 
 use Exsited\Client\Dto;
 
-/** The PortalLogin body, as measured from the endpoints in MEASURED_FROM. */
+/** The PortalLogin body for the endpoints in MEASURED_FROM. */
 final class PortalLogin extends Dto
 {
     public const ENVELOPE_KEY = 'portal';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/portal/login',
     ];

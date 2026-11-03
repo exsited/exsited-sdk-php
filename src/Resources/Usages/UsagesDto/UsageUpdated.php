@@ -6,10 +6,10 @@ namespace Exsited\Resources\Usages\UsagesDto;
 
 use Exsited\Client\Dto;
 
-/** The UsageUpdated body, as measured from the endpoints in MEASURED_FROM. */
+/** The UsageUpdated body for the endpoints in MEASURED_FROM. */
 final class UsageUpdated extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'PATCH /api/{api_version}/usages/{usage_id}',
         'PUT /api/{api_version}/usages/{usage_id}',

@@ -7,12 +7,12 @@ namespace Exsited\Resources\Payments\PaymentsDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The PaymentNotes body, as measured from the endpoints in MEASURED_FROM. */
+/** The PaymentNotes body for the endpoints in MEASURED_FROM. */
 final class PaymentNotes extends Dto
 {
     public const ENVELOPE_KEY = 'note';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/payments/{payment_id}/notes',
     ];

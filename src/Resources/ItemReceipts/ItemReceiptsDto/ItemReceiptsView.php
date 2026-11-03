@@ -6,12 +6,12 @@ namespace Exsited\Resources\ItemReceipts\ItemReceiptsDto;
 
 use Exsited\Client\Dto;
 
-/** The ItemReceiptsView body, as measured from the endpoints in MEASURED_FROM. */
+/** The ItemReceiptsView body for the endpoints in MEASURED_FROM. */
 final class ItemReceiptsView extends Dto
 {
     public const ENVELOPE_KEY = 'item-receipt';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/item_receipts',
     ];

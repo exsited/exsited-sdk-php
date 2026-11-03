@@ -7,12 +7,12 @@ namespace Exsited\Resources\CreditNoteApplications\CreditNoteApplicationsDto;
 use Exsited\Client\Dto;
 use Exsited\Client\WireName;
 
-/** The CreditNoteApplicationRead body, as measured from the endpoints in MEASURED_FROM. */
+/** The CreditNoteApplicationRead body for the endpoints in MEASURED_FROM. */
 final class CreditNoteApplicationRead extends Dto
 {
     public const ENVELOPE_KEY = 'credit_note_application';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/credit_note_applications/{credit_note_application_id}',
     ];

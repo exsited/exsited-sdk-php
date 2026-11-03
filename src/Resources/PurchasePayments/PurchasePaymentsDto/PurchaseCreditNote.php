@@ -10,7 +10,7 @@ use Exsited\Client\ListOf;
 /** The purchase credit note body. */
 final class PurchaseCreditNote extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/purchase_credit_notes',
     ];

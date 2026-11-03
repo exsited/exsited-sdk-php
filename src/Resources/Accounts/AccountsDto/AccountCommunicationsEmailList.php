@@ -11,7 +11,7 @@ use Exsited\Client\ListOf;
  *  its place. */
 final class AccountCommunicationsEmailList extends Dto
 {
-    /** The endpoints this page view was measured from. */
+    /** The endpoints this page view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/accounts/{account_id}/communications/emails',
     ];

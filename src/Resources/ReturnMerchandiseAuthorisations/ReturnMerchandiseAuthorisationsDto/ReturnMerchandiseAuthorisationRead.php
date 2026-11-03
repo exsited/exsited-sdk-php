@@ -7,12 +7,12 @@ namespace Exsited\Resources\ReturnMerchandiseAuthorisations\ReturnMerchandiseAut
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The ReturnMerchandiseAuthorisationRead body, as measured from the endpoints in MEASURED_FROM. */
+/** The ReturnMerchandiseAuthorisationRead body for the endpoints in MEASURED_FROM. */
 final class ReturnMerchandiseAuthorisationRead extends Dto
 {
     public const ENVELOPE_KEY = 'return_merchandise_authorisation';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/invoices/{invoice_id}/return_merchandise_authorisations/{rma_id}',
         'GET /api/{api_version}/return_merchandise_authorisations/{rma_id}',

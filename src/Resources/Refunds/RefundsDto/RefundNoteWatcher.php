@@ -10,7 +10,7 @@ use Exsited\Client\Dto;
 final class RefundNoteWatcher extends Dto
 {
     public function __construct(
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $email = null,
         public readonly ?string $name = null,
         public readonly ?string $type = null,

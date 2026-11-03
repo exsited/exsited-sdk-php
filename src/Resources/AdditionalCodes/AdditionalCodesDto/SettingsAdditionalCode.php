@@ -11,7 +11,7 @@ final class SettingsAdditionalCode extends Dto
 {
     public const ENVELOPE_KEY = 'additional_code';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/additional_codes',
         'GET /api/{api_version}/settings/additional_codes/{additional_code_id}',

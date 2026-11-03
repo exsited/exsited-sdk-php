@@ -6,10 +6,10 @@ namespace Exsited\Resources\Invoices\InvoicesDto;
 
 use Exsited\Client\Dto;
 
-/** The Invoice body, as measured from the endpoints in MEASURED_FROM. */
+/** The Invoice body for the endpoints in MEASURED_FROM. */
 final class Invoice extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/invoices',
         'GET /api/{api_version}/orders/{order_id}/invoices',

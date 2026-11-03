@@ -6,12 +6,12 @@ namespace Exsited\Resources\ItemFulfillments\ItemFulfillmentsDto;
 
 use Exsited\Client\Dto;
 
-/** The ItemFulfillmentsView body, as measured from the endpoints in MEASURED_FROM. */
+/** The ItemFulfillmentsView body for the endpoints in MEASURED_FROM. */
 final class ItemFulfillmentsView extends Dto
 {
     public const ENVELOPE_KEY = 'invoice';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/item_fulfillments',
     ];

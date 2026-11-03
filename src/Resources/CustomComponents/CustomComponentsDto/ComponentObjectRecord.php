@@ -13,7 +13,7 @@ final class ComponentObjectRecord extends Dto
 {
     public const ENVELOPE_KEY = 'custom_component_object';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/components/{component_uuid}/objects',
         'PATCH /api/{api_version}/components/{component_uuid}/objects/{component_object_id}',
@@ -27,7 +27,7 @@ final class ComponentObjectRecord extends Dto
         public readonly ?array $attributes = null,
         public readonly ?string $code = null,
         public readonly ?ComponentObjectCustomComponentObjectDetail $component = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $createdBy = null,
         public readonly ?string $createdOn = null,
         public readonly ?ComponentObjectCustomComponentObjectCustomForm $customForm = null,
@@ -35,7 +35,7 @@ final class ComponentObjectRecord extends Dto
         public readonly ?string $href = null,
         public readonly ?string $id = null,
         public readonly ?array $items = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $object = null,
@@ -47,11 +47,11 @@ final class ComponentObjectRecord extends Dto
         public readonly ?string $status = null,
         public readonly ?int $version = null,
         public readonly ?array $workflowData = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $workflowStage = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $workflowStatus = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $workflowStatusUuid = null,
         #[ListOf(ComponentObjectRecordActivityLog::class)]
         public readonly ?array $activityLogs = null,

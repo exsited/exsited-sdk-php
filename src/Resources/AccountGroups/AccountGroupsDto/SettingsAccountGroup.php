@@ -12,7 +12,7 @@ final class SettingsAccountGroup extends Dto
 {
     public const ENVELOPE_KEY = 'account_group';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/account_groups',
         'GET /api/{api_version}/settings/account_groups/{account_group_id}',
@@ -21,22 +21,22 @@ final class SettingsAccountGroup extends Dto
 
     /** @param list<string|null>|null $invoiceAccountMedia */
     public function __construct(
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $accountingCode = null,
-        /** Present but empty on every record measured, so the element type is unknown. */
+        /** Element type is unknown. */
         public readonly ?array $customAttributes = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $description = null,
         public readonly ?string $displayName = null,
         public readonly ?string $href = null,
         public readonly ?string $id = null,
         #[ListOf('string')]
         public readonly ?array $invoiceAccountMedia = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $managedBy = null,
         public readonly ?string $name = null,
         public readonly ?string $object = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $pricingLevel = null,
         public readonly ?SettingsAccountGroupStateRule $stateRule = null,
         public readonly ?string $status = null,

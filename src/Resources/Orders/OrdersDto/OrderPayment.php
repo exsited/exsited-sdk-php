@@ -12,7 +12,7 @@ final class OrderPayment extends Dto
 {
     public const ENVELOPE_KEY = 'payment';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/orders/{order_id}/payments/{payment_id}',
     ];
@@ -29,12 +29,12 @@ final class OrderPayment extends Dto
         public readonly ?string $id = null,
         #[ListOf(OrderPaymentInvoice::class)]
         public readonly ?array $invoices = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedOn = null,
         public readonly ?string $object = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $origin = null,
         #[ListOf(OrderPaymentPaymentApplied::class)]
         public readonly ?array $paymentApplied = null,

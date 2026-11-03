@@ -6,10 +6,10 @@ namespace Exsited\Resources\Milestones\MilestonesDto;
 
 use Exsited\Client\Dto;
 
-/** The MilestonesView body, as measured from the endpoints in MEASURED_FROM. */
+/** The MilestonesView body for the endpoints in MEASURED_FROM. */
 final class MilestonesView extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/milestones',
         'GET /api/{api_version}/milestones/account/{account_id}',

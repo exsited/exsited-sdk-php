@@ -10,7 +10,7 @@ use Exsited\Client\Dto;
 final class SettingsGeneralSettingsItemUpdatedDetailPricingPeriodCanVaryFromChargingPeriod extends Dto
 {
     public function __construct(
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $defaultPricingPeriod = null,
         public readonly ?string $enabled = null,
     ) {

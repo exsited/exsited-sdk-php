@@ -205,7 +205,7 @@ final class Transport
                 $raw = $this->connectedClient()->sendRequest($request);
             } catch (ResponseTooLargeException $tooLarge) {
                 // The cap fired inside the client, so the body was stopped rather than
-                // measured. Never retried: the next attempt reads the same body again.
+                // sized. Never retried: the next attempt reads the same body again.
                 throw $this->refuseOversizedBody(
                     $this->requestInfo(
                         $method,

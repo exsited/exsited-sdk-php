@@ -6,10 +6,10 @@ namespace Exsited\Resources\Alerts\AlertsDto;
 
 use Exsited\Client\Dto;
 
-/** The AlertsView body, as measured from the endpoints in MEASURED_FROM. */
+/** The AlertsView body for the endpoints in MEASURED_FROM. */
 final class AlertsView extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/alerts',
         'GET /api/{api_version}/alerts/account/{account_id}',

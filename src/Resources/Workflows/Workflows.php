@@ -96,7 +96,7 @@ final class Workflows
     }
 
     /** Delete a workflow - `DELETE /workflows/{workflow_id}`; answered `204`. The record is kept
-     *  as `DELETED` and reads `404` after; a pre-built workflow is refused. */
+     *  as `DELETED`; a pre-built workflow is refused. */
     public static function deleteWorkflow(ExsitedClient $client, int|string $workflowId, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
         return $client->sendDeleteRequest(WorkflowsUrls::WORKFLOW, pathParams: ['workflow_id' => $workflowId], raiseOnError: $raiseOnError, responseFormat: $responseFormat);

@@ -11,14 +11,14 @@ final class SettingsSalesRep extends Dto
 {
     public const ENVELOPE_KEY = 'sales_rep';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/sales_reps',
         'GET /api/{api_version}/settings/sales_reps/{sales_rep_id}',
     ];
 
     public function __construct(
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $createdBy = null,
         public readonly ?string $createdOn = null,
         public readonly ?string $emailAddress = null,
@@ -26,7 +26,7 @@ final class SettingsSalesRep extends Dto
         public readonly ?string $href = null,
         public readonly ?string $id = null,
         public readonly ?string $lastName = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $name = null,

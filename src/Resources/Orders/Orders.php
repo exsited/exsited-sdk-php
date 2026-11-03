@@ -492,15 +492,15 @@ final class Orders
     }
 
     /** The deposit and instalment invoices of a converted quote - `GET
-     *  /orders/{order_id}/quote_partial_invoices`; an unconverted quote answers `400`.
+     *  /orders/{order_id}/quote_partial_invoices`.
      *  @param array<string,mixed>|null $queryParams */
     public static function getOrderQuotePartialInvoices(ExsitedClient $client, int|string $orderId, ?array $queryParams = null, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
         return $client->sendGetRequest(OrdersUrls::ORDER_QUOTE_PARTIAL_INVOICES, pathParams: ['order_id' => $orderId], queryParams: $queryParams, raiseOnError: $raiseOnError, responseFormat: $responseFormat, dtoType: OrderQuotePartialInvoices::class);
     }
 
-    /** A shipping line's PDF - `GET /orders/{order_id}/shipping_pdf/{shipping_line_id}`; `404`
-     *  until the line has a generated shipping PDF.
+    /** A shipping line's PDF - `GET /orders/{order_id}/shipping_pdf/{shipping_line_id}`, once the line has a
+     *  generated shipping PDF.
      *  @param array<string,mixed>|null $queryParams */
     public static function getOrderShippingPdf(ExsitedClient $client, int|string $orderId, int|string $shippingLineId, ?array $queryParams = null, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {

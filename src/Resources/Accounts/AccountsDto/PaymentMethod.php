@@ -16,8 +16,7 @@ final class PaymentMethod extends Dto
         public readonly ?string $status = null,
         public readonly ?bool $default = null,
         public readonly ?bool $restrictedToOrders = null,
-        /** Untyped: `null` in all 7 records measured. It is named as though it holds a list, but
-         *  nothing observed says so. */
+        /** Untyped. */
         public readonly mixed $specifiedOrderIds = null,
         public readonly ?PaymentProcessor $processor = null,
         public readonly ?string $reference = null,

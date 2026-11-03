@@ -24,8 +24,7 @@ final class SalesReps
         return $client->sendGetRequest(SalesRepsUrls::SETTINGS_SALES_REPS, queryParams: $queryParams, raiseOnError: $raiseOnError, responseFormat: $responseFormat, dtoType: SettingsSalesRepList::class);
     }
 
-    /** Create a sales rep - `POST /settings/sales_reps`; answers 400 validation_error,
-     *  naming no field, even for a valid body.
+    /** Create a sales rep - `POST /settings/sales_reps`.
      *  @param array<string,mixed>|string|Dto $payload */
     public static function createSettingsSalesRep(ExsitedClient $client, array|string|Dto $payload, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {

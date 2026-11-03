@@ -6,7 +6,7 @@ namespace Exsited\Resources\Invoices\InvoicesDto;
 
 use Exsited\Client\Dto;
 
-/** The accounting code on a line. Present on all lines measured. */
+/** The accounting code on a line. */
 final class AccountingCode extends Dto
 {
     public function __construct(

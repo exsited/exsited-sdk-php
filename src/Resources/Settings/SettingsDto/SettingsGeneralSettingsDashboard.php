@@ -12,7 +12,7 @@ final class SettingsGeneralSettingsDashboard extends Dto
 {
     public function __construct(
         public readonly ?string $accounting = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         #[WireName('defaultDashboard')]
         public readonly mixed $defaultDashboard = null,
         public readonly ?string $executive = null,

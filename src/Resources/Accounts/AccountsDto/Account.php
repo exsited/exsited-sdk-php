@@ -7,10 +7,10 @@ namespace Exsited\Resources\Accounts\AccountsDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The Account body, as measured from the endpoints in MEASURED_FROM. */
+/** The Account body for the endpoints in MEASURED_FROM. */
 final class Account extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/accounts',
     ];

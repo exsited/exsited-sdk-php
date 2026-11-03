@@ -11,7 +11,7 @@ final class OrderPaymentPaymentApplied extends Dto
 {
     public function __construct(
         public readonly ?string $amount = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $gatewayResponse = null,
         public readonly ?string $method = null,
         public readonly ?string $processor = null,

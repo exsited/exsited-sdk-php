@@ -11,7 +11,7 @@ final class BookingPaymentMethod extends Dto
 {
     public const ENVELOPE_KEY = 'order';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/booking/{booking_id}/payment_methods/{payment_method_ref}',
     ];

@@ -6,12 +6,12 @@ namespace Exsited\Resources\Orders\OrdersDto;
 
 use Exsited\Client\Dto;
 
-/** The OrderLine body, as measured from the endpoints in MEASURED_FROM. */
+/** The OrderLine body for the endpoints in MEASURED_FROM. */
 final class OrderLine extends Dto
 {
     public const ENVELOPE_KEY = 'order_line';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/orders/{order_id}/lines/{line_uuid}',
     ];

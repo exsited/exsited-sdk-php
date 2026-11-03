@@ -7,12 +7,12 @@ namespace Exsited\Resources\PurchasePayments\PurchasePaymentsDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The PurchasePaymentsView body, as measured from the endpoints in MEASURED_FROM. */
+/** The PurchasePaymentsView body for the endpoints in MEASURED_FROM. */
 final class PurchasePaymentsView extends Dto
 {
     public const ENVELOPE_KEY = 'purchase_payment';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/purchase_invoices/{purchase_invoice_id}/purchase_payments',
         'POST /api/{api_version}/purchase_payments',

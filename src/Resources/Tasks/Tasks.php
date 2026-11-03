@@ -84,7 +84,7 @@ final class Tasks
         return $client->sendGetRequest(TasksUrls::TASK_CHECKLIST_BY_UUID, pathParams: ['task_id' => $taskId, 'task_checklist_uuid' => $taskChecklistUuid], queryParams: $queryParams, raiseOnError: $raiseOnError, responseFormat: $responseFormat, dtoType: TaskView::class);
     }
 
-    /** Delete note [V4 N/A - 405] - `DELETE /tasks/{task_code}/notes/{note_id}`. */
+    /** Delete note - `DELETE /tasks/{task_code}/notes/{note_id}`. */
     public static function deleteTaskNote(ExsitedClient $client, int|string $taskId, int|string $taskNoteId, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
         return $client->sendDeleteRequest(TasksUrls::TASK_NOTE, pathParams: ['task_code' => $taskId, 'note_id' => $taskNoteId], raiseOnError: $raiseOnError, responseFormat: $responseFormat);
@@ -138,8 +138,7 @@ final class Tasks
         return $client->sendGetRequest(TasksUrls::TASK_NOTE_FILE, pathParams: ['task_code' => $taskCode, 'note_id' => $noteId, 'file_id' => $fileId], queryParams: $queryParams, raiseOnError: $raiseOnError, responseFormat: $responseFormat);
     }
 
-    /** Get one note - `GET /tasks/{task_code}/notes/{note_id}`, by the task's code; a `wt_` id
-     *  answers `404`.
+    /** Get one note - `GET /tasks/{task_code}/notes/{note_id}`, by the task's code, not a `wt_` id.
      *  @param array<string,mixed>|null $queryParams */
     public static function getTaskNote(ExsitedClient $client, int|string $taskCode, int|string $noteId, ?array $queryParams = null, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {

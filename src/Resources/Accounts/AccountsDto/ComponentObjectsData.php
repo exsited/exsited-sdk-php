@@ -17,7 +17,7 @@ final class ComponentObjectsData extends Dto
         public readonly ?array $attributes = null,
         public readonly ?string $code = null,
         public readonly ?ComponentObjectsDataDetail $component = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $createdBy = null,
         public readonly ?string $createdOn = null,
         public readonly ?ComponentObjectsDataCustomForm $customForm = null,
@@ -25,9 +25,9 @@ final class ComponentObjectsData extends Dto
         public readonly ?string $href = null,
         public readonly ?string $id = null,
         public readonly ?array $items = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedOn = null,
         public readonly ?string $object = null,
         public readonly ?array $orders = null,
@@ -38,11 +38,11 @@ final class ComponentObjectsData extends Dto
         public readonly ?string $status = null,
         public readonly ?int $version = null,
         public readonly ?array $workflowData = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $workflowStage = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $workflowStatus = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $workflowStatusUuid = null,
     ) {
     }

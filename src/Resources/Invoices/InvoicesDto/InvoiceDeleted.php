@@ -6,12 +6,12 @@ namespace Exsited\Resources\Invoices\InvoicesDto;
 
 use Exsited\Client\Dto;
 
-/** The InvoiceDeleted body, as measured from the endpoints in MEASURED_FROM. */
+/** The InvoiceDeleted body for the endpoints in MEASURED_FROM. */
 final class InvoiceDeleted extends Dto
 {
     public const ENVELOPE_KEY = 'invoice';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'DELETE /api/{api_version}/invoices/{invoice_id}',
     ];

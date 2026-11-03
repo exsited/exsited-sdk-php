@@ -389,7 +389,7 @@ final class Accounts
     }
 
     /** Create an account - `POST /accounts`; answered `201`, under `account`. `name` and `type`
-     *  are required, and `POST /accounts/{account_id}` is a `400`.
+     *  are required.
      *  @param array<string,mixed>|string|Dto $payload */
     public static function createAccount(ExsitedClient $client, array|string|Dto $payload, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {

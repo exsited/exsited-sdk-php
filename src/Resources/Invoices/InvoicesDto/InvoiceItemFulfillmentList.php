@@ -11,7 +11,7 @@ use Exsited\Client\ListOf;
  *  place. */
 final class InvoiceItemFulfillmentList extends Dto
 {
-    /** The endpoints this page view was measured from. */
+    /** The endpoints this page view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/invoices/{invoice_id}/item_fulfillments',
     ];

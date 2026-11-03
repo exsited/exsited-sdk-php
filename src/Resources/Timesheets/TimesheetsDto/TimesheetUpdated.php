@@ -6,12 +6,12 @@ namespace Exsited\Resources\Timesheets\TimesheetsDto;
 
 use Exsited\Client\Dto;
 
-/** The TimesheetUpdated body, as measured from the endpoints in MEASURED_FROM. */
+/** The TimesheetUpdated body for the endpoints in MEASURED_FROM. */
 final class TimesheetUpdated extends Dto
 {
     public const ENVELOPE_KEY = 'timesheet';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'PATCH /api/{api_version}/timesheets/{timesheet_id}',
     ];

@@ -10,9 +10,9 @@ use Exsited\Client\Dto;
 final class SettingsShippingRuleConfiguration extends Dto
 {
     public function __construct(
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $rate = null,
-        /** Empty in every record measured, so untyped. */
+        /** Untyped. */
         public readonly ?array $zones = null,
     ) {
     }

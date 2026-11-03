@@ -347,7 +347,7 @@ final class Settings
     }
 
     /** Create a currency - `POST /settings/currencies`; answered `201`, under `currency`. `code`
-     *  and `country` are required, and v4 has no route that deletes a currency.
+     *  and `country` are required.
      *  @param array<string,mixed>|string|Dto $payload */
     public static function createSettingsCurrency(ExsitedClient $client, array|string|Dto $payload, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
@@ -390,7 +390,7 @@ final class Settings
     }
 
     /** Create a discount profile - `POST /settings/discount_profiles`; `201`. Times go as
-     *  `YYYY-MM-DD HH:mm` and the accounting code must be a discount one, or it is a `500`.
+     *  `YYYY-MM-DD HH:mm` and the accounting code must be a discount one.
      *  @param array<string,mixed>|string|Dto $payload */
     public static function createSettingsDiscountProfile(ExsitedClient $client, array|string|Dto $payload, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
@@ -439,7 +439,9 @@ final class Settings
     }
 
     /** Read one group of general settings - `GET /settings/general_settings/{group}`, under
-     *  `general_settings`; `group` is one of the twelve the server names, any case.
+     *  `general_settings`; `group` is one of `account`, `dashboard`, `date_and_time`, `display`,
+     *  `general`, `item`, `labour`, `order`, `portal`, `purchase`, `security` and `transaction`,
+     *  any case.
      *  @param array<string,mixed>|null $queryParams */
     public static function getSettingsGeneralSettings(ExsitedClient $client, int|string $group, ?array $queryParams = null, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
@@ -482,7 +484,7 @@ final class Settings
     }
 
     /** Update the general group - `PATCH /settings/general_settings/general`. It also resets
-     *  `accountingPeriod`, `fiscalYear` and six more settings no route can write back.
+     *  `accountingPeriod`, `fiscalYear` and six more settings that cannot be written back.
      *  @param array<string,mixed>|string|Dto $payload */
     public static function updateSettingsGeneralSettingsGeneral(ExsitedClient $client, array|string|Dto $payload, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
@@ -660,7 +662,6 @@ final class Settings
     }
 
     /** Update a shipping profile - `PATCH /settings/shipping_profiles/{shipping_profile_id}`.
-     *  Answers `500` for every body, so it names no view.
      *  @param array<string,mixed>|string|Dto $payload */
     public static function updateSettingsShippingProfile(ExsitedClient $client, int|string $shippingProfileId, array|string|Dto $payload, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
@@ -707,7 +708,7 @@ final class Settings
     }
 
     /** Create a country tax - `POST /settings/taxes`; answered `201`, under `tax`. `code` and
-     *  `country` are required, and v4 has no route that deletes a tax.
+     *  `country` are required.
      *  @param array<string,mixed>|string|Dto $payload */
     public static function createSettingsTax(ExsitedClient $client, array|string|Dto $payload, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {

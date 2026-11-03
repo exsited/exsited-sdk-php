@@ -11,7 +11,7 @@ final class SettingsSystemEvent extends Dto
 {
     public const ENVELOPE_KEY = 'system_event';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/system_events',
         'GET /api/{api_version}/settings/system_events/{system_event_id}',
@@ -19,15 +19,15 @@ final class SettingsSystemEvent extends Dto
 
     public function __construct(
         public readonly ?bool $baseEvent = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $createdBy = null,
         public readonly ?string $createdOn = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $description = null,
         public readonly ?string $displayName = null,
         public readonly ?string $href = null,
         public readonly ?string $id = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $name = null,

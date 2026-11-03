@@ -6,12 +6,12 @@ namespace Exsited\Resources\Items\ItemsDto;
 
 use Exsited\Client\Dto;
 
-/** The ItemInventories body, as measured from the endpoints in MEASURED_FROM. */
+/** The ItemInventories body for the endpoints in MEASURED_FROM. */
 final class ItemInventories extends Dto
 {
     public const ENVELOPE_KEY = 'item';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/items/{item_id}/inventories',
         'GET /api/{api_version}/items/{item_id}/warehouses/{warehouse_name}/inventories',

@@ -114,7 +114,7 @@ final class AccountsUrls
     public const CUSTOM_COMPONENT_OBJECT_KEY = 'custom_component_object';
 
     /** The names that shape the listing; every other name is a `filter_<field>` or
-     *  `filter_<field>_<operator>`, and an unknown one is `400` naming the field.
+     *  `filter_<field>_<operator>`.
      *  @var list<string> */
     public const ACCOUNTS_QUERY_PARAMS = ['limit', 'cursor', 'sort'];
 }

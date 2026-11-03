@@ -7,12 +7,12 @@ namespace Exsited\Resources\CustomComponents\CustomComponentsDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The Component body, as measured from the endpoints in MEASURED_FROM. */
+/** The Component body for the endpoints in MEASURED_FROM. */
 final class Component extends Dto
 {
     public const ENVELOPE_KEY = 'component';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/component',
         'GET /api/{api_version}/component/{component_uuid}',
@@ -41,7 +41,7 @@ final class Component extends Dto
         public readonly ?string $status = null,
         public readonly ?string $useIn = null,
         public readonly ?int $version = null,
-        /** On the create answer only, and empty in every one measured. */
+        /** Present on the create answer only. */
         public readonly ?array $activityLogs = null,
     ) {
     }

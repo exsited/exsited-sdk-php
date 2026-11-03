@@ -7,12 +7,12 @@ namespace Exsited\Resources\Orders\OrdersDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The OrderNoteView body, as measured from the endpoints in MEASURED_FROM. */
+/** The OrderNoteView body for the endpoints in MEASURED_FROM. */
 final class OrderNoteView extends Dto
 {
     public const ENVELOPE_KEY = 'note';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/orders/{order_id}/notes',
         'GET /api/{api_version}/orders/{order_id}/notes/{order_note_id}',

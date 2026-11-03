@@ -10,7 +10,7 @@ use Exsited\Client\Dto;
 final class SettingsFieldSettingsItemGeneralSettingsAccountAccountGrouping extends Dto
 {
     public function __construct(
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $defaultGroup = null,
         public readonly ?string $enabled = null,
     ) {

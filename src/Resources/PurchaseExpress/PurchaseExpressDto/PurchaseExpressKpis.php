@@ -11,18 +11,18 @@ final class PurchaseExpressKpis extends Dto
 {
     public function __construct(
         public readonly ?string $estimatedTotal = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $issueDate = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastCancelledOn = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastChangedOn = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastDeletedOn = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastInvoiceIssueDate = null,
         public readonly ?string $lastInvoiceTotal = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastReactivatedOn = null,
         public readonly ?string $object = null,
         public readonly ?string $totalExpense = null,

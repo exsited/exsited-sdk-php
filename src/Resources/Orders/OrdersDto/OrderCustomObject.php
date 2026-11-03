@@ -11,25 +11,25 @@ final class OrderCustomObject extends Dto
 {
     public const ENVELOPE_KEY = 'custom_object';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/orders/{order_id}/custom_objects/{custom_object_id}',
         'GET /api/{api_version}/orders/{order_id}/custom_objects_instances/{custom_object_id}',
     ];
 
     public function __construct(
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $createdBy = null,
         public readonly ?string $createdOn = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $customComponent = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $description = null,
         public readonly ?string $displayName = null,
         public readonly ?string $href = null,
         public readonly ?string $id = null,
         public readonly ?array $instances = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $name = null,

@@ -6,12 +6,12 @@ namespace Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto;
 
 use Exsited\Client\Dto;
 
-/** The PurchaseInvoiceNoteUpdated body, as measured from the endpoints in MEASURED_FROM. */
+/** The PurchaseInvoiceNoteUpdated body for the endpoints in MEASURED_FROM. */
 final class PurchaseInvoiceNoteUpdated extends Dto
 {
     public const ENVELOPE_KEY = 'note';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'PATCH /api/{api_version}/purchase_invoices/{purchase_invoice_id}/notes/{note_id}',
     ];

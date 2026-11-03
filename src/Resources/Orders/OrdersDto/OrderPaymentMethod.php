@@ -6,12 +6,12 @@ namespace Exsited\Resources\Orders\OrdersDto;
 
 use Exsited\Client\Dto;
 
-/** The OrderPaymentMethod body, as measured from the endpoints in MEASURED_FROM. */
+/** The OrderPaymentMethod body for the endpoints in MEASURED_FROM. */
 final class OrderPaymentMethod extends Dto
 {
     public const ENVELOPE_KEY = 'order';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/orders/{order_id}/payment_methods/{payment_method_ref}',
     ];

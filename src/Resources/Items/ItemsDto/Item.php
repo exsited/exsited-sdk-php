@@ -7,10 +7,10 @@ namespace Exsited\Resources\Items\ItemsDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The Item body, as measured from the endpoints in MEASURED_FROM. */
+/** The Item body for the endpoints in MEASURED_FROM. */
 final class Item extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/items',
     ];

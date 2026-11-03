@@ -7,10 +7,10 @@ namespace Exsited\Resources\Payments\PaymentsDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The Payment body, as measured from the endpoints in MEASURED_FROM. */
+/** The Payment body for the endpoints in MEASURED_FROM. */
 final class Payment extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/invoices/{invoice_id}/payments',
         'GET /api/{api_version}/orders/{order_id}/payments',

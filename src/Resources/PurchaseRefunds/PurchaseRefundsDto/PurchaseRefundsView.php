@@ -7,10 +7,10 @@ namespace Exsited\Resources\PurchaseRefunds\PurchaseRefundsDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The PurchaseRefundsView body, as measured from the endpoints in MEASURED_FROM. */
+/** The PurchaseRefundsView body for the endpoints in MEASURED_FROM. */
 final class PurchaseRefundsView extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/purchase_refunds',
     ];

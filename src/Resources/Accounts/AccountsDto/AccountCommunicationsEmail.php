@@ -7,12 +7,12 @@ namespace Exsited\Resources\Accounts\AccountsDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The AccountCommunicationsEmail body, as measured from the endpoints in MEASURED_FROM. */
+/** The AccountCommunicationsEmail body for the endpoints in MEASURED_FROM. */
 final class AccountCommunicationsEmail extends Dto
 {
     public const ENVELOPE_KEY = 'email';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/accounts/{account_id}/communications/emails',
         'GET /api/{api_version}/accounts/{account_id}/communications/emails/{email_id}',

@@ -7,12 +7,12 @@ namespace Exsited\Resources\Accounts\AccountsDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The AccountImage body, as measured from the endpoints in MEASURED_FROM. */
+/** The AccountImage body for the endpoints in MEASURED_FROM. */
 final class AccountImage extends Dto
 {
     public const ENVELOPE_KEY = 'account';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/accounts/{account_id}/addresses',
         'POST /api/{api_version}/accounts/{account_id}/image',

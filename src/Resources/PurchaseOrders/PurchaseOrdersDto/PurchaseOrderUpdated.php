@@ -6,12 +6,12 @@ namespace Exsited\Resources\PurchaseOrders\PurchaseOrdersDto;
 
 use Exsited\Client\Dto;
 
-/** The PurchaseOrderUpdated body, as measured from the endpoints in MEASURED_FROM. */
+/** The PurchaseOrderUpdated body for the endpoints in MEASURED_FROM. */
 final class PurchaseOrderUpdated extends Dto
 {
     public const ENVELOPE_KEY = 'purchase_order';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'PATCH /api/{api_version}/purchase_orders/{purchase_order_id}',
     ];

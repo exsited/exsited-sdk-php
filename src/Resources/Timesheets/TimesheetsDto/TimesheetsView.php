@@ -7,12 +7,12 @@ namespace Exsited\Resources\Timesheets\TimesheetsDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The TimesheetsView body, as measured from the endpoints in MEASURED_FROM. */
+/** The TimesheetsView body for the endpoints in MEASURED_FROM. */
 final class TimesheetsView extends Dto
 {
     public const ENVELOPE_KEY = 'timesheet';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/timesheets',
         'GET /api/{api_version}/timesheets/{timesheet_id}',

@@ -11,7 +11,7 @@ final class SettingsDepartment extends Dto
 {
     public const ENVELOPE_KEY = 'department';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/departments',
         'GET /api/{api_version}/settings/departments/{department_id}',
@@ -19,7 +19,7 @@ final class SettingsDepartment extends Dto
 
     public function __construct(
         public readonly ?string $code = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $createdBy = null,
         public readonly ?string $createdOn = null,
         public readonly ?string $description = null,
@@ -27,7 +27,7 @@ final class SettingsDepartment extends Dto
         public readonly ?SettingsDepartmentDivision $division = null,
         public readonly ?string $href = null,
         public readonly ?string $id = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $name = null,

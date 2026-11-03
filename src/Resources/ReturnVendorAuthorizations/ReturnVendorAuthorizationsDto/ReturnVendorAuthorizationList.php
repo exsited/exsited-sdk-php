@@ -10,7 +10,7 @@ use Exsited\Client\ListOf;
 /** One page of `ReturnVendorAuthorization` records, under `data`; paged by cursor. */
 final class ReturnVendorAuthorizationList extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/return_vendor_authorizations',
     ];

@@ -12,25 +12,25 @@ final class PurchaseOrderKpis extends Dto
 {
     public const ENVELOPE_KEY = 'purchase_order_kpis';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/purchase_orders/{purchase_order_id}/kpis',
     ];
 
     public function __construct(
         public readonly ?string $estimatedTotal = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $issueDate = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastCancelledOn = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastChangedOn = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastDeletedOn = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastInvoiceIssueDate = null,
         public readonly ?string $lastInvoiceTotal = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastReactivatedOn = null,
         public readonly ?string $object = null,
         public readonly ?string $totalExpense = null,

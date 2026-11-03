@@ -12,7 +12,7 @@ final class SettingsTaxRead extends Dto
 {
     public const ENVELOPE_KEY = 'tax';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/taxes/{tax_id}',
     ];
@@ -23,12 +23,12 @@ final class SettingsTaxRead extends Dto
         public readonly ?SettingsTaxCountry $country = null,
         #[ListOf(SettingsTaxCountryTaxByState::class)]
         public readonly ?array $countryTaxByStates = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $createdBy = null,
         public readonly ?string $createdOn = null,
         public readonly ?string $href = null,
         public readonly ?string $id = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $name = null,

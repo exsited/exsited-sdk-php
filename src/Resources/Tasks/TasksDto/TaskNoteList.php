@@ -6,10 +6,10 @@ namespace Exsited\Resources\Tasks\TasksDto;
 
 use Exsited\Client\Dto;
 
-/** The TaskNoteList body, as measured from the endpoints in MEASURED_FROM. */
+/** The TaskNoteList body for the endpoints in MEASURED_FROM. */
 final class TaskNoteList extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/tasks/{task_code}/notes',
     ];

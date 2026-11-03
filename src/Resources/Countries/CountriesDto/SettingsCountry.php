@@ -11,7 +11,7 @@ final class SettingsCountry extends Dto
 {
     public const ENVELOPE_KEY = 'country';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/countries',
         'GET /api/{api_version}/settings/countries/{country_id}',
@@ -20,10 +20,10 @@ final class SettingsCountry extends Dto
 
     public function __construct(
         public readonly ?string $code = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $createdBy = null,
         public readonly ?string $createdOn = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $defaultAreaCode = null,
         public readonly ?string $defaultCity = null,
         public readonly ?string $defaultPostCode = null,
@@ -33,7 +33,7 @@ final class SettingsCountry extends Dto
         public readonly ?bool $flagExists = null,
         public readonly ?string $href = null,
         public readonly ?string $id = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $name = null,

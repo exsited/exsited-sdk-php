@@ -6,12 +6,12 @@ namespace Exsited\Resources\Refunds\RefundsDto;
 
 use Exsited\Client\Dto;
 
-/** The Refund body, as measured from the endpoints in MEASURED_FROM. */
+/** The Refund body for the endpoints in MEASURED_FROM. */
 final class Refund extends Dto
 {
     public const ENVELOPE_KEY = 'refund';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/refunds',
         'GET /api/{api_version}/refunds/{refund_id}',

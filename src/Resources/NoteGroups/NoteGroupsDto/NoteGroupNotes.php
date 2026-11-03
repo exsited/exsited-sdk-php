@@ -6,10 +6,10 @@ namespace Exsited\Resources\NoteGroups\NoteGroupsDto;
 
 use Exsited\Client\Dto;
 
-/** The NoteGroupNotes body, as measured from the endpoints in MEASURED_FROM. */
+/** The NoteGroupNotes body for the endpoints in MEASURED_FROM. */
 final class NoteGroupNotes extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/note_groups/{note_group_id}/notes',
     ];

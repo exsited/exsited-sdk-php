@@ -6,12 +6,12 @@ namespace Exsited\Resources\PurchasePayments\PurchasePaymentsDto;
 
 use Exsited\Client\Dto;
 
-/** The PurchasePaymentNoteFile body, as measured from the endpoints in MEASURED_FROM. */
+/** The PurchasePaymentNoteFile body for the endpoints in MEASURED_FROM. */
 final class PurchasePaymentNoteFile extends Dto
 {
     public const ENVELOPE_KEY = 'file';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/purchase_payments/{purchase_payment_id}/notes/{pp_note_id}/files/{file_id}',
     ];

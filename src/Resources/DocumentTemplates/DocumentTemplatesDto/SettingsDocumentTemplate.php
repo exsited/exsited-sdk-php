@@ -11,7 +11,7 @@ final class SettingsDocumentTemplate extends Dto
 {
     public const ENVELOPE_KEY = 'document_template';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/document_templates',
         'GET /api/{api_version}/settings/document_templates/{document_template_id}',
@@ -20,7 +20,7 @@ final class SettingsDocumentTemplate extends Dto
     ];
 
     public function __construct(
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $createdBy = null,
         public readonly ?string $createdOn = null,
         public readonly ?string $description = null,
@@ -31,7 +31,7 @@ final class SettingsDocumentTemplate extends Dto
         public readonly ?bool $isDefault = null,
         public readonly ?bool $isEdited = null,
         public readonly ?bool $isSystemTemplate = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $name = null,

@@ -11,7 +11,7 @@ use Exsited\Client\ListOf;
  *  keeps its place. */
 final class PurchaseCreditNoteApplicationList extends Dto
 {
-    /** The endpoints this page view was measured from. */
+    /** The endpoints this page view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/purchase_credit_note_applications',
     ];

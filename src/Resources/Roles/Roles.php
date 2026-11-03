@@ -24,8 +24,7 @@ final class Roles
         return $client->sendGetRequest(RolesUrls::SETTINGS_ROLES, queryParams: $queryParams, raiseOnError: $raiseOnError, responseFormat: $responseFormat, dtoType: SettingsRoleList::class);
     }
 
-    /** Create a role - `POST /settings/roles`; on develop_work the role is saved and the answer is
-     *  then a 500, from a lookup that no longer exists.
+    /** Create a role - `POST /settings/roles`.
      *  @param array<string,mixed>|string|Dto $payload */
     public static function createSettingsRole(ExsitedClient $client, array|string|Dto $payload, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
@@ -46,8 +45,7 @@ final class Roles
         return $client->sendDeleteRequest(RolesUrls::SETTINGS_ROLE, pathParams: ['role_id' => $roleId], raiseOnError: $raiseOnError, responseFormat: $responseFormat);
     }
 
-    /** Update or enable/disable a role - `PATCH /settings/roles/{role_id}`; on develop_work the
-     *  change is saved and the answer is then a 500, from a lookup that no longer exists.
+    /** Update or enable/disable a role - `PATCH /settings/roles/{role_id}`.
      *  @param array<string,mixed>|string|Dto $payload */
     public static function updateSettingsRole(ExsitedClient $client, int|string $roleId, array|string|Dto $payload, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {

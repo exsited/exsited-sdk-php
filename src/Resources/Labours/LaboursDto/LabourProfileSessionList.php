@@ -10,7 +10,7 @@ use Exsited\Client\ListOf;
 /** One page of a labour profile's sessions, under `data`, each a `LabourProfileViewSession`. */
 final class LabourProfileSessionList extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/labour_profiles/{labour_profile_id}/sessions',
     ];

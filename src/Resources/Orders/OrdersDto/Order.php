@@ -7,10 +7,10 @@ namespace Exsited\Resources\Orders\OrdersDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The Order body, as measured from the endpoints in MEASURED_FROM. */
+/** The Order body for the endpoints in MEASURED_FROM. */
 final class Order extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/orders',
     ];

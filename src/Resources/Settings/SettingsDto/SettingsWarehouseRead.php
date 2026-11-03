@@ -11,7 +11,7 @@ final class SettingsWarehouseRead extends Dto
 {
     public const ENVELOPE_KEY = 'warehouse';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/warehouses/{warehouse_id}',
         'POST /api/{api_version}/settings/warehouses',
@@ -21,7 +21,7 @@ final class SettingsWarehouseRead extends Dto
     public function __construct(
         public readonly ?string $city = null,
         public readonly ?SettingsWarehouseCountry $country = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $createdBy = null,
         public readonly ?string $createdOn = null,
         public readonly ?string $description = null,
@@ -29,7 +29,7 @@ final class SettingsWarehouseRead extends Dto
         public readonly ?string $href = null,
         public readonly ?string $id = null,
         public readonly ?bool $isDefault = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $name = null,

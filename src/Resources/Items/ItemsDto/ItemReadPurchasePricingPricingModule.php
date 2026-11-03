@@ -13,9 +13,9 @@ final class ItemReadPurchasePricingPricingModule extends Dto
         public readonly ?string $currency = null,
         public readonly ?float $price = null,
         public readonly ?string $priceType = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $averagePurchasePrice = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastPurchasePrice = null,
         public readonly ?string $pricingLevel = null,
         public readonly ?string $unit = null,

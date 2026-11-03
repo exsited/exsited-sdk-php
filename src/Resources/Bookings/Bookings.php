@@ -238,8 +238,7 @@ final class Bookings
         return $client->sendGetRequest(BookingsUrls::BOOKING_KPIS, pathParams: ['booking_id' => $bookingId], queryParams: $queryParams, raiseOnError: $raiseOnError, responseFormat: $responseFormat, dtoType: BookingKpis::class);
     }
 
-    /** The payment methods bound to a booking - `GET /booking/{booking_id}/payment_methods`; `404`
-     *  when none is.
+    /** The payment methods bound to a booking - `GET /booking/{booking_id}/payment_methods`.
      *  @param array<string,mixed>|null $queryParams */
     public static function getBookingPaymentMethods(ExsitedClient $client, int|string $bookingId, ?array $queryParams = null, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
@@ -284,8 +283,8 @@ final class Bookings
         return $client->sendGetRequest(BookingsUrls::BOOKING_QUOTE_PARTIAL_INVOICES, pathParams: ['booking_id' => $bookingId], queryParams: $queryParams, raiseOnError: $raiseOnError, responseFormat: $responseFormat, dtoType: BookingQuotePartialInvoices::class);
     }
 
-    /** A shipping line's PDF - `GET /booking/{booking_id}/shipping_pdf/{shipping_line_id}`; `404`
-     *  until the line has a generated shipping PDF.
+    /** A shipping line's PDF - `GET /booking/{booking_id}/shipping_pdf/{shipping_line_id}`, once the line has a
+     *  generated shipping PDF.
      *  @param array<string,mixed>|null $queryParams */
     public static function getBookingShippingPdf(ExsitedClient $client, int|string $bookingId, int|string $shippingLineId, ?array $queryParams = null, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {

@@ -6,12 +6,12 @@ namespace Exsited\Resources\PurchaseOrders\PurchaseOrdersDto;
 
 use Exsited\Client\Dto;
 
-/** The PurchaseOrdersView body, as measured from the endpoints in MEASURED_FROM. */
+/** The PurchaseOrdersView body for the endpoints in MEASURED_FROM. */
 final class PurchaseOrdersView extends Dto
 {
     public const ENVELOPE_KEY = 'purchase_order';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/purchase_orders',
     ];

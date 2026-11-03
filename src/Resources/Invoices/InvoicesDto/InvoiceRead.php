@@ -7,12 +7,12 @@ namespace Exsited\Resources\Invoices\InvoicesDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The InvoiceRead body, as measured from the endpoints in MEASURED_FROM. */
+/** The InvoiceRead body for the endpoints in MEASURED_FROM. */
 final class InvoiceRead extends Dto
 {
     public const ENVELOPE_KEY = 'invoice';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/invoices/{invoice_id}',
     ];

@@ -10,7 +10,7 @@ use Exsited\Client\ListOf;
 /** One page of `SettingsDesignation` records, under `data`. */
 final class SettingsDesignationList extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/designations',
     ];

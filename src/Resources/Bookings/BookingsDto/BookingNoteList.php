@@ -10,7 +10,7 @@ use Exsited\Client\ListOf;
 /** One page of every order's notes, under `data`. */
 final class BookingNoteList extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/booking/notes',
     ];

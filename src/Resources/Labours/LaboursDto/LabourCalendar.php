@@ -13,7 +13,7 @@ final class LabourCalendar extends Dto
 {
     public const ENVELOPE_KEY = 'labour_calendar';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/labours/{labour_id}/availability',
     ];

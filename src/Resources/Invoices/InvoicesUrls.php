@@ -68,7 +68,7 @@ final class InvoicesUrls
 
     /** The names that shape the listing, which pages by cursor; every other name is a
      *  `filter_<field>` or `filter_<field>_<operator>`, the money and date fields taking the range
-     *  operators too. A bare `filter` expression is `400`.
+     *  operators too.
      *  @var list<string> */
     public const INVOICES_QUERY_PARAMS = ['limit', 'cursor'];
 }

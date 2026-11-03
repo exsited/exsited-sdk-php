@@ -6,12 +6,12 @@ namespace Exsited\Resources\Settings\SettingsDto;
 
 use Exsited\Client\Dto;
 
-/** The SettingsCustomLogicScript body, as measured from the endpoints in MEASURED_FROM. */
+/** The SettingsCustomLogicScript body for the endpoints in MEASURED_FROM. */
 final class SettingsCustomLogicScript extends Dto
 {
     public const ENVELOPE_KEY = 'custom_logic_script';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/custom_logic_scripts/{custom_logic_script_id}',
     ];

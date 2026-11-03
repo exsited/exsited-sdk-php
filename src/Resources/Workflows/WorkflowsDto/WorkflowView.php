@@ -12,7 +12,7 @@ final class WorkflowView extends Dto
 {
     public const ENVELOPE_KEY = 'workflow';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/workflows/{workflow_id}',
     ];
@@ -21,11 +21,11 @@ final class WorkflowView extends Dto
         public readonly ?string $object = null,
         public readonly ?string $id = null,
         public readonly ?string $status = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $code = null,
         public readonly ?string $name = null,
         public readonly ?string $displayName = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $description = null,
         public readonly ?string $entity = null,
         public readonly ?int $entityId = null,
@@ -33,7 +33,7 @@ final class WorkflowView extends Dto
         public readonly ?bool $isPreBuilt = null,
         public readonly ?bool $enableStage = null,
         public readonly ?WorkflowCurrentVersion $currentVersion = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $customForm = null,
         public readonly ?string $createdOn = null,
         public readonly ?string $lastUpdatedOn = null,

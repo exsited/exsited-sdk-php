@@ -7,12 +7,12 @@ namespace Exsited\Resources\Bookings\BookingsDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The BookingById body, as measured from the endpoints in MEASURED_FROM. */
+/** The BookingById body for the endpoints in MEASURED_FROM. */
 final class BookingById extends Dto
 {
     public const ENVELOPE_KEY = 'order';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/booking/{booking_id}',
         'GET /api/{api_version}/booking/{booking_id}/information',
@@ -76,7 +76,7 @@ final class BookingById extends Dto
         public readonly ?BookingByIdTimeZone $timeZone = null,
         public readonly ?string $total = null,
         public readonly ?int $version = null,
-        /** Empty in every record measured; sent by the writes, not by the reads. */
+        /** Sent by the writes, not by the reads. */
         public readonly ?array $activityLogs = null,
     ) {
     }

@@ -10,7 +10,7 @@ use Exsited\Client\ListOf;
 /** One page of `SettingsZone` records, under `data`. */
 final class SettingsZoneList extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/zones',
     ];

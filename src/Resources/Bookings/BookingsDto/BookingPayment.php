@@ -21,12 +21,12 @@ final class BookingPayment extends Dto
         public readonly ?string $id = null,
         #[ListOf(BookingPaymentInvoice::class)]
         public readonly ?array $invoices = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedOn = null,
         public readonly ?string $object = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $origin = null,
         #[ListOf(BookingPaymentPaymentApplied::class)]
         public readonly ?array $paymentApplied = null,

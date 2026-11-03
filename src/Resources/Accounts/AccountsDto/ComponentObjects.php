@@ -10,7 +10,7 @@ use Exsited\Client\ListOf;
 /** The component objects body. */
 final class ComponentObjects extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/components/{component_uuid}/objects',
     ];

@@ -66,7 +66,7 @@ final class ItemReceipts
     }
 
     /** Delete item receipt note - `DELETE /item_receipts/{item_receipt_id}/notes/{note_id}`, `ir_`
-     *  and `note_` ids; no route lists or creates a receipt's notes. */
+     *  and `note_` ids. */
     public static function deleteItemReceiptNote(ExsitedClient $client, int|string $itemReceiptId, int|string $noteId, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
         return $client->sendDeleteRequest(ItemReceiptsUrls::ITEM_RECEIPT_NOTE, pathParams: ['item_receipt_id' => $itemReceiptId, 'note_id' => $noteId], raiseOnError: $raiseOnError, responseFormat: $responseFormat);

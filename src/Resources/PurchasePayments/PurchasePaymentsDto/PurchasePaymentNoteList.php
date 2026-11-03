@@ -11,7 +11,7 @@ use Exsited\Client\ListOf;
  *  place. */
 final class PurchasePaymentNoteList extends Dto
 {
-    /** The endpoints this page view was measured from. */
+    /** The endpoints this page view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/purchase_payments/{purchase_payment_id}/notes',
     ];

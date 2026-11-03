@@ -76,6 +76,8 @@ use Exsited\Redaction;
  *  @property-read BoundResource $milestones see Milestones
  *  @property-read BoundResource $noteAttachments see NoteAttachments
  *  @property-read BoundResource $noteGroups see NoteGroups
+ *  @property-read BoundResource $operatorGroups see OperatorGroups
+ *  @property-read BoundResource $operators see Operators
  *  @property-read BoundResource $orders see Orders
  *  @property-read BoundResource $organisation see Organisation
  *  @property-read BoundResource $organisations see Organisations
@@ -112,6 +114,7 @@ use Exsited\Redaction;
  *  @property-read BoundResource $timesheets see Timesheets
  *  @property-read BoundResource $uom see Uom
  *  @property-read BoundResource $usages see Usages
+ *  @property-read BoundResource $userSettings see UserSettings
  *  @property-read BoundResource $webhooks see Webhooks
  *  @property-read BoundResource $workflows see Workflows
  *  @property-read BoundResource $zones see Zones */

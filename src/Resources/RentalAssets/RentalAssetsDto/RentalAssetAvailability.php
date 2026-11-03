@@ -7,10 +7,10 @@ namespace Exsited\Resources\RentalAssets\RentalAssetsDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The RentalAssetAvailability body, as measured from the endpoints in MEASURED_FROM. */
+/** The RentalAssetAvailability body for the endpoints in MEASURED_FROM. */
 final class RentalAssetAvailability extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/rental_asset_availability',
     ];

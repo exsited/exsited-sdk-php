@@ -10,7 +10,7 @@ use Exsited\Client\ListOf;
 /** One page of `SettingsTeam` records, under `data`. */
 final class SettingsTeamList extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/teams',
     ];

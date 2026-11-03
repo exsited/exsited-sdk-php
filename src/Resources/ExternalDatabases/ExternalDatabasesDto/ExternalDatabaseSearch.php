@@ -6,12 +6,12 @@ namespace Exsited\Resources\ExternalDatabases\ExternalDatabasesDto;
 
 use Exsited\Client\Dto;
 
-/** The ExternalDatabaseSearch body, as measured from the endpoints in MEASURED_FROM. */
+/** The ExternalDatabaseSearch body for the endpoints in MEASURED_FROM. */
 final class ExternalDatabaseSearch extends Dto
 {
     public const ENVELOPE_KEY = 'external_database';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/external_databases/{db_name}/search',
     ];

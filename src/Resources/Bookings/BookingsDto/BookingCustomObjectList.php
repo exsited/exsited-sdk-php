@@ -10,7 +10,7 @@ use Exsited\Client\ListOf;
 /** One page of the custom objects orders use, under `data`. */
 final class BookingCustomObjectList extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/booking/{booking_id}/custom_objects',
         'GET /api/{api_version}/booking/{booking_id}/custom_objects_instances',

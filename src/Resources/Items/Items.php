@@ -330,7 +330,7 @@ final class Items
     }
 
     /** Delete one attachment - `DELETE /items/{item_id}/notes/{note_id}/files/{file_id}`, the
-     *  `uuid` the note's files listing gives; any failure is answered `404`. */
+     *  `uuid` the note's files listing gives. */
     public static function deleteItemNoteFile(ExsitedClient $client, int|string $itemId, int|string $itemNoteId, int|string $itemFileId, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
         return $client->sendDeleteRequest(ItemsUrls::ITEM_NOTE_FILE, pathParams: ['item_id' => $itemId, 'item_note_id' => $itemNoteId, 'item_file_id' => $itemFileId], raiseOnError: $raiseOnError, responseFormat: $responseFormat);

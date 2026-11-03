@@ -6,10 +6,10 @@ namespace Exsited\Resources\GiftCertificates\GiftCertificatesDto;
 
 use Exsited\Client\Dto;
 
-/** The GiftCertificateTransaction body, as measured from the endpoints in MEASURED_FROM. */
+/** The GiftCertificateTransaction body for the endpoints in MEASURED_FROM. */
 final class GiftCertificateTransaction extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/gift_certificates/{gc_id}/transactions',
     ];

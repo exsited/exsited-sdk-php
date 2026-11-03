@@ -9,7 +9,7 @@ use Exsited\Client\Dto;
 /** One return vendor authorization, as the listing returns it. */
 final class ReturnVendorAuthorization extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/return_vendor_authorizations',
     ];
@@ -22,9 +22,9 @@ final class ReturnVendorAuthorization extends Dto
         public readonly ?string $href = null,
         public readonly ?string $id = null,
         public readonly ?int $itemCount = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedOn = null,
         public readonly ?string $note = null,
         public readonly ?string $object = null,

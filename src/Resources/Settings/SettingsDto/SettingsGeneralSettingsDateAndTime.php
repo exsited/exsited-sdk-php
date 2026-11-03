@@ -11,7 +11,7 @@ final class SettingsGeneralSettingsDateAndTime extends Dto
 {
     public function __construct(
         public readonly ?string $dateFormat = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $firstDayOfWeek = null,
         public readonly ?string $timeFormat = null,
         public readonly ?string $timeZone = null,

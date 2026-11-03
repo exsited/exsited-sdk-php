@@ -7,12 +7,12 @@ namespace Exsited\Resources\RentalAssets\RentalAssetsDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The RentalAssetProfileView body, as measured from the endpoints in MEASURED_FROM. */
+/** The RentalAssetProfileView body for the endpoints in MEASURED_FROM. */
 final class RentalAssetProfileView extends Dto
 {
     public const ENVELOPE_KEY = 'rental_asset_profile';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/rental_asset_profiles',
         'GET /api/{api_version}/rental_asset_profiles/{rental_asset_profile_id}',

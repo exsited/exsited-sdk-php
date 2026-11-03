@@ -7,12 +7,12 @@ namespace Exsited\Resources\CustomAttributes\CustomAttributesDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The CustomAttribute body, as measured from the endpoints in MEASURED_FROM. */
+/** The CustomAttribute body for the endpoints in MEASURED_FROM. */
 final class CustomAttribute extends Dto
 {
     public const ENVELOPE_KEY = 'custom_attribute';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/custom_attributes',
         'GET /api/{api_version}/custom_attributes/{custom_attribute_id}',

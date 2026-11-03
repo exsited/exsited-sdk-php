@@ -11,7 +11,7 @@ final class RefundNoteFile extends Dto
 {
     public const ENVELOPE_KEY = 'file';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/refunds/{refund_id}/notes/{note_id}/files/{file_id}',
     ];

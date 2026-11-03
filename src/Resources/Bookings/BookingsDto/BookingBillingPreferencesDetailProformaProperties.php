@@ -10,13 +10,13 @@ use Exsited\Client\Dto;
 final class BookingBillingPreferencesDetailProformaProperties extends Dto
 {
     public function __construct(
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $acceptanceDate = null,
         public readonly ?bool $acceptanceRequired = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $acceptanceTerm = null,
         public readonly ?bool $paymentRequired = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $termsAndConditions = null,
     ) {
     }

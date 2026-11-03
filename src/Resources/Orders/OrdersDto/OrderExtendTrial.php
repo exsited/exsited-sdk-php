@@ -6,12 +6,12 @@ namespace Exsited\Resources\Orders\OrdersDto;
 
 use Exsited\Client\Dto;
 
-/** The OrderExtendTrial body, as measured from the endpoints in MEASURED_FROM. */
+/** The OrderExtendTrial body for the endpoints in MEASURED_FROM. */
 final class OrderExtendTrial extends Dto
 {
     public const ENVELOPE_KEY = 'order';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/orders/{order_id}/extend_trial',
     ];

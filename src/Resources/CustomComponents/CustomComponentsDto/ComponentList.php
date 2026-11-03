@@ -10,7 +10,7 @@ use Exsited\Client\ListOf;
 /** A page of Component records under `data`; an unreadable entry is null and keeps its place. */
 final class ComponentList extends Dto
 {
-    /** The endpoints this page view was measured from. */
+    /** The endpoints this page view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/component',
     ];

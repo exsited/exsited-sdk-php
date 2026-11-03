@@ -6,12 +6,12 @@ namespace Exsited\Resources\AccountingCodes\AccountingCodesDto;
 
 use Exsited\Client\Dto;
 
-/** The SettingsAccountingCode body, as measured from the endpoints in MEASURED_FROM. */
+/** The SettingsAccountingCode body for the endpoints in MEASURED_FROM. */
 final class SettingsAccountingCode extends Dto
 {
     public const ENVELOPE_KEY = 'accounting_code';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/accounting_codes',
         'POST /api/{api_version}/settings/accounting_codes',

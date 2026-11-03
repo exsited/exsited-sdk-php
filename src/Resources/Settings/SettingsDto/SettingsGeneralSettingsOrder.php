@@ -13,7 +13,7 @@ final class SettingsGeneralSettingsOrder extends Dto
         public readonly ?string $allowNameToBeChangedInOrder = null,
         public readonly ?string $allowUnitPriceToBeChangedInOrder = null,
         public readonly ?string $defaultFulfillmentStatus = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $defaultShippingProfile = null,
         public readonly ?string $displayedPriceIsInclusiveOfTax = null,
         public readonly ?string $enableBooking = null,

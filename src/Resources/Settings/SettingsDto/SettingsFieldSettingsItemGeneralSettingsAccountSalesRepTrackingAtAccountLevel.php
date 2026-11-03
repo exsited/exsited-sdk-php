@@ -10,7 +10,7 @@ use Exsited\Client\Dto;
 final class SettingsFieldSettingsItemGeneralSettingsAccountSalesRepTrackingAtAccountLevel extends Dto
 {
     public function __construct(
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $defaultSalesRepTracking = null,
         public readonly ?string $enabled = null,
     ) {

@@ -36,7 +36,7 @@ final class Milestones
     }
 
     /** Get milestones by employee - `GET /milestones/employee/{employee_code}`; the employee's
-     *  `code`, since an `emp_` id answers `404`.
+     *  `code`, not an `emp_` id.
      *  @param array<string,mixed>|null $queryParams */
     public static function getMilestonesEmployeeByCode(ExsitedClient $client, int|string $employeeCode, ?array $queryParams = null, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
@@ -44,7 +44,7 @@ final class Milestones
     }
 
     /** Get one milestone - `GET /milestones/{milestone_uuid}`, a `wfm_` id or its raw uuid; a
-     *  workflow's milestone definition is a different record and answers `404`.
+     *  workflow's milestone definition is a different record.
      *  @param array<string,mixed>|null $queryParams */
     public static function getMilestone(ExsitedClient $client, int|string $milestoneUuid, ?array $queryParams = null, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {

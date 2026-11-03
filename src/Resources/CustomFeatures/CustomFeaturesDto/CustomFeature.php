@@ -6,10 +6,10 @@ namespace Exsited\Resources\CustomFeatures\CustomFeaturesDto;
 
 use Exsited\Client\Dto;
 
-/** The CustomFeature body, as measured from the endpoints in MEASURED_FROM. */
+/** The CustomFeature body for the endpoints in MEASURED_FROM. */
 final class CustomFeature extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/custom_feature',
         'PATCH /api/{api_version}/custom_feature/{custom_feature_id}',

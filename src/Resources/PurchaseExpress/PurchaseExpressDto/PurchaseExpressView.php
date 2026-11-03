@@ -11,7 +11,7 @@ final class PurchaseExpressView extends Dto
 {
     public const ENVELOPE_KEY = 'purchase_express';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/purchase_express',
     ];
@@ -28,34 +28,34 @@ final class PurchaseExpressView extends Dto
         public readonly ?PurchaseExpressCustomForm $customForm = null,
         public readonly ?string $dueDate = null,
         public readonly ?string $dueTotal = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $expectedCompletionDate = null,
         public readonly ?string $href = null,
         public readonly ?string $id = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $isPriceTaxInclusive = null,
         public readonly ?string $issueDate = null,
         public readonly ?PurchaseExpressKpis $kpis = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $object = null,
         public readonly ?string $operationalStatus = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $origin = null,
         public readonly ?string $paidAmount = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $purchaseOrderNote = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $saleOrder = null,
         public readonly ?string $status = null,
         public readonly ?string $subtotal = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $supplierInvoiceId = null,
         public readonly ?string $taxTotal = null,
         public readonly ?string $total = null,
         public readonly ?int $version = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $warehouse = null,
     ) {
     }

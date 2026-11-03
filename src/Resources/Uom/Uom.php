@@ -24,8 +24,7 @@ final class Uom
         return $client->sendGetRequest(UomUrls::SETTINGS_UOMS, queryParams: $queryParams, raiseOnError: $raiseOnError, responseFormat: $responseFormat, dtoType: SettingsUomList::class);
     }
 
-    /** Create a unit of measurement - `POST /settings/uom`; answers 400
-     *  validation_error, naming no field, even for a valid body.
+    /** Create a unit of measurement - `POST /settings/uom`.
      *  @param array<string,mixed>|string|Dto $payload */
     public static function createSettingsUom(ExsitedClient $client, array|string|Dto $payload, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {

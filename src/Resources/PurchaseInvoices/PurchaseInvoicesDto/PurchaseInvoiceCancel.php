@@ -6,10 +6,10 @@ namespace Exsited\Resources\PurchaseInvoices\PurchaseInvoicesDto;
 
 use Exsited\Client\Dto;
 
-/** The PurchaseInvoiceCancel body, as measured from the endpoints in MEASURED_FROM. */
+/** The PurchaseInvoiceCancel body for the endpoints in MEASURED_FROM. */
 final class PurchaseInvoiceCancel extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/purchase_invoices/{purchase_invoice_id}/cancel',
     ];

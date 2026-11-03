@@ -11,7 +11,7 @@ use Exsited\Client\ListOf;
  *  `receive_return_merchandise_authorisations`, the key the API documents for this listing. */
 final class InvoiceReturnMerchandiseAuthorisationReceiveList extends Dto
 {
-    /** The endpoints this page view was measured from. */
+    /** The endpoints this page view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/invoices/{invoice_id}/return_merchandise_authorisations/{rma_code}/receive',
         'GET /api/{api_version}/return_merchandise_authorisations/{rma_code}/receive',

@@ -17,7 +17,7 @@ final class CreditNoteItem extends Dto
         public readonly ?string $creditNoteFromInvoiceCredit = null,
         public readonly ?string $creditNoteFromPaymentMethod = null,
         public readonly ?string $creditNoteTotal = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $invoice = null,
         public readonly ?string $object = null,
         public readonly ?string $refundFromBlankMethod = null,

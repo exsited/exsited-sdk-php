@@ -10,7 +10,7 @@ use Exsited\Client\Dto;
  *  methods unwrap that key, so `fromMap()` on its own reads a record already unwrapped. */
 final class ComponentByUuid extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/component/{component_uuid}',
         'PATCH /api/{api_version}/component/{component_uuid}/{component_object_id}',

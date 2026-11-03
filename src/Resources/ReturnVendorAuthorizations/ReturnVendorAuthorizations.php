@@ -26,8 +26,8 @@ final class ReturnVendorAuthorizations
         return $client->sendPostRequest(ReturnVendorAuthorizationsUrls::RETURN_VENDOR_AUTHORIZATIONS, jsonBody: $payload, raiseOnError: $raiseOnError, responseFormat: $responseFormat, dtoType: ReturnVendorAuthorizationView::class);
     }
 
-    /** Delete draft RVA - `DELETE /return_vendor_authorizations/{rva_id}`, the `rva_` id only; a
-     *  code answers `404`, and anything but a draft `400` `stock_committed`. */
+    /** Delete draft RVA - `DELETE /return_vendor_authorizations/{rva_id}`, the `rva_` id only, for a
+     *  draft RVA. */
     public static function deleteReturnVendorAuthorization(ExsitedClient $client, int|string $rvaId, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
         return $client->sendDeleteRequest(ReturnVendorAuthorizationsUrls::RETURN_VENDOR_AUTHORIZATION, pathParams: ['rva_id' => $rvaId], raiseOnError: $raiseOnError, responseFormat: $responseFormat);
@@ -44,7 +44,7 @@ final class ReturnVendorAuthorizations
     }
 
     /** Delete RVA note - `DELETE /return_vendor_authorizations/{rva_id}/notes/{note_id}`, the
-     *  `rva_` id; no route lists or creates an RVA's notes. */
+     *  `rva_` id. */
     public static function deleteReturnVendorAuthorizationNote(ExsitedClient $client, int|string $rvaId, int|string $noteId, ?bool $raiseOnError = null, ?string $responseFormat = null): ApiResponse
     {
         return $client->sendDeleteRequest(ReturnVendorAuthorizationsUrls::RETURN_VENDOR_AUTHORIZATION_NOTE, pathParams: ['rva_id' => $rvaId, 'note_id' => $noteId], raiseOnError: $raiseOnError, responseFormat: $responseFormat);

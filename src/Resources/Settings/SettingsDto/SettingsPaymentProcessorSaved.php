@@ -12,20 +12,20 @@ final class SettingsPaymentProcessorSaved extends Dto
 {
     public const ENVELOPE_KEY = 'payment_processor';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/settings/payment_processors',
         'PATCH /api/{api_version}/settings/payment_processors/{payment_processor_id}',
     ];
 
     public function __construct(
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $accountingCode = null,
         public readonly ?float $conversionRate = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $createdBy = null,
         public readonly ?string $createdOn = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $credentials = null,
         public readonly ?SettingsPaymentProcessorSavedCurrency $currency = null,
         public readonly ?string $description = null,
@@ -38,7 +38,7 @@ final class SettingsPaymentProcessorSaved extends Dto
         public readonly ?string $integrationState = null,
         public readonly ?bool $isDefault = null,
         public readonly ?bool $isForeignCurrency = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $name = null,

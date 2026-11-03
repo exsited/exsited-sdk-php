@@ -11,19 +11,19 @@ final class SettingsWorkflow extends Dto
 {
     public const ENVELOPE_KEY = 'workflow';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/workflows',
         'GET /api/{api_version}/settings/workflows/{workflow_id}',
     ];
 
     public function __construct(
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $code = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $createdBy = null,
         public readonly ?string $createdOn = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $description = null,
         public readonly ?string $displayName = null,
         public readonly ?bool $enableStage = null,
@@ -32,7 +32,7 @@ final class SettingsWorkflow extends Dto
         public readonly ?string $href = null,
         public readonly ?string $id = null,
         public readonly ?bool $isPreBuilt = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $name = null,

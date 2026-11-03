@@ -12,7 +12,7 @@ final class ReturnVendorAuthorizationView extends Dto
 {
     public const ENVELOPE_KEY = 'return_vendor_authorization';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/return_vendor_authorizations/{rva_id}',
     ];
@@ -25,9 +25,9 @@ final class ReturnVendorAuthorizationView extends Dto
         public readonly ?string $href = null,
         public readonly ?string $id = null,
         public readonly ?int $itemCount = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedOn = null,
         public readonly ?string $note = null,
         public readonly ?string $object = null,
@@ -36,9 +36,9 @@ final class ReturnVendorAuthorizationView extends Dto
         public readonly ?string $rvaDate = null,
         public readonly ?string $status = null,
         public readonly ?int $version = null,
-        /** Empty in every record measured, so the entries are untyped. */
+        /** Its entries are untyped. */
         public readonly ?array $lines = null,
-        /** Empty in every record measured, so the entries are untyped. */
+        /** Its entries are untyped. */
         public readonly ?array $receiveRvas = null,
     ) {
     }

@@ -6,7 +6,7 @@ namespace Exsited\Resources\Invoices\InvoicesDto;
 
 use Exsited\Client\Dto;
 
-/** The tax block on a line. Present on all lines measured. */
+/** The tax block on a line. */
 final class LineTax extends Dto
 {
     public function __construct(

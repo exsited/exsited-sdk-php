@@ -7,12 +7,12 @@ namespace Exsited\Resources\Accounts\AccountsDto;
 use Exsited\Client\Dto;
 use Exsited\Client\ListOf;
 
-/** The AccountNote body, as measured from the endpoints in MEASURED_FROM. */
+/** The AccountNote body for the endpoints in MEASURED_FROM. */
 final class AccountNote extends Dto
 {
     public const ENVELOPE_KEY = 'note';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/accounts/{account_id}/notes',
         'POST /api/{api_version}/accounts/{account_id}/notes',

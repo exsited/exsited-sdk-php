@@ -10,7 +10,7 @@ use Exsited\Client\ListOf;
 /** One page of `ComponentObjectNote` records, under `data`. */
 final class ComponentObjectNotes extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/components/{component_uuid}/objects/{component_object_id}/notes',
     ];

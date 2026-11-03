@@ -11,7 +11,7 @@ final class AccountKpis extends Dto
 {
     public const ENVELOPE_KEY = 'account_kpis';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/accounts/{account_id}/kpis',
     ];
@@ -28,11 +28,11 @@ final class AccountKpis extends Dto
         public readonly ?string $totalCreditBalance = null,
         public readonly ?int $totalOrders = null,
         public readonly ?int $activeOrders = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastReactivatedAt = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastCancelledAt = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $deletedAt = null,
         public readonly ?string $computedAt = null,
     ) {

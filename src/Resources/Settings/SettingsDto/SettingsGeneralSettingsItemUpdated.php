@@ -6,12 +6,12 @@ namespace Exsited\Resources\Settings\SettingsDto;
 
 use Exsited\Client\Dto;
 
-/** The SettingsGeneralSettingsItemUpdated body, as measured from the endpoints in MEASURED_FROM. */
+/** The SettingsGeneralSettingsItemUpdated body for the endpoints in MEASURED_FROM. */
 final class SettingsGeneralSettingsItemUpdated extends Dto
 {
     public const ENVELOPE_KEY = 'general_settings';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'PATCH /api/{api_version}/settings/general_settings/item',
     ];

@@ -6,10 +6,10 @@ namespace Exsited\Resources\ExternalDatabases\ExternalDatabasesDto;
 
 use Exsited\Client\Dto;
 
-/** The ExternalDatabasesView body, as measured from the endpoints in MEASURED_FROM. */
+/** The ExternalDatabasesView body for the endpoints in MEASURED_FROM. */
 final class ExternalDatabasesView extends Dto
 {
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/external_databases',
         'POST /api/{api_version}/external_databases',

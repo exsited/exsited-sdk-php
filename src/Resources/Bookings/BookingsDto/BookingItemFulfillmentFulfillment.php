@@ -14,17 +14,17 @@ final class BookingItemFulfillmentFulfillment extends Dto
         public readonly ?float $fulfillmentQty = null,
         public readonly ?float $fulfillmentSentQty = null,
         public readonly ?string $id = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $inventoryTracking = null,
         public readonly ?BookingItemFulfillmentFulfillmentItem $item = null,
         public readonly ?string $object = null,
         public readonly ?float $pendingReturn = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $returned = null,
         public readonly ?string $servingStatus = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $uom = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $uomPrecision = null,
     ) {
     }

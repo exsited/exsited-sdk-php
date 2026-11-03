@@ -6,12 +6,12 @@ namespace Exsited\Resources\Settings\SettingsDto;
 
 use Exsited\Client\Dto;
 
-/** The SettingsVariations body, as measured from the endpoints in MEASURED_FROM. */
+/** The SettingsVariations body for the endpoints in MEASURED_FROM. */
 final class SettingsVariations extends Dto
 {
     public const ENVELOPE_KEY = 'variation';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'POST /api/{api_version}/settings/variations',
         'GET /api/{api_version}/settings/variations/{variation_id}',

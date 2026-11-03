@@ -11,7 +11,7 @@ use Exsited\Client\ListOf;
  *  its place. */
 final class RentalAssetAvailabilityList extends Dto
 {
-    /** The endpoints this page view was measured from. */
+    /** The endpoints this page view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/rental_asset_availability',
     ];

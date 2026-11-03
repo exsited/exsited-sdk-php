@@ -11,7 +11,7 @@ final class SettingsReceiveTerm extends Dto
 {
     public const ENVELOPE_KEY = 'receive_term';
 
-    /** The endpoints this view was measured from. */
+    /** The endpoints this view covers. */
     public const MEASURED_FROM = [
         'GET /api/{api_version}/settings/receive_terms',
         'GET /api/{api_version}/settings/receive_terms/{receive_term_id}',
@@ -20,7 +20,7 @@ final class SettingsReceiveTerm extends Dto
     ];
 
     public function __construct(
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $createdBy = null,
         public readonly ?string $createdOn = null,
         public readonly ?string $description = null,
@@ -28,7 +28,7 @@ final class SettingsReceiveTerm extends Dto
         public readonly ?int $duration = null,
         public readonly ?string $href = null,
         public readonly ?string $id = null,
-        /** Null in every record measured, so untyped. */
+        /** Untyped. */
         public readonly mixed $lastUpdatedBy = null,
         public readonly ?string $lastUpdatedOn = null,
         public readonly ?string $name = null,
